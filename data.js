@@ -297,6 +297,19 @@ const timelineData = [
       { text: "LATE: U.S. Central Command confirmed use of multiple 5,000-pound bunker-buster bombs against Iranian missile sites along the Strait of Hormuz hours earlier", cat: "us" },
     ]
   },
+  {
+    date: "Mar 18",
+    dateLabel: "18 March 2026",
+    dayNum: 19,
+    summary: "UAE intercepts 13 missiles + 27 drones; Iran's intelligence minister killed in Israeli air strike on Tehran; cluster missiles hit Ramat Gan killing 2; South Pars gas facilities attacked",
+    events: [
+      { text: "UAE Defence Ministry: intercepted 13 ballistic missiles and 27 drones from Iran today. Cumulative total since Feb 28: 327 ballistic missiles, 15 cruise missiles, 1,699 drones", cat: "gulf" },
+      { text: "Israel confirmed killing of Iran's Intelligence Minister Khatib in overnight air attack on Tehran; other senior intelligence officials also eliminated", cat: "us" },
+      { text: "Iranian state media reports natural gas facilities associated with offshore South Pars field have been attacked", cat: "us" },
+      { text: "Iran fired cluster missiles (multiple-warhead) at central Israel overnight — 2 killed in Ramat Gan near Tel Aviv. Iran says it is revenge for assassination of security chief Ali Larijani", cat: "iran" },
+      { text: "Iran followed up with another wave of missile strikes on central Israel on Wednesday, continuing daily exchanges", cat: "iran" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -325,8 +338,9 @@ const countryAttacksData = [
     country: "🇦🇪 UAE",
     flag: "🇦🇪",
     color: "#2a9d8f",
-    stats: { missiles: "174 tracked", drones: "689 detected", intercepted: "806 (161+645)", cruiseMissiles: "8 struck", casualties: "Multiple killed" },
+    stats: { missiles: "327 ballistic", drones: "1,699 detected", intercepted: "806+", cruiseMissiles: "15", casualties: "Multiple killed" },
     details: [
+      "By Mar 18: 327 ballistic missiles, 15 cruise missiles, 1,699 drones faced since start of attacks (UAE Defence Ministry)",
       "By Mar 2: 174 ballistic missiles tracked (161 intercepted, 13 fell to sea), 689 drones (645 intercepted), 8 cruise missiles struck",
       "Dubai Airport struck 3 times — staff injured, flights suspended, fuel tank fire (Mar 16)",
       "Fire at Jebel Ali Port from interception debris (Mar 1)",
@@ -909,4 +923,48 @@ const maritimeAttacks = [
   { date: "Mar 11", vessel: "Star Gwyneth (Marshall Islands)", location: "50nm NW of Dubai", details: "Hull damaged" },
   { date: "Mar 11", vessel: "Safesea Vishnu / Zefyros", location: "Near Iraq", details: "Iraq oil ports ceased operations, 1 body recovered" },
   { date: "Mar 17", vessel: "Gas Al Ahmadiah (Kuwait)", location: "23nm E of Fujairah", details: "Minor structural damage" },
+];
+
+// ===== ANUSHKA'S TAKES =====
+const analysisData = [
+  {
+    title: "The COTS Air Force Meets the \"LUCAS\" Response",
+    body: `By weaponizing civilian-grade engines and GPS modules into mass-producible <span class="take-ref" data-note="Explore Iran's full drone arsenal — including Shahed-136 and Shahed-149 variants — in the Weapons Database under Iran → Drones / UAVs." data-link="#weapons-db">"Shahed" loitering munitions</span>, Iran has built a "sanctions-proof" air power capability without the logistical footprint of a traditional air force. This democratization of precision strikes has decisively altered modern warfare's economic calculus, prompting the United States to deploy the <span class="take-ref" data-note="See the LUCAS entry in the Weapons Database under United States → Drones / UAVs for specs on this new kamikaze drone system." data-link="#weapons-db">Low-Cost Uncrewed Combat Attack System (LUCAS)</span> — a historic first where a superpower explicitly adopts the asymmetric, kamikaze drone tactics of its adversary to deliver "American-made retribution".`
+  },
+  {
+    title: "Solid-Fuel Survivability Versus Strategic Decapitation",
+    body: `Despite the US and Israel systematically destroying <span class="take-ref" data-note="For more on this number and coalition claims, check the day-by-day timeline — specifically March 11–17, 2026, where launcher neutralization counts are tracked." data-link="#battlefield">over 60% of Iran's rocket launchers</span> and successfully assassinating its highest echelon of leadership — including <span class="take-ref" data-note="The targeted killing of Ayatollah Khamenei is detailed in the March 1, 2026 timeline entry." data-link="#battlefield">Ayatollah Ali Khamenei</span>, <span class="take-ref" data-note="Israel confirmed the killing of Intelligence Minister Khatib in the March 18, 2026 timeline entry." data-link="#battlefield">Intelligence Minister Khatib</span>, and <span class="take-ref" data-note="Iran's March 18 cluster missile strikes on Ramat Gan were described as revenge for Larijani's assassination." data-link="#battlefield">security chief Ali Larijani</span> — Iran maintains a lethal, decentralized strike capability. This resilience is anchored in a strategic pivot toward <span class="take-ref" data-note="See the Weapons Database under Iran → Ballistic Missiles for full specs on Sejjil (2,000 km range, solid-fuel) and Kheibar Shekan (1,450 km, solid-fuel)." data-link="#weapons-db">solid-propellant missiles like the Sejjil and Kheibar Shekan</span>, which require minimal launch preparation, and the proliferation of subterranean "missile cities" that guarantee a robust second-strike capacity even under severe allied bombardment.`
+  },
+  {
+    title: "The Deadly Calculus of Cluster Munitions Versus Advanced Air Defenses",
+    body: `Iran has found a devastating loophole in high-end, multi-layered air defense grids like <span class="take-ref" data-note="See the Weapons Database under Israel → Air Defense Systems for full specs on Arrow-3, Iron Dome, and David's Sling." data-link="#weapons-db">Israel's Arrow and Iron Dome</span> by strategically employing cluster munitions. By dispersing dozens of smaller, highly lethal bomblets at high altitudes before the main ballistic missile can be intercepted, successful interceptions are turned into deadly shrapnel showers over unshielded civilian areas, causing significant casualties in cities like <span class="take-ref" data-note="The March 18 timeline entry details cluster missile strikes on Ramat Gan killing 2 near Tel Aviv. Earlier strikes on Yehud are also in the timeline." data-link="#battlefield">Ramat Gan and Yehud</span>.`
+  },
+  {
+    title: "\"Swarm and Deny\" Naval Asymmetry Versus Subsurface Dominance",
+    body: `In the maritime domain, Iran eschews a traditional blue-water navy in favor of an asymmetric "swarm and deny" doctrine, utilizing <span class="take-ref" data-note="See the Weapons Database under Iran → Naval Assets for midget submarines, fast-attack craft, and explosive drone boats." data-link="#weapons-db">midget submarines, fast-attack craft, and remote-controlled explosive drone boats</span> to threaten commercial shipping and control the Strait of Hormuz. The US has countered this surface asymmetry with its undisputed subsurface supremacy, notably demonstrated when the <span class="take-ref" data-note="The sinking of IRIS Dena is detailed in the March 2 timeline entry. Also see Maritime & Shipping Attacks for the full picture of naval engagements." data-link="#maritime">Los Angeles-class submarine USS Charlotte torpedoed and sank the Iranian frigate IRIS Dena</span> in the Indian Ocean — a rare and definitive modern submarine-on-ship kill.`
+  },
+  {
+    title: "\"Fail Fast\" R&D and the Penetration of Integrated A2/AD Bubbles",
+    body: `Iran's military development showcases a "fail fast, learn fast" approach to rapid iterative prototyping, creating entirely novel weapons like the <span class="take-ref" data-note="See the Weapons Database under Iran → Air Defense Systems for the 358 loitering SAM — a unique hybrid weapon." data-link="#weapons-db">358 loitering surface-to-air missile</span> to counter Western drone superiority. To bypass this increasingly modernized integrated Anti-Access/Area Denial (A2/AD) bubble, the US and Israel have relied on highly sophisticated, expensive stealth armadas — utilizing <span class="take-ref" data-note="See the Weapons Database under United States → Aircraft for B-2 Spirit, F-35 Lightning II, and F-22 Raptor details and deployment numbers." data-link="#weapons-db">B-2 bombers, F-35s, and F-22s</span> to deliver <span class="take-ref" data-note="The CENTCOM March 17 timeline entry confirms use of 5,000-lb bunker busters on Hormuz missile sites. See also Weapons Database → United States → Bombs & Munitions." data-link="#battlefield">5,000-pound GBU-28 bunker-busters</span> and massive Tomahawk cruise missile salvos deep into Iranian territory.`
+  },
+  {
+    title: "Proxy-Optimized Engineering and Outsourced Frontlines",
+    body: `A distinctive pattern in Iran's military manufacturing is "proxy-optimized" engineering, where advanced weapons are deliberately designed to be broken down into small, easily smuggled components. This modular design strategy allows Iran to seamlessly supply non-state actors like the <span class="take-ref" data-note="See Ecosystem of Actors for how Houthis, Hezbollah, and other Iran-backed groups operate across the region." data-link="#ecosystem">Houthis or Hezbollah</span>, effectively outsourcing its front lines and projecting asymmetric power across the Middle East without the need for direct Iranian troop deployments.`
+  },
+  {
+    title: "Interceptor Depletion and the Shifting Middle East Arms Market",
+    body: `The relentless volume of Iranian ballistic and drone swarms is rapidly exposing the fragile logistics of modern air defense, triggering severe interceptor depletion of <span class="take-ref" data-note="See the Weapons Database under United States → Air Defense Systems for Patriot PAC-3 and THAAD interceptor details." data-link="#weapons-db">US-made Patriot and THAAD stockpiles</span> across Gulf states. Consequently, a profound geopolitical and commercial shift is occurring: wealthy Arab nations, realizing their current inventories are insufficient for high-saturation swarm attacks, are urgently seeking to procure <span class="take-ref" data-note="See the Weapons Database under Israel → Air Defense Systems for Barak MX and SPYDER specifications." data-link="#weapons-db">Israeli air defense technologies, such as the Barak MX and SPYDER systems</span>, to plug critical vulnerabilities.`
+  },
+  {
+    title: "The Weaponization of Global Economic Chokepoints",
+    body: `Iran has deliberately expanded the battlespace to target the economic lifelines of the Gulf and the broader global economy through sustained infrastructure warfare. By continuously striking desalination plants, multinational commercial shipping, major aviation hubs like <span class="take-ref" data-note="Dubai International Airport was struck at least 3 times — see the timeline entries for March 1, 3, and 16 for details." data-link="#battlefield">Dubai International Airport</span>, and critical energy facilities — successfully forcing force majeure at <span class="take-ref" data-note="BAPCO petroleum refinery fire and force majeure detailed in the March 9 timeline entry and Bahrain's attacks-by-country data." data-link="#battlefield">Bahrain's BAPCO</span> and halting production at Abu Dhabi's massive ADNOC refinery — Iran leverages its asymmetric arsenal to inflict disproportionate financial pain.`
+  },
+  {
+    title: "The Combat Debut of Post-INF Treaty Intermediate Tactical Strikes",
+    body: `The conflict is serving as a live testing ground for next-generation Western munitions, marking the <span class="take-ref" data-note="The first-ever combat use of PrSM is logged on Feb 28 (Day 1) in the timeline — fired from HIMARS launchers at Iranian targets." data-link="#battlefield">first-ever combat use of the US Army's Precision Strike Missile (PrSM)</span>. Fired from <span class="take-ref" data-note="See the Weapons Database under United States → Rockets & Artillery for HIMARS and PrSM specifications." data-link="#weapons-db">HIMARS launchers</span>, the PrSM effectively doubles the range of the legacy ATACMS to 500 kilometers and beyond, signifying a lethal evolution in US surface-to-surface capabilities and marking the definitive battlefield arrival of weapons developed following the collapse of the Intermediate-Range Nuclear Forces (INF) Treaty.`
+  },
+  {
+    title: "The \"Axis of Revisionists\" Tech Lifeline and Gulf State Kinetic Shifts",
+    body: `Iran's capacity to endure a high-intensity conflict against vastly superior Western forces is heavily subsidized by the "Axis of Revisionists," with <span class="take-ref" data-note="See the Weapons Database under China for sodium perchlorate supply and BeiDou satellite navigation access details." data-link="#weapons-db">China supplying solid rocket fuel precursors (sodium perchlorate) and BeiDou navigation access</span>, while <span class="take-ref" data-note="See the Weapons Database under Russia for Su-35 fighters, R-37M missiles, and Verba MANPADS transferred to Iran." data-link="#weapons-db">Russia fortifies Iranian airspace with Su-35 fighters, R-37M missiles, and Verba MANPADS</span>. Simultaneously, traditionally defensive Gulf states are transitioning into proactive, kinetic actors, best illustrated by the <span class="take-ref" data-note="See the Ecosystem of Actors section for Qatar's role, and the timeline for details of this unprecedented air-to-air engagement." data-link="#ecosystem">Qatari Emiri Air Force achieving its first-ever air-to-air kills by shooting down two Iranian Su-24 bombers</span> mere minutes before they could strike critical infrastructure.`
+  }
 ];

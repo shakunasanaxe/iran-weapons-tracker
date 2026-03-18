@@ -653,6 +653,161 @@ function initTooltips() {
   });
 }
 
+// ===== ANUSHKA'S TAKES CAROUSEL =====
+function initTakesCarousel() {
+  if (typeof analysisData === 'undefined' || !analysisData.length) return;
+
+  const track = document.getElementById('takesTrack');
+  const dotsContainer = document.getElementById('takesDots');
+  const counter = document.getElementById('takesCounter');
+  const prevBtn = document.getElementById('takesPrev');
+  const nextBtn = document.getElementById('takesNext');
+  if (!track) return;
+
+  let current = 0;
+  const total = analysisData.length;
+
+  // Build slides
+  analysisData.forEach((item, i) => {
+    const slide = document.createElement('div');
+    slide.className = 'take-slide';
+    slide.innerHTML = `
+      <div class="take-slide-heading" data-full-title="${item.title.replace(/"/g, '&quot;')}"></div>
+      <div class="take-slide-body">${item.body}</div>
+    `;
+    track.appendChild(slide);
+  });
+
+  // Build dots
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement('button');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goTo(i));
+    dotsContainer.appendChild(dot);
+  }
+
+  // Tooltip element
+  const tooltip = document.createElement('div');
+  tooltip.className = 'take-tooltip';
+  tooltip.innerHTML = '<div class="take-tooltip-text"></div><a class="take-tooltip-link" href="#">Jump to section &rarr;</a>';
+  document.body.appendChild(tooltip);
+
+  let tooltipTimeout;
+
+  // Hover footnote handlers (delegated)
+  track.addEventListener('mouseover', (e) => {
+    const ref = e.target.closest('.take-ref');
+    if (!ref) return;
+    clearTimeout(tooltipTimeout);
+    const note = ref.dataset.note;
+    const link = ref.dataset.link || '';
+    tooltip.querySelector('.take-tooltip-text').textContent = note;
+    const linkEl = tooltip.querySelector('.take-tooltip-link');
+    if (link) { linkEl.href = link; linkEl.style.display = ''; }
+    else { linkEl.style.display = 'none'; }
+
+    // Position tooltip
+    const rect = ref.getBoundingClientRect();
+    let top = rect.top - 10;
+    let left = rect.left + rect.width / 2;
+
+    tooltip.style.left = Math.min(left, window.innerWidth - 340) + 'px';
+    tooltip.style.top = 'auto';
+    tooltip.style.bottom = 'auto';
+
+    // Show above or below
+    if (rect.top > 250) {
+      tooltip.style.display = 'block';
+      const tHeight = tooltip.offsetHeight;
+      tooltip.style.top = (rect.top - tHeight - 10) + 'px';
+    } else {
+      tooltip.style.top = (rect.bottom + 10) + 'px';
+    }
+
+    tooltip.classList.add('show');
+  });
+
+  track.addEventListener('mouseout', (e) => {
+    const ref = e.target.closest('.take-ref');
+    if (!ref) return;
+    tooltipTimeout = setTimeout(() => tooltip.classList.remove('show'), 200);
+  });
+
+  tooltip.addEventListener('mouseover', () => clearTimeout(tooltipTimeout));
+  tooltip.addEventListener('mouseout', () => {
+    tooltipTimeout = setTimeout(() => tooltip.classList.remove('show'), 200);
+  });
+
+  // Make tooltip links work
+  tooltip.querySelector('.take-tooltip-link').addEventListener('click', (e) => {
+    tooltip.classList.remove('show');
+  });
+
+  // Typewriter effect
+  function typewrite(slideIndex) {
+    const slide = track.children[slideIndex];
+    const heading = slide.querySelector('.take-slide-heading');
+    const body = slide.querySelector('.take-slide-body');
+    const fullTitle = analysisData[slideIndex].title;
+
+    heading.innerHTML = '<span class="cursor"></span>';
+    body.classList.remove('visible');
+
+    let charIndex = 0;
+    function typeChar() {
+      if (charIndex < fullTitle.length) {
+        heading.innerHTML = fullTitle.substring(0, charIndex + 1) + '<span class="cursor"></span>';
+        charIndex++;
+        setTimeout(typeChar, 28 + Math.random() * 18);
+      } else {
+        // Done typing — remove cursor after a beat, show body
+        setTimeout(() => {
+          heading.innerHTML = fullTitle;
+          body.classList.add('visible');
+        }, 400);
+      }
+    }
+    typeChar();
+  }
+
+  function updateUI() {
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dotsContainer.querySelectorAll('.carousel-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === current);
+    });
+    counter.textContent = `${current + 1} / ${total}`;
+    tooltip.classList.remove('show');
+    typewrite(current);
+  }
+
+  function goTo(index) {
+    current = ((index % total) + total) % total;
+    updateUI();
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    const takesSection = document.getElementById('takes');
+    const rect = takesSection.getBoundingClientRect();
+    if (rect.top > window.innerHeight || rect.bottom < 0) return;
+    if (e.key === 'ArrowLeft') goTo(current - 1);
+    if (e.key === 'ArrowRight') goTo(current + 1);
+  });
+
+  // Auto-advance every 15s
+  let autoTimer = setInterval(() => goTo(current + 1), 15000);
+  track.closest('.takes-carousel').addEventListener('mouseover', () => clearInterval(autoTimer));
+  track.closest('.takes-carousel').addEventListener('mouseout', () => {
+    autoTimer = setInterval(() => goTo(current + 1), 15000);
+  });
+
+  // Init first slide
+  updateUI();
+}
+
 // ===== INIT =====
 document.addEventListener('DOMContentLoaded', () => {
   animateCounters();
@@ -665,4 +820,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initEcosystem();
   initCharts();
   initTooltips();
+  initTakesCarousel();
 });
