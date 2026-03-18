@@ -1026,6 +1026,56 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 8px;
 }
 
+/* ===== ANUSHKA'S TAKES ===== */
+.section-takes {
+  background: linear-gradient(180deg, #faf8f4 0%, #f5f2ec 100%);
+}
+.takes-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+.brewing-graphic {
+  position: relative;
+  margin-bottom: 28px;
+}
+.brewing-icon {
+  font-size: 5rem;
+  color: var(--heading-purple);
+  animation: bubbleFloat 2.5s ease-in-out infinite;
+}
+.brewing-fire {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: #e9c46a;
+  animation: flicker 1.2s ease-in-out infinite alternate;
+}
+@keyframes bubbleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes flicker {
+  0% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+  100% { opacity: 1; transform: translateX(-50%) scale(1.15); }
+}
+.brewing-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--heading-purple);
+  margin-bottom: 8px;
+}
+.brewing-sub {
+  font-size: 1.05rem;
+  color: #2a2a2a;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .battlefield-grid { grid-template-columns: 1fr; }
