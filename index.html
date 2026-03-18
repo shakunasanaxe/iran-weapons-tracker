@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tracking Iran War Weapons & Attacks Daily</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
@@ -241,29 +241,34 @@
   <!-- ===== ANUSHKA'S TAKES ===== -->
   <section id="takes" class="section section-takes">
     <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-pen-fancy" style="color:var(--heading-purple)"></i> Anushka's Takes</h2>
-      <p class="section-desc">Analysis, assessments, and observations from the data.</p>
-      <div class="takes-placeholder">
-        <div class="brewing-graphic">
-          <i class="fa-solid fa-flask-vial brewing-icon"></i>
-          <i class="fa-solid fa-fire brewing-fire"></i>
+      <h2 class="section-title"><i class="fa-solid fa-pen-fancy" style="color:var(--accent-gold)"></i> Anushka's Takes</h2>
+      <p class="section-desc takes-desc">Analysis, assessments, and observations from the data.</p>
+
+      <div class="takes-carousel">
+        <button class="carousel-arrow carousel-prev" id="takesPrev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="carousel-viewport" id="takesViewport">
+          <div class="carousel-track" id="takesTrack">
+            <!-- Filled by JS -->
+          </div>
         </div>
-        <p class="brewing-text">Things are brewing!</p>
-        <p class="brewing-sub">Analysis coming soon — stay tuned.</p>
+        <button class="carousel-arrow carousel-next" id="takesNext"><i class="fa-solid fa-chevron-right"></i></button>
       </div>
+
+      <div class="carousel-dots" id="takesDots"></div>
+      <div class="carousel-counter" id="takesCounter"></div>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <p class="footer-text">Tracking Iran War Weapons &amp; Attacks Daily</p>
-    <p class="footer-sub">Data sourced from CENTCOM, ISW, UKMTO, official defense ministry statements &bull; February 28 &ndash; March 17, 2026</p>
+    <p class="footer-sub">Data sourced from CENTCOM, ISW, UKMTO, official defense ministry statements &bull; February 28 &ndash; March 18, 2026</p>
   </footer>
 
   <!-- Tooltip -->
   <div class="tooltip" id="globalTooltip"></div>
 
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=4"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
