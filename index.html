@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracking Iran War Weapons & Attacks Daily</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- ===== METADATA BANNER ===== -->
+  <div class="metadata-banner" id="metaBanner">
+    <div class="banner-inner" id="bannerContent">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">War Watch</p>
+      <h1>Tracking Iran War Weapons &amp; Attacks Daily</h1>
+      <p class="hero-meta">February 28, 2026 to Now</p>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number" data-count="7000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Targets Struck</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-count="6500">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Air Sorties</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Iranian Ships Destroyed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-count="290">0</span>
+          <span class="stat-label">Launchers Neutralized</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== NAV ===== -->
+  <nav class="main-nav" id="mainNav">
+    <div class="nav-inner">
+      <span class="nav-logo">WAR WATCH</span>
+      <ul class="nav-links">
+        <li><a href="#battlefield">Battlefield</a></li>
+        <li><a href="#weapons-db">Weapons Database</a></li>
+        <li><a href="#strategy">Strategy</a></li>
+        <li><a href="#maritime">Maritime</a></li>
+        <li><a href="#ecosystem">Ecosystem of Actors</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== BATTLEFIELD: Timeline (left) + Iran Attacks by Country (right) ===== -->
+  <section id="battlefield" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-timeline" style="color:var(--heading-purple)"></i> The Battlefield</h2>
+      <p class="section-desc">Day-by-day military events alongside Iran's attacks mapped by target country. Click any row to expand details.</p>
+
+      <div class="battlefield-grid">
+        <!-- LEFT: Timeline -->
+        <div class="battlefield-col">
+          <h3><i class="fa-solid fa-calendar-days"></i> Day-by-Day Military Timeline</h3>
+          <div class="timeline-controls">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="us">US / Israel</button>
+            <button class="filter-btn" data-filter="iran">Iran</button>
+            <button class="filter-btn" data-filter="gulf">Gulf States</button>
+            <button class="filter-btn" data-filter="maritime">Maritime</button>
+            <button class="filter-btn" data-filter="europe">Europe</button>
+          </div>
+          <div class="timeline-scroll" id="timelineContainer">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+
+        <!-- RIGHT: Iran Attacks by Country -->
+        <div class="battlefield-col">
+          <h3><i class="fa-solid fa-crosshairs"></i> Iran's Attacks by Target Country</h3>
+          <div class="attacks-scroll" id="attacksContainer">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WEAPONS DATABASE ===== -->
+  <section id="weapons-db" class="section weapons-db-section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-database" style="color:var(--heading-purple)"></i> Complete Weapons Database</h2>
+      <p class="section-desc">Every weapon system deployed by every party — categorized by country, then by weapon type. Click a country, then a category to explore.</p>
+
+      <!-- Country Selector Tabs -->
+      <div class="country-tabs" id="countryTabs">
+        <!-- Filled by JS -->
+      </div>
+
+      <!-- Weapons Content Area -->
+      <div id="weaponsDbArea">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STRATEGY BY DAY + TRENDS ===== -->
+  <section id="strategy" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-chess" style="color:var(--heading-purple)"></i> Strategy &amp; Trends</h2>
+      <p class="section-desc">Iranian attack strategy compared to US/Israeli response — by day and by phase. Plus trends in Iranian launch degradation.</p>
+
+      <div class="strategy-grid">
+        <!-- LEFT: Iran's Strategy -->
+        <div class="strategy-col iran-col">
+          <h3><i class="fa-solid fa-flag"></i> Iran's Attack Strategy</h3>
+          <div class="chart-container">
+            <canvas id="iranStrategyChart"></canvas>
+          </div>
+          <div class="phase-grid">
+            <div class="phase-card">
+              <h5>Phase 1: Shock (Feb 28–Mar 2)</h5>
+              <p>Massive barrages — 182 ballistic missiles Day 1. Simultaneous strikes on Gulf bases, Israel, embassies. Goal: overwhelm air defenses.</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 2: Sustained (Mar 3–7)</h5>
+              <p>Shift to drones + smaller missile volleys. Naval sabotage: 10 ships destroyed in Hormuz. Asymmetric attacks on embassies, airports.</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 3: Attrition (Mar 8–12)</h5>
+              <p>~24 missiles + ~48 drones/day. Cluster munitions on Israel. Oil infrastructure targeting (Ruwais, Fujairah, BAPCO).</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 4: Degraded (Mar 13–17)</h5>
+              <p>60%+ launchers neutralized. Continued drone attacks on oil/airports. 12 waves against Israel on Mar 16.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: US/Israel Strategy -->
+        <div class="strategy-col us-col">
+          <h3><i class="fa-solid fa-star"></i> US &amp; Israel Strategy</h3>
+          <div class="chart-container">
+            <canvas id="usStrategyChart"></canvas>
+          </div>
+          <div class="phase-grid">
+            <div class="phase-card">
+              <h5>Phase 1: Decapitation (Feb 28–Mar 1)</h5>
+              <p>~200 aircraft hitting 500–1,000 targets. B-2s from US soil. GBU-28 bunker busters on nuclear sites. Khamenei targeted killing.</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 2: Naval Supremacy (Mar 2–4)</h5>
+              <p>19 ships + sub destroyed. IRIS Dena sunk by torpedo. Natanz nuclear site hit. 2,000 targets struck total.</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 3: Systematic Destruction (Mar 5–10)</h5>
+              <p>Hundreds of missile sites struck. 3rd carrier deployed. 16 mine-laying vessels destroyed. Focus on defense industry.</p>
+            </div>
+            <div class="phase-card">
+              <h5>Phase 4: Consolidation (Mar 11–17)</h5>
+              <p>300+ ballistic sites rendered inoperable. 260–290 of 410–440 launchers destroyed. 18 bombers at RAF Fairford.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trends in Iranian Attacks -->
+      <div class="trends-subsection">
+        <h3><i class="fa-solid fa-chart-line"></i> Trends in Iranian Attacks</h3>
+        <div class="trends-charts-grid">
+          <div class="trend-chart-card">
+            <h4><i class="fa-solid fa-arrow-trend-down"></i> Iranian Launcher Degradation</h4>
+            <div class="chart-container">
+              <canvas id="launcherChart"></canvas>
+            </div>
+          </div>
+          <div class="trend-chart-card">
+            <h4><i class="fa-solid fa-chart-area"></i> Strike Volume Decline</h4>
+            <div class="chart-container">
+              <canvas id="strikeVolumeChart"></canvas>
+            </div>
+          </div>
+          <div class="trend-chart-card">
+            <h4><i class="fa-solid fa-fire"></i> Iranian Daily Fire Rate</h4>
+            <div class="chart-container">
+              <canvas id="iranFireChart"></canvas>
+            </div>
+          </div>
+          <div class="trend-chart-card">
+            <h4><i class="fa-solid fa-shield-halved"></i> Interception Rates by Country</h4>
+            <div class="chart-container">
+              <canvas id="interceptionChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARITIME ATTACKS ===== -->
+  <section id="maritime" class="section section-maritime">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-ship" style="color:var(--heading-purple)"></i> Maritime &amp; Shipping Attacks</h2>
+      <p class="section-desc">Attacks on commercial shipping in the Strait of Hormuz and Gulf waters. At least 10 oil tankers attacked since Feb 28.</p>
+      <div id="maritimeContainer">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ECOSYSTEM OF ACTORS ===== -->
+  <section id="ecosystem" class="section section-navy">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-globe" style="color:var(--heading-purple)"></i> Ecosystem of Actors</h2>
+      <p class="section-desc">The broader coalition — Gulf states' defense, European deployments, Russia's arms supply to Iran, China's strategic support, and coalition strike summary.</p>
+
+      <div class="ecosystem-grid" id="ecosystemGrid">
+        <!-- Filled by JS -->
+      </div>
+
+      <!-- Coalition Summary -->
+      <div class="coalition-summary">
+        <div>
+          <h3 style="color:var(--heading-purple);margin-bottom:16px;"><i class="fa-solid fa-chart-pie"></i> Coalition Strike Summary</h3>
+          <div class="coalition-chart-wrap">
+            <canvas id="coalitionChart"></canvas>
+          </div>
+        </div>
+        <div>
+          <h3 style="color:var(--heading-purple);margin-bottom:16px;"><i class="fa-solid fa-square-poll-vertical"></i> Key Figures</h3>
+          <div class="coalition-stats">
+            <div class="coalition-stat-card">
+              <span class="cnum">7,000+</span>
+              <span class="clbl">Targets Struck</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">6,500+</span>
+              <span class="clbl">Air Sorties</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">100+</span>
+              <span class="clbl">Iranian Ships Destroyed</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">60%+</span>
+              <span class="clbl">Launchers Neutralized</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">3</span>
+              <span class="clbl">US Carriers Deployed</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">18</span>
+              <span class="clbl">Bombers at RAF Fairford</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">10+</span>
+              <span class="clbl">Oil Tankers Attacked</span>
+            </div>
+            <div class="coalition-stat-card">
+              <span class="cnum">~50%</span>
+              <span class="clbl">Cluster Munition Rate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p class="footer-text">Tracking Iran War Weapons &amp; Attacks Daily</p>
+    <p class="footer-sub">Data sourced from CENTCOM, ISW, UKMTO, official defense ministry statements &bull; February 28 &ndash; March 17, 2026</p>
+  </footer>
+
+  <!-- Tooltip -->
+  <div class="tooltip" id="globalTooltip"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
