@@ -282,7 +282,8 @@ function initEcosystem() {
         'F-15s shot down 2 Iranian Su-24 bombers — first QEAF air-to-air kill',
         'Intercepted 66 missiles on Day 1 alone',
         'Arrested 10 IRGC-linked suspects + 313 foreigners for disinformation',
-        'Denied participating in strikes on Iran despite reports'
+        'Denied participating in strikes on Iran despite reports',
+        'Ordered Iranian security/military attaches expelled after "extensive damage" to Ras Laffan (Mar 19)'
       ]
     },
     {
@@ -291,7 +292,8 @@ function initEcosystem() {
         'F/A-18 shot down 3 US F-15Es in friendly fire (crews survived)',
         '67 Army servicemen wounded; 6 US soldiers + 2 Navy + 2 guards killed',
         'Emir condemned Iran: "unprovoked attack from a friend"',
-        'Ali Al Salem Air Base targeted repeatedly'
+        'Ali Al Salem Air Base targeted repeatedly',
+        'Army confronting hostile missile/drone attacks; National Guard shot down drones (Mar 19)'
       ]
     },
     {
@@ -300,7 +302,8 @@ function initEcosystem() {
         'Patriot/THAAD intercepting multiple waves — Ras Tanura, Shaybah defended',
         'Prince Sultan Air Base: 5 US refueling planes damaged',
         'Al-Kharj residential area struck — 2 killed, 12 injured',
-        'Intercepted 7–10 drones per day toward Riyadh/Eastern Province'
+        'Intercepted 7–10 drones per day toward Riyadh/Eastern Province',
+        'Two refineries attacked (Mar 19). Declared "the little trust in Iran has been completely shattered"'
       ]
     },
     {
@@ -315,10 +318,11 @@ function initEcosystem() {
     {
       emoji: '🇦🇪', name: 'UAE', color: '#2a9d8f',
       items: [
-        '161 of 174 missiles intercepted (92.5%); 645 of 689 drones (93.6%)',
+        'By Mar 18: 327 ballistic, 15 cruise missiles, 1,699 drones faced (Defence Ministry)',
         'Dubai Airport struck 3 times; Ruwais refinery shut (922K bbl/day)',
         'Barak MX, SPYDER (Israeli), Pantsir-S1 (Russian), SkyKnight (domestic)',
-        'Interceptor stockpile concern by Day 3'
+        'Interceptor stockpile concern by Day 3',
+        'Habshan gas facilities shut down after Iranian attack (Mar 19)'
       ]
     },
     {
@@ -419,20 +423,20 @@ function initCharts() {
     new Chart(iranCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20],
           backgroundColor: 'rgba(194,24,91,0.8)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30],
           backgroundColor: 'rgba(244,162,97,0.8)',
           borderRadius: 3,
         }, {
           label: 'Cruise Missiles',
-          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1],
+          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0],
           backgroundColor: 'rgba(123,45,142,0.8)',
           borderRadius: 3,
         }]
@@ -455,20 +459,20 @@ function initCharts() {
     new Chart(usCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-19'],
         datasets: [{
           label: 'Air Sorties',
-          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800],
+          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 600],
           backgroundColor: 'rgba(21,101,192,0.8)',
           borderRadius: 3,
         }, {
           label: 'Targets Struck',
-          data: [750, 400, 300, 350, 300, 800, 600, 700, 500],
+          data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 400],
           backgroundColor: 'rgba(30,136,229,0.6)',
           borderRadius: 3,
         }, {
           label: 'Ships Destroyed',
-          data: [0, 0, 0, 18, 20, 16, 5, 3, 2],
+          data: [0, 0, 0, 18, 20, 16, 5, 3, 2, 0],
           backgroundColor: 'rgba(69,123,157,0.8)',
           borderRadius: 3,
         }]
@@ -491,16 +495,16 @@ function initCharts() {
     new Chart(launcherCtx, {
       type: 'line',
       data: {
-        labels: ['Feb 28', 'Mar 2', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17'],
+        labels: ['Feb 28', 'Mar 2', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 19'],
         datasets: [{
           label: 'Active Launchers',
-          data: [430, 380, 320, 270, 210, 150, 140],
+          data: [430, 380, 320, 270, 210, 150, 140, 130],
           borderColor: '#e63946',
           backgroundColor: 'rgba(230,57,70,0.1)',
           fill: true, tension: 0.3, pointRadius: 5,
         }, {
           label: 'Destroyed/Ineffective',
-          data: [0, 50, 110, 160, 220, 280, 290],
+          data: [0, 50, 110, 160, 220, 280, 290, 300],
           borderColor: '#2a9d8f',
           backgroundColor: 'rgba(42,157,143,0.1)',
           fill: true, tension: 0.3, pointRadius: 5,
@@ -521,10 +525,10 @@ function initCharts() {
     new Chart(strikeCtx, {
       type: 'line',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19'],
         datasets: [{
           label: 'Total Iranian Daily Launches',
-          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55],
+          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50],
           borderColor: '#e9c46a',
           backgroundColor: 'rgba(233,196,106,0.15)',
           fill: true, tension: 0.3, pointRadius: 5,
@@ -546,15 +550,15 @@ function initCharts() {
     new Chart(fireCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20],
           backgroundColor: 'rgba(230,57,70,0.7)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30],
           backgroundColor: 'rgba(244,162,97,0.7)',
           borderRadius: 3,
         }]
@@ -574,15 +578,15 @@ function initCharts() {
     new Chart(intCtx, {
       type: 'bar',
       data: {
-        labels: ['UAE Missiles', 'UAE Drones', 'Bahrain', 'Jordan Wk1', 'Jordan Wk2', 'Qatar Day1'],
+        labels: ['UAE Ballistic', 'UAE Drones', 'UAE Cruise', 'Bahrain', 'Jordan Wk1', 'Jordan Wk2', 'Qatar Day1'],
         datasets: [{
           label: 'Intercepted',
-          data: [161, 645, 336, 108, 79, 66],
+          data: [300, 1600, 10, 336, 108, 79, 66],
           backgroundColor: 'rgba(42,157,143,0.8)',
           borderRadius: 3,
         }, {
           label: 'Got Through / Fell',
-          data: [13, 44, 0, 11, 6, 0],
+          data: [27, 99, 5, 0, 11, 6, 0],
           backgroundColor: 'rgba(230,57,70,0.8)',
           borderRadius: 3,
         }]
