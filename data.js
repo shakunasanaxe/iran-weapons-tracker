@@ -324,6 +324,20 @@ const timelineData = [
       { text: "Fifth Iranian missile attack on Israel since midnight (22:00 GMT). Sirens in central Israel, occupied West Bank, and Jordan Valley. No injuries reported (Times of Israel)", cat: "iran" },
     ]
   },
+  {
+    date: "Mar 20",
+    dateLabel: "20 March 2026",
+    dayNum: 21,
+    summary: "US F-35 makes emergency landing after Iran combat mission — likely hit by Iranian fire; Israel strikes Taleghan nuclear compound near Tehran; A-10s hunting fast-attack boats in Hormuz; GBU-72 bombs confirmed",
+    events: [
+      { text: "US F-35 made emergency landing at regional airbase after combat mission over Iran. Pilot in stable condition. CNN reported aircraft was likely hit by Iranian fire — would be first confirmed F-35 combat damage", cat: "us" },
+      { text: "IRGC issued statement saying it targeted a US aircraft. US has not confirmed cause of emergency landing. Incident under investigation", cat: "iran" },
+      { text: "Since Feb 28, the US has lost approximately 12 MQ-9 Reaper drones", cat: "us" },
+      { text: "Israel struck the Taleghan compound at Parchin, southeast of Tehran — a covert nuclear weapons development site. IDF said strike was based on precise intelligence to prevent nuclear weapon development", cat: "us" },
+      { text: "Chairman of Joint Chiefs Gen. Dan Caine confirmed A-10 'Warthogs' are hunting and killing Iranian fast-attack watercraft in the Strait of Hormuz", cat: "us" },
+      { text: "The 5,000-pound bombs used on Hormuz missile sites (announced Mar 17) were confirmed as GBU-72 Advanced 5K Penetrators — used against underground storage for coastal defence cruise missiles", cat: "us" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -445,7 +459,8 @@ const countryAttacksData = [
       "12 waves of ballistic missiles on Mar 16: 33% Tel Aviv, 33% south, 17% north, 17% Jerusalem",
       "Iran claimed targeting Palmachim Airbase, Ovda Airbase, Shin Bet HQ",
       "Cluster missiles (multiple-warhead) killed 2 in Ramat Gan near Tel Aviv — Iran said it was revenge for Larijani assassination (Mar 18)",
-      "Fifth missile attack since midnight (22:00 GMT) on Mar 19 — sirens in central Israel, West Bank, Jordan Valley. No injuries reported"
+      "Fifth missile attack since midnight (22:00 GMT) on Mar 19 — sirens in central Israel, West Bank, Jordan Valley. No injuries reported",
+      "IRGC claimed targeting a US aircraft on Mar 20 — F-35 made emergency landing after Iran mission"
     ]
   },
   {
@@ -590,13 +605,13 @@ const weaponsDatabase = {
         label: "Combat Aircraft",
         icon: "fa-jet-fighter",
         items: [
-          { name: "F-35 Lightning II", range: "2,200 km", type: "Stealth multirole", details: "~30 Air Force F-35s amassed from RAF Lakenheath 48th FW and Vermont ANG 158th FW. Marine F-35Cs from VMFA-314 on USS Abraham Lincoln. Stealth strike and ISR.", icon: "fa-jet-fighter" },
+          { name: "F-35 Lightning II", range: "2,200 km", type: "Stealth multirole", details: "~30 Air Force F-35s amassed from RAF Lakenheath 48th FW and Vermont ANG 158th FW. Marine F-35Cs from VMFA-314 on USS Abraham Lincoln. On Mar 20, one F-35 made emergency landing after Iran mission — likely hit by Iranian fire (would be first confirmed F-35 combat damage).", icon: "fa-jet-fighter" },
           { name: "F-22 Raptor", range: "2,960 km", type: "Air superiority", details: "~12 from Joint Base Langley-Eustis deployed to Israel — first combat deployment there. Likely escorted strike aircraft and engaged air-to-air threats.", icon: "fa-jet-fighter" },
           { name: "F-15E Strike Eagle", range: "3,900 km", type: "Strike fighter", details: "Multiple squadrons in Middle East. Effective shooting down Iranian drones and missiles. 3 lost to Kuwaiti friendly fire (crews survived).", icon: "fa-jet-fighter" },
           { name: "F-16 Fighting Falcon", range: "4,220 km", type: "Multirole / SEAD", details: "Dozens in region including 'Wild Weasel' SEAD variants from Spangdahlem ('SP' tails). Suppression of enemy air defenses.", icon: "fa-jet-fighter" },
           { name: "F/A-18 Super Hornet", range: "2,300 km", type: "Carrier strike", details: "Operated from USS Ford and USS Lincoln. Strike missions with Tomahawks and drones against command centers.", icon: "fa-jet-fighter" },
           { name: "EA-18G Growler", range: "2,300 km", type: "Electronic attack", details: "Jams and attacks enemy air defenses. Both carriers carry them. ~6 operating from regional base. Used in both Epic Fury and prior Operation Absolute Resolve.", icon: "fa-tower-broadcast" },
-          { name: "A-10 Thunderbolt II", range: "4,150 km", type: "Ground attack", details: "At least one squadron in Middle East. Participated in strikes against ISIS in Syria recently. Close air support role.", icon: "fa-jet-fighter" },
+          { name: "A-10 Thunderbolt II", range: "4,150 km", type: "Ground attack", details: "At least one squadron in Middle East. Chairman of Joint Chiefs confirmed A-10 'Warthogs' are hunting and killing Iranian fast-attack watercraft in Strait of Hormuz (Mar 20).", icon: "fa-jet-fighter" },
         ]
       },
       bombers: {
@@ -616,6 +631,7 @@ const weaponsDatabase = {
           { name: "PrSM (Precision Strike Missile)", range: "500+ km (up to 1,000 km planned)", type: "Tactical ballistic", details: "FIRST EVER COMBAT USE during Operation Epic Fury. Fired from HIMARS. Replaces ATACMS. Increment 1 range exceeds old INF Treaty limits.", icon: "fa-rocket" },
           { name: "JDAM (Joint Direct Attack Munition)", range: "28 km (glide)", type: "GPS-guided bomb kit", details: "Converts conventional bombs into precision weapons. Accurate in poor weather. Widely used by strike aircraft.", icon: "fa-bomb" },
           { name: "GBU-28 Bunker Buster", range: "Dropped from aircraft", type: "5,000-lb penetrator", details: "Laser-guided. Hardened casing breaks through concrete before detonating. Used against underground bunkers and nuclear facilities.", icon: "fa-bomb" },
+          { name: "GBU-72 Advanced 5K Penetrator", range: "Dropped from aircraft", type: "5,000-lb penetrator", details: "Confirmed Mar 20 as the weapon used against underground coastal defence cruise missile storage along the Strait of Hormuz. Next-generation deep-penetration bomb.", icon: "fa-bomb" },
           { name: "Mark 48 Torpedo", range: "50+ km", type: "Heavyweight torpedo", details: "Fired by USS Charlotte submarine to sink IRIS Dena frigate near Sri Lanka. Wire/acoustic guided.", icon: "fa-water" },
           { name: "LUCAS Drones", range: "Various", type: "One-way attack", details: "Low-Cost Uncrewed Combat Attack System — modeled after Iranian Shahed drones. First-ever combat use by Task Force Scorpion Strike. 'American-made retribution.'", icon: "fa-paper-plane" },
         ]
@@ -640,7 +656,7 @@ const weaponsDatabase = {
           { name: "E-11 BACN", range: "12,200 km", type: "Communications relay", details: "5 based in Middle East. Airborne communications relay for beyond-line-of-sight links.", icon: "fa-tower-broadcast" },
           { name: "P-8 Poseidon", range: "7,500 km", type: "Maritime patrol", details: "Sea surveillance near Strait of Hormuz. Multiple operating in Middle East and Mediterranean.", icon: "fa-binoculars" },
           { name: "RC-135 Rivet Joint", range: "9,130 km", type: "Signals intelligence", details: "Among most valuable US spy planes. Multiple operating from Crete, Greece.", icon: "fa-tower-observation" },
-          { name: "MQ-9 Reaper", range: "1,850 km", type: "RPAS/Drone", details: "Intelligence, battle damage assessment, precision strikes. Numerous in Middle East. Italian MQ-9 destroyed at Ali Al Salem.", icon: "fa-plane-up" },
+          { name: "MQ-9 Reaper", range: "1,850 km", type: "RPAS/Drone", details: "Intelligence, battle damage assessment, precision strikes. Approximately 12 MQ-9s lost since Feb 28. Italian MQ-9 destroyed at Ali Al Salem (Mar 15).", icon: "fa-plane-up" },
           { name: "KC-46 Pegasus / KC-135", range: "Various", type: "Aerial refueling", details: "Dozens stationed in Europe and Middle East. Critical for long-range strike missions. 2 collided over Iraq (Mar 12) — 4 killed, 2 missing. 5 damaged at Prince Sultan AB.", icon: "fa-gas-pump" },
           { name: "C-17 Globemaster III / C-130", range: "Various", type: "Airlift", details: "Dozens of flights hauling weapons, people, cargo to Middle East. Extremely active pre-strike logistics.", icon: "fa-truck-plane" },
           { name: "HIMARS Launcher", range: "500+ km (with PrSM)", type: "Rocket artillery", details: "M-142 platform for PrSM and ATACMS. Long deployed in Middle East. First PrSM combat use confirmed.", icon: "fa-rocket" },
@@ -698,6 +714,7 @@ const weaponsDatabase = {
           { name: "300+ Ballistic Sites", range: "—", type: "Systematic destruction", details: "Rendered inoperable by Mar 14. 260–290 of 410–440 launchers destroyed (ISW). 60%+ neutralized.", icon: "fa-explosion" },
           { name: "Targeted Killing — Intelligence Min. Khatib", range: "—", type: "Decapitation strike", details: "Israel confirmed killing of Iran's Intelligence Minister Khatib in overnight air attack on Tehran (Mar 18). Other senior intelligence officials also eliminated.", icon: "fa-crosshairs" },
           { name: "South Pars Gas Facilities", range: "—", type: "Strategic infrastructure", details: "Offshore natural gas facilities associated with South Pars field attacked (Mar 18). South Pars is Iran's largest natural gas field.", icon: "fa-fire" },
+          { name: "Taleghan Compound (Parchin)", range: "—", type: "Nuclear strike", details: "Covert nuclear weapons development site southeast of Tehran. Struck by Israeli Air Force on Mar 20 based on precise intelligence to prevent nuclear weapon development.", icon: "fa-radiation" },
         ]
       }
     }

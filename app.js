@@ -423,20 +423,20 @@ function initCharts() {
     new Chart(iranCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19', 'Mar 20'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20, 18],
           backgroundColor: 'rgba(194,24,91,0.8)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30, 25],
           backgroundColor: 'rgba(244,162,97,0.8)',
           borderRadius: 3,
         }, {
           label: 'Cruise Missiles',
-          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0],
+          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0],
           backgroundColor: 'rgba(123,45,142,0.8)',
           borderRadius: 3,
         }]
@@ -459,15 +459,15 @@ function initCharts() {
     new Chart(usCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-19'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-20'],
         datasets: [{
           label: 'Air Sorties',
-          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 600],
+          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 900],
           backgroundColor: 'rgba(21,101,192,0.8)',
           borderRadius: 3,
         }, {
           label: 'Targets Struck',
-          data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 400],
+          data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 550],
           backgroundColor: 'rgba(30,136,229,0.6)',
           borderRadius: 3,
         }, {
@@ -525,10 +525,10 @@ function initCharts() {
     new Chart(strikeCtx, {
       type: 'line',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19', 'Mar 20'],
         datasets: [{
           label: 'Total Iranian Daily Launches',
-          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50],
+          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50, 43],
           borderColor: '#e9c46a',
           backgroundColor: 'rgba(233,196,106,0.15)',
           fill: true, tension: 0.3, pointRadius: 5,
@@ -550,15 +550,15 @@ function initCharts() {
     new Chart(fireCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19', 'Mar 20'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20, 18],
           backgroundColor: 'rgba(230,57,70,0.7)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30, 25],
           backgroundColor: 'rgba(244,162,97,0.7)',
           borderRadius: 3,
         }]
