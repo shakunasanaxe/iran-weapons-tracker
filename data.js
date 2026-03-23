@@ -1,4 +1,4 @@
-// ===== TIMELINE DATA (Feb 28 - Mar 17, 2026) =====
+// ===== TIMELINE DATA (Feb 28 - Mar 22, 2026) =====
 const timelineData = [
   {
     date: "Feb 28",
@@ -328,14 +328,99 @@ const timelineData = [
     date: "Mar 20",
     dateLabel: "20 March 2026",
     dayNum: 21,
-    summary: "US F-35 makes emergency landing after Iran combat mission — likely hit by Iranian fire; Israel strikes Taleghan nuclear compound near Tehran; A-10s hunting fast-attack boats in Hormuz; GBU-72 bombs confirmed",
+    summary: "US F-35 emergency landing after likely Iranian hit; Taleghan nuclear site struck; A-10s hunting fast-attack boats; IDF kills Basij intelligence chief, IRGC spokesperson, and IRGC Aerospace commander; 11 missile barrages on Israel; Mojtaba Khamenei still absent from public",
     events: [
       { text: "US F-35 made emergency landing at regional airbase after combat mission over Iran. Pilot in stable condition. CNN reported aircraft was likely hit by Iranian fire — would be first confirmed F-35 combat damage", cat: "us" },
-      { text: "IRGC issued statement saying it targeted a US aircraft. US has not confirmed cause of emergency landing. Incident under investigation", cat: "iran" },
+      { text: "IRGC issued statement saying it targeted a US aircraft. Incident under investigation", cat: "iran" },
       { text: "Since Feb 28, the US has lost approximately 12 MQ-9 Reaper drones", cat: "us" },
-      { text: "Israel struck the Taleghan compound at Parchin, southeast of Tehran — a covert nuclear weapons development site. IDF said strike was based on precise intelligence to prevent nuclear weapon development", cat: "us" },
+      { text: "5 KC-135 refuelling aircraft damaged in Iranian missile strike at a base in Saudi Arabia (unverified)", cat: "iran" },
+      { text: "Israel struck the Taleghan compound at Parchin, southeast of Tehran — a covert nuclear weapons development site", cat: "us" },
       { text: "Chairman of Joint Chiefs Gen. Dan Caine confirmed A-10 'Warthogs' are hunting and killing Iranian fast-attack watercraft in the Strait of Hormuz", cat: "us" },
-      { text: "The 5,000-pound bombs used on Hormuz missile sites (announced Mar 17) were confirmed as GBU-72 Advanced 5K Penetrators — used against underground storage for coastal defence cruise missiles", cat: "us" },
+      { text: "GBU-72 Advanced 5K Penetrators confirmed as the 5,000-pound bombs used on Hormuz missile sites (Mar 17)", cat: "us" },
+      { text: "Combined force struck IRGC Chamran missile base in Jam, Bushehr Province (three strikes). Combined force struck 4th Artesh Ground Forces Aviation base in Esfahan and 9th Artesh Air Force Tactical Airbase in Bandar Abbas", cat: "us" },
+      { text: "Anti-regime media reported smoke rising from multiple explosions near Shiraz International Airport (7th Artesh Air Force Tactical Airbase co-located)", cat: "us" },
+      { text: "IDF struck weapons production and long-range ballistic missile component/launcher production sites in Tehran Province", cat: "us" },
+      { text: "CENTCOM footage showed combined force striking ballistic missile production site at Simin Dasht Industrial Town, Alborz Province, on March 11", cat: "us" },
+      { text: "Combined force struck IRGC Shahid Borujerdi logistics support HQ in Tehran", cat: "us" },
+      { text: "Combined force targeted IRGC Ground Forces 41st Sarallah Division HQ in Kerman City, co-located with 38th Zolfaghar Independent Armored Brigade", cat: "us" },
+      { text: "Strike targeted Kolahdouz IRGC base in Shahmirzad, Semnan Province. Separate strikes on Basij base in Semnan City and IRGC intelligence building on Kakh Street, Tehran", cat: "us" },
+      { text: "Combined force conducted 'heavy' strikes on IRGC positions on Qeshm Island. Satellite imagery shows at least 19 buildings destroyed at IRGC Navy and Basij bases since Feb 28", cat: "us" },
+      { text: "IDF killed Basij Organisation Intelligence Chief Esmail Ahmadi", cat: "us" },
+      { text: "IDF killed IRGC Spokesperson Brigadier General Ali Mohammad Naeini (UK-sanctioned since Oct 2024)", cat: "us" },
+      { text: "IDF killed IRGC Aerospace Force Commander in Esfahan, Mehdi Ghoreyshi", cat: "us" },
+      { text: "IDF killed Iranian Intelligence and Security Ministry official Mehdi Rostami Shamestan, who promoted attacks against Israeli and Jewish civilians worldwide", cat: "us" },
+      { text: "Iran launched 11 missile barrages at Israel between 3:00 PM ET Mar 19 and 3:00 PM ET Mar 20. One ballistic missile landed in open area of Beit Shemesh. Missiles also hit Ramallah, Rehovot, and Jerusalem", cat: "iran" },
+      { text: "Israeli media reported 70% of Iran's launches against Israel now use cluster munitions, and the percentage is increasing. IDF says Iran firing mostly from central Iran after western launchers destroyed", cat: "iran" },
+      { text: "UAE intercepted 4 missiles and 26 drones. Kuwait intercepted 15 of 25 drones (8 landed harmlessly, 2 hit national oil company). Saudi intercepted 38 drones. Bahrain intercepted 2 missiles and 4 drones", cat: "gulf" },
+      { text: "Regime-affiliated media stated Iran targeted a US Patriot defence system in Bahrain", cat: "iran" },
+      { text: "Supreme Leader Mojtaba Khamenei issued Nowruz written statement emphasising 'Resistance Economy in the Shadow of National Unity and National Security' — still no public appearance since becoming supreme leader on Mar 8. Regime recycling old images", cat: "iran" },
+      { text: "Mojtaba falsely claimed Iran and Axis of Resistance did not attack Turkey and Oman, calling them Israeli 'false flag' operations", cat: "iran" },
+      { text: "Iran Parliament Speaker Ghalibaf said 'the Strait of Hormuz situation will not return to its pre-war status.' Expediency Council member Mokhber stated there will be a 'new regime for the Strait of Hormuz.' Parliament considering fees on vessels transiting the Strait", cat: "iran" },
+      { text: "Daily oil exports from the Middle East have fallen by at least 60% since start of war", cat: "maritime" },
+      { text: "US and UAE disrupted Hezbollah-affiliated money laundering networks. US sanctioned 16 individuals/entities connected to Hezbollah financier Alaa Hassan Hamieh (over $100M laundered since 2020). UAE dismantled Hezbollah/Iran-funded 'terrorist network'", cat: "us" },
+      { text: "Hezbollah claimed 55 attacks targeting Israeli forces/positions in northern Israel and southern Lebanon. Used IEDs for first time since start of conflict. Targeted IDF 91st Division HQ", cat: "iran" },
+      { text: "IDF has destroyed over 2,000 Hezbollah sites in Lebanon since Mar 2, including ~120 HQs, 100+ weapons depots, 130 rocket launchers. Eliminated 570+ Hezbollah fighters including 220 Radwan Force members", cat: "us" },
+      { text: "NATO withdrew all forces from its advisory mission in Iraq. 'Several hundred' soldiers withdrawn to Europe", cat: "europe" },
+      { text: "Iranian-backed Iraqi militia front groups continued drone attacks on US bases including Victory Base near Baghdad Airport", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 21",
+    dateLabel: "21 March 2026",
+    dayNum: 22,
+    summary: "Trump threatens to 'obliterate' Iranian power plants if Hormuz not opened in 48 hours; missiles hit Dimona and Arad near Israeli nuclear centre (180+ wounded, hundreds evacuated) — Iran says response to Natanz; UKMTO: 21 maritime incidents since war start",
+    events: [
+      { text: "US President Trump threatened to 'obliterate' Iranian power plants if Iran does not 'fully open' the Strait of Hormuz within 48 hours", cat: "us" },
+      { text: "Iranian missiles struck Dimona and Arad near Israeli nuclear research centre — Iran says it was a response to Israeli attack on Natanz. At least 180 wounded, hundreds evacuated from strategic towns. IDF failed to intercept the two Ghadr-variant missiles (1,950 km range) due to 'different and unrelated circumstances'", cat: "iran" },
+      { text: "Iran has launched over 400 ballistic missiles targeting Israel since start of war. IDF interception rate stands at 92%. Only 5 missiles with conventional warheads struck populated areas", cat: "iran" },
+      { text: "UKMTO reported projectile explosion near vessel 15nm north of Sharjah, UAE. Later classified as 'suspicious activity.' UKMTO has recorded 21 maritime incidents in the Strait of Hormuz since war began", cat: "maritime" },
+      { text: "Combined force struck underground missile bases between Gerash and Lar (Fars Province) and confirmed strikes on tunnel entrances at Hajjiabad (Hormozgan) and Darab (Fars) underground missile bases from Mar 20", cat: "us" },
+      { text: "IDF killed Hezbollah Radwan Forces commander Abu Khalil Barji and two fighters in Majdal Selm, southern Lebanon", cat: "us" },
+      { text: "A Hezbollah drone landed in open area near the Sea of Galilee in northern Israel", cat: "iran" },
+      { text: "Iranian-backed Iraqi militias launched two drones at Baghdad International Airport — intercepted by Iraqi air defences. Saraya Awliya al Dam claimed six 'qualitative operations' against US bases", cat: "iran" },
+      { text: "Combined force struck unspecified PMF positions in western Mosul and US airstrikes targeted Kataib Hezbollah-associated 13th PMF brigade in Anbar Province", cat: "us" },
+      { text: "IRGC Intelligence Organisation sending text messages to Iranian citizens warning their activity on opposition Telegram channels is under surveillance", cat: "iran" },
+      { text: "Multiple waves of arrests across Iran targeting individuals accused of links to opposition networks", cat: "iran" },
+      { text: "Israeli Ministry of Education cancelled in-person classes across Israel on Mar 22 and 23 following Dimona/Arad strikes", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 22",
+    dateLabel: "22 March 2026",
+    dayNum: 23,
+    summary: "Iran threatens to 'completely close' Hormuz and strike regional energy infrastructure if power plants hit; cluster munitions hit Tel Aviv area (Jaffa, Petah Tikva, Bat Yam, Holon); Kuh-e Barjamali missile assembly site struck; IDF kills Hamas financier in Lebanon; 5 Iraqi CTS injured",
+    events: [
+      { text: "Iran Parliament Speaker Ghalibaf threatened to strike regional energy infrastructure if Iranian power plants attacked. Khatam ol Anbia Central HQ threatened to 'completely close' the Strait of Hormuz and target regional energy infrastructure and companies with US shareholders", cat: "iran" },
+      { text: "Iran launched at least 3 missiles with cluster munitions targeting Tel Aviv area — impacts in Jaffa, Petah Tikva, Bat Yam, and Holon. Over 100 separate cluster munition impact sites throughout war. At least 24 missiles with cluster warheads released over populated areas", cat: "iran" },
+      { text: "CENTCOM published satellite imagery showing damage at Kuh-e Barjamali short/medium-range ballistic missile assembly facility (struck Mar 7). Site was likely final assembly point for Fath-360, Fateh-110, Zolfaghar, and Haj Qasem missiles at Khojir Aerospace Complex", cat: "us" },
+      { text: "IDF struck Defence and Armed Forces Logistics Ministry weapons production/storage site east of Tehran City, likely at Khojir Aerospace Complex. Analyst identified extensive damage to planetary mixer and casting sites from Mar 4 imagery", cat: "us" },
+      { text: "IDF struck Artesh personnel training base and missile storage in SW Tehran, plus IRGC Aerospace Force weapons production facility west of Tehran. Explosions reported in Karaj, Alborz Province", cat: "us" },
+      { text: "Combined force struck underground missile bases in southern Iran — tunnel entrances at Hajjiabad (Hormozgan) and Darab (Fars). Fire at 8th Tactical Air Base in Esfahan. Craters on runway at 6th Tactical Air Base/Bushehr Airport", cat: "us" },
+      { text: "Israeli analyst identified damage to Advanced Fibre Development Company factory (US Treasury-sanctioned May 2025) at Lia Industrial Zone, Ghazvin Province. Large explosion at warehouse in Rafsanjan, Kerman Province", cat: "us" },
+      { text: "IDF struck 'additional' Intelligence and Security Ministry HQ in Tehran and an 'emergency command centre' for internal security forces — improvised facilities after regular HQs destroyed", cat: "us" },
+      { text: "Geolocated footage showed damage to Fars Province Law Enforcement Command HQ in Shiraz (struck Mar 17)", cat: "us" },
+      { text: "IRGC Ground Forces Commander Brig Gen Karami visited units in western/northwestern Iran — notable given combined force strikes on Ground Forces divisions and reports of armed Kurdish mobilisation along Iran-Iraq border", cat: "iran" },
+      { text: "Combined force has struck at least two IRGC Ground Forces divisions and one brigade in northwestern/majority Kurdish areas since Feb 28, including 31st Ashoura Mechanized Division (Tabriz), 11th Amir ol Momenin Brigade (Ilam), and Nabi Akram Division (Kermanshah)", cat: "us" },
+      { text: "Bahrain intercepted 2 drones and 2 missiles. IRGC claimed targeting US Fifth Fleet base in Manama. Kuwait intercepted 4 of 7 drones (3 fell in open spaces). Saudi intercepted 21 drones and 3 missiles (including one heading to Riyadh). UAE intercepted 25 drones and 4 missiles", cat: "gulf" },
+      { text: "IRGC claimed targeting Prince Sultan Air Base near Riyadh", cat: "iran" },
+      { text: "Hezbollah claimed 56 attacks on Israeli forces/positions. Drone landed near Sea of Galilee. IDF struck 5th Litani River bridge. Defence Minister Katz ordered destruction of all Litani bridges and acceleration of demolition of Lebanese border village homes", cat: "iran" },
+      { text: "Reuters reported IRGC deployed ~100 officers to Lebanon after Nov 2024 ceasefire, reorganising Hezbollah into smaller, compartmentalised units — described as 'mosaic defence' resembling 1980s structure", cat: "iran" },
+      { text: "IDF killed Hezbollah Radwan Forces commander, senior Hamas financier Walid Mohammad Dib in Lebanon, and 9 Hezbollah fighters. IDF has killed 2 Hamas members in Lebanon since Feb 28", cat: "us" },
+      { text: "Lebanese President Aoun condemned Litani bridge strikes as 'dangerous escalation' and prelude to 'Israeli expansion into Lebanese territory'", cat: "europe" },
+      { text: "Iranian-backed Iraqi militia rocket fire injured 5 Iraqi Counter Terrorism Service members at Baghdad Airport facility. Two drones impacted near former US Victory base. Combined force struck PMF positions in Jurf al Sakhr, Babil Province", cat: "iran" },
+      { text: "Islamic Resistance in Iraq claimed 21 drone/missile operations against US bases in past 24 hours (no evidence provided)", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 23",
+    dateLabel: "23 March 2026",
+    dayNum: 24,
+    summary: "Iran threatens to completely shut Strait of Hormuz and launch retaliatory strikes on regional energy/water infrastructure if US attacks power plants; verified footage shows fire and smoke over Karaj after air attack; Australia and Singapore sign energy cooperation deal amid Hormuz supply crunch",
+    events: [
+      { text: "Iran declared it will completely shut the Strait of Hormuz and launch retaliatory attacks on regional energy and water infrastructure if the US attacks its power plants", cat: "iran" },
+      { text: "Al Jazeera verified footage showing columns of fire and smoke rising over Karaj, west of Tehran, following an air attack", cat: "us" },
+      { text: "Australia and Singapore signed agreement to ramp up coordination to ensure uninterrupted trade in diesel and liquefied natural gas amid the ongoing war", cat: "europe" },
+      { text: "Countries worldwide scrambling to secure energy supply amid supply crunch resulting from closure of the Strait of Hormuz, through which a fifth of the world's oil exports transit", cat: "maritime" },
     ]
   },
 ];
@@ -346,7 +431,7 @@ const countryAttacksData = [
     country: "🇧🇭 Bahrain",
     flag: "🇧🇭",
     color: "#e63946",
-    stats: { missiles: "125+", drones: "211+", intercepted: "298+", casualties: "33+ injured, 1 killed" },
+    stats: { missiles: "130+", drones: "220+", intercepted: "310+", casualties: "33+ injured, 1 killed" },
     details: [
       "Fifth Fleet HQ struck on Day 1 (Feb 28) — 300 British personnel nearby",
       "Era Views Tower drone strike; 3 buildings in Manama/Muharraq hit",
@@ -359,7 +444,9 @@ const countryAttacksData = [
       "Gulf Air relocated fleet to Saudi Arabia",
       "Fuel depot in Muharraq — large fire near airport (Mar 12)",
       "4 nationals arrested for spying for IRGC",
-      "Ma'ameer industrial area targeted — limited damage (Mar 5)"
+      "Ma'ameer industrial area targeted — limited damage (Mar 5)",
+      "Mar 20: intercepted 2 missiles and 4 drones. IRGC claimed targeting US Patriot system in Bahrain",
+      "Mar 22: intercepted 2 drones and 2 missiles. IRGC claimed targeting US Fifth Fleet base in Manama"
     ]
   },
   {
@@ -384,7 +471,11 @@ const countryAttacksData = [
       "Shah oil field, Umm Al Quwain building struck (Mar 16)",
       "Pakistani national killed in Bani Yas from missile debris (Mar 17)",
       "Educational institutions shifted to remote learning; extended 2 more weeks",
-      "Habshan gas facilities in Abu Dhabi shut down after Iranian attack (Mar 19)"
+      "Habshan gas facilities in Abu Dhabi shut down after Iranian attack (Mar 19)",
+      "Mar 20: intercepted 4 missiles and 26 drones",
+      "Mar 21: UKMTO reported projectile explosion 15nm north of Sharjah (classified as 'suspicious activity')",
+      "Mar 22: intercepted 25 drones and 4 ballistic missiles",
+      "UAE dismantled Hezbollah/Iran-funded 'terrorist network' using commercial cover for money laundering (Mar 20)"
     ]
   },
   {
@@ -402,7 +493,8 @@ const countryAttacksData = [
       "313 foreigners arrested for filming and spreading 'misleading information'",
       "Civil Aviation Authority reopened air navigation under emergency conditions (Mar 7)",
       "Intercepted missiles and drones on multiple nights",
-      "Ordered Iranian security and military attaches expelled after 'extensive damage' to Ras Laffan gas facility (Mar 19)"
+      "Ordered Iranian security and military attaches expelled after 'extensive damage' to Ras Laffan gas facility (Mar 19)",
+      "Lebanon condemned Hezbollah 'terrorist plot' against UAE and offered full cooperation (Mar 20)"
     ]
   },
   {
@@ -421,7 +513,9 @@ const countryAttacksData = [
       "Emir condemned Iran: 'unprovoked attack from a neighboring Muslim country we consider a friend'",
       "Drone debris put 6 power lines out of service (Mar 12)",
       "Italian MQ-9 Reaper destroyed by Iranian drone at Ali Al Salem (Mar 15)",
-      "Army confronting hostile missile and drone attacks; National Guard shot down several drones (Mar 19)"
+      "Army confronting hostile missile and drone attacks; National Guard shot down several drones (Mar 19)",
+      "Mar 20: intercepted 15 of 25 drones — 8 landed harmlessly, 2 hit national oil company",
+      "Mar 22: intercepted 4 of 7 drones, 3 fell in open spaces"
     ]
   },
   {
@@ -440,27 +534,29 @@ const countryAttacksData = [
       "7 drones to Riyadh/Eastern Province intercepted (Mar 14)",
       "10 drones to Riyadh/Eastern Province intercepted (Mar 15)",
       "5 US Air Force refueling planes at Prince Sultan Air Base damaged (Mar 14)",
-      "Two refineries attacked by Iran (Mar 19). Riyadh declared 'the little trust that remained in Iran has been completely shattered'"
+      "Two refineries attacked by Iran (Mar 19). Riyadh declared 'the little trust that remained in Iran has been completely shattered'",
+      "Mar 20: intercepted 38 drones",
+      "Mar 22: intercepted 21 drones and 3 ballistic missiles (including one heading to Riyadh). IRGC claimed targeting Prince Sultan Air Base"
     ]
   },
   {
     country: "🇮🇱 Israel",
     flag: "🇮🇱",
     color: "#0d47a1",
-    stats: { attacks: "12+ waves of ballistic missiles", cluster: "~50% cluster munitions by Mar 10", casualties: "12+ killed" },
+    stats: { attacks: "400+ ballistic missiles since Feb 28", cluster: "~70% cluster munitions by Mar 22", casualties: "~200 injured in Dimona/Arad alone", interception: "92% interception rate" },
     details: [
       "Tel Aviv building struck — 1 killed, dozens injured; sirens failed (Feb 28)",
       "Beit Shemesh synagogue shelter — 9 killed, dozens injured; largest single-incident casualties (Mar 1)",
-      "Two interceptors launched but missile was direct hit on communal shelter",
       "Cluster munitions killing 2 construction workers in Yehud (Mar 9); Bat Yam, Holon, Or Yehuda struck",
-      "~Half of projectiles toward Israel carrying cluster munitions by Mar 10",
-      "Arrow system effective against ballistic missiles but cannot stop dispersed bomblets",
-      "Iron Dome not designed for cluster munition bomblets once dispersed",
       "12 waves of ballistic missiles on Mar 16: 33% Tel Aviv, 33% south, 17% north, 17% Jerusalem",
-      "Iran claimed targeting Palmachim Airbase, Ovda Airbase, Shin Bet HQ",
-      "Cluster missiles (multiple-warhead) killed 2 in Ramat Gan near Tel Aviv — Iran said it was revenge for Larijani assassination (Mar 18)",
-      "Fifth missile attack since midnight (22:00 GMT) on Mar 19 — sirens in central Israel, West Bank, Jordan Valley. No injuries reported",
-      "IRGC claimed targeting a US aircraft on Mar 20 — F-35 made emergency landing after Iran mission"
+      "Cluster missiles killed 2 in Ramat Gan near Tel Aviv (Mar 18)",
+      "11 missile barrages between 3:00 PM ET Mar 19 and 3:00 PM ET Mar 20. Hits in Beit Shemesh, Ramallah, Rehovot, Jerusalem",
+      "70% of Iran's launches now use cluster munitions — percentage increasing. Over 100 separate cluster munition impact sites. At least 24 missiles released cluster warheads over populated areas",
+      "Two Ghadr-variant missiles struck Dimona and Arad (Mar 21) — nearly 200 injured. IDF failed to intercept due to 'different and unrelated circumstances'",
+      "Only 5 missiles with conventional warheads struck populated areas in Israel throughout the war. 92% interception rate, close to April/October 2024 and June 2025 rates",
+      "Cluster munitions hit Tel Aviv area on Mar 22 — impacts in Jaffa, Petah Tikva, Bat Yam, Holon",
+      "IDF says Iran now firing mostly from central Iran (Esfahan Province) after western launchers destroyed",
+      "In-person classes cancelled across Israel on Mar 22-23"
     ]
   },
   {
@@ -526,6 +622,10 @@ const weaponsDatabase = {
           { name: "Shahab-3", range: "1,300 km", type: "Medium-range", details: "Backbone of Iran's ability to strike Israel. Central strategic capability for power projection beyond borders.", icon: "fa-bomb" },
           { name: "Emad", range: "1,700 km", type: "Long-range", details: "Improved accuracy with terminal guidance technology. Can strike deep into Middle East.", icon: "fa-explosion" },
           { name: "Khorramshahr", range: "2,000 km", type: "Long-range", details: "Can target much of the Middle East. Multiple warhead capability reported.", icon: "fa-explosion" },
+          { name: "Ghadr", range: "1,950 km", type: "Medium-range", details: "Liquid-fuel variant. Two Ghadr missiles struck Dimona and Arad on Mar 21, injuring nearly 200 people. IDF failed to intercept due to 'different and unrelated circumstances'.", icon: "fa-explosion" },
+          { name: "Haj Qasem", range: "1,400 km", type: "Medium-range", details: "Solid-fuel medium-range ballistic missile. Produced at Kuh-e Barjamali facility at Khojir Aerospace Complex.", icon: "fa-explosion" },
+          { name: "Fath-360", range: "120 km", type: "Short-range tactical", details: "Short-range ballistic missile produced at Khojir Aerospace Complex. Iran has supplied Fath-360s to Russia for its offensive campaign in Ukraine.", icon: "fa-bullseye" },
+          { name: "Zolfaghar", range: "700 km", type: "Medium-range", details: "Solid-fuel missile with range between Fateh-110 and Shahab-3. Produced at Khojir facility.", icon: "fa-location-crosshairs" },
           { name: "Sejjil", range: "2,000 km", type: "Long-range", details: "Solid-fuel for quicker launch readiness and improved mobility. Two-stage design.", icon: "fa-explosion" },
         ]
       },
@@ -715,6 +815,10 @@ const weaponsDatabase = {
           { name: "Targeted Killing — Intelligence Min. Khatib", range: "—", type: "Decapitation strike", details: "Israel confirmed killing of Iran's Intelligence Minister Khatib in overnight air attack on Tehran (Mar 18). Other senior intelligence officials also eliminated.", icon: "fa-crosshairs" },
           { name: "South Pars Gas Facilities", range: "—", type: "Strategic infrastructure", details: "Offshore natural gas facilities associated with South Pars field attacked (Mar 18). South Pars is Iran's largest natural gas field.", icon: "fa-fire" },
           { name: "Taleghan Compound (Parchin)", range: "—", type: "Nuclear strike", details: "Covert nuclear weapons development site southeast of Tehran. Struck by Israeli Air Force on Mar 20 based on precise intelligence to prevent nuclear weapon development.", icon: "fa-radiation" },
+          { name: "Kuh-e Barjamali Assembly Facility", range: "—", type: "Missile production", details: "Short/medium-range ballistic missile final assembly site at Khojir Aerospace Complex. CENTCOM published damage imagery from Mar 7 strikes. Produced Fath-360, Fateh-110, Zolfaghar, and Haj Qasem missiles. Iran supplied Fath-360s to Russia for Ukraine.", icon: "fa-industry" },
+          { name: "Khojir Aerospace Complex", range: "—", type: "Defence industrial", details: "IDF struck Defence Ministry weapons production/storage site at this complex east of Tehran (Mar 22). Extensive damage to planetary mixer and casting sites confirmed from Mar 4 satellite imagery.", icon: "fa-industry" },
+          { name: "Decapitation — Basij Leadership", range: "—", type: "Targeted killing", details: "IDF killed Basij Commander Brig Gen Soleimani and deputy Ghoreyshi (Mar 17), Basij Intelligence Chief Esmail Ahmadi (Mar 20), IRGC Spokesperson Brig Gen Naeini (Mar 20), IRGC Aerospace Commander in Esfahan Ghoreyshi (Mar 20), and Intel Ministry official Shamestan (Mar 20).", icon: "fa-crosshairs" },
+          { name: "Intelligence Ministry HQs", range: "—", type: "Strategic strike", details: "Multiple Intelligence and Security Ministry headquarters struck in Tehran. Minister Khatib killed Mar 18. Additional HQ and improvised 'emergency command centre' struck Mar 22.", icon: "fa-building" },
         ]
       }
     }
@@ -928,20 +1032,24 @@ const weaponImages = {
 
 // ===== METADATA STATS =====
 const metadataStats = {
-  targetsStruck: "7,000+",
-  airSorties: "6,500+",
+  targetsStruck: "9,000+",
+  airSorties: "8,500+",
   iranianShipsDestroyed: "100+",
   launchersNeutralized: "260–290",
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "3+ more weeks",
-  iranDailyMissiles: "~24 (down from 182)",
-  iranDailyDrones: "~48 (down from hundreds)",
-  clusterMunitionRate: "~50%",
-  bahInterceptions: "125 missiles + 211 drones",
-  uaeInterceptions: "161 missiles + 645 drones",
+  weeksExpected: "Ongoing",
+  iranDailyMissiles: "~18 (down from 182)",
+  iranDailyDrones: "~25 (down from hundreds)",
+  clusterMunitionRate: "~70%",
+  bahInterceptions: "130+ missiles + 220+ drones",
+  uaeInterceptions: "360+ missiles + 1,750+ drones",
   jordanInterceptions: "187 of 204",
+  israelInterceptionRate: "92%",
+  totalIranMissilesAtIsrael: "400+",
+  oilExportDecline: "60%+",
+  maritimeIncidents: "21 confirmed (UKMTO)",
 };
 
 // ===== MARITIME ATTACKS =====
@@ -962,7 +1070,9 @@ const maritimeAttacks = [
   { date: "Mar 11", vessel: "Star Gwyneth (Marshall Islands)", location: "50nm NW of Dubai", details: "Hull damaged" },
   { date: "Mar 11", vessel: "Safesea Vishnu / Zefyros", location: "Near Iraq", details: "Iraq oil ports ceased operations, 1 body recovered" },
   { date: "Mar 17", vessel: "Gas Al Ahmadiah (Kuwait)", location: "23nm E of Fujairah", details: "Minor structural damage" },
+  { date: "Mar 21", vessel: "Unknown vessel", location: "15nm N of Sharjah, UAE", details: "Projectile explosion nearby — UKMTO classified as 'suspicious activity'" },
 ];
+// Note: UKMTO has recorded 21 confirmed maritime incidents in the Strait of Hormuz since Feb 28. Last confirmed Iranian attack on a vessel was Mar 11. Daily oil exports from Middle East fallen by at least 60% since war start.
 
 // ===== ANUSHKA'S TAKES =====
 const analysisData = [
