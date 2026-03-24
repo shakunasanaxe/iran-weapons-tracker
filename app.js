@@ -41,7 +41,11 @@ function initBanner() {
     { num: metadataStats.bahInterceptions, lbl: 'Bahrain Interceptions' },
     { num: metadataStats.uaeInterceptions, lbl: 'UAE Interceptions' },
     { num: metadataStats.jordanInterceptions, lbl: 'Jordan Interceptions' },
-    { num: metadataStats.weeksExpected, lbl: 'More Weeks Expected' },
+    { num: metadataStats.israelTotalInjuries, lbl: 'Israeli Injuries' },
+    { num: metadataStats.warCasualties, lbl: 'Total War Casualties' },
+    { num: metadataStats.lebDeathToll, lbl: 'Lebanon Deaths' },
+    { num: metadataStats.lebDisplaced, lbl: 'Displaced in Lebanon' },
+    { num: metadataStats.weeksExpected, lbl: 'End Date' },
   ];
 
   // Duplicate for infinite scroll
@@ -423,20 +427,20 @@ function initCharts() {
     new Chart(iranCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20, 18, 15, 16],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20, 18, 15, 16, 14, 12],
           backgroundColor: 'rgba(194,24,91,0.8)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30, 25, 20, 55],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30, 25, 20, 55, 40, 30],
           backgroundColor: 'rgba(244,162,97,0.8)',
           borderRadius: 3,
         }, {
           label: 'Cruise Missiles',
-          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+          data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
           backgroundColor: 'rgba(123,45,142,0.8)',
           borderRadius: 3,
         }]
@@ -459,15 +463,15 @@ function initCharts() {
     new Chart(usCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-20', 'Mar 21-22'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-20', 'Mar 21-24'],
         datasets: [{
           label: 'Air Sorties',
-          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 900, 850],
+          data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 900, 750],
           backgroundColor: 'rgba(21,101,192,0.8)',
           borderRadius: 3,
         }, {
           label: 'Targets Struck',
-          data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 550, 500],
+          data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 550, 450],
           backgroundColor: 'rgba(30,136,229,0.6)',
           borderRadius: 3,
         }, {
@@ -495,16 +499,16 @@ function initCharts() {
     new Chart(launcherCtx, {
       type: 'line',
       data: {
-        labels: ['Feb 28', 'Mar 2', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 19', 'Mar 22'],
+        labels: ['Feb 28', 'Mar 2', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 19', 'Mar 22', 'Mar 24'],
         datasets: [{
           label: 'Active Launchers',
-          data: [430, 380, 320, 270, 210, 150, 140, 130, 120],
+          data: [430, 380, 320, 270, 210, 150, 140, 130, 120, 115],
           borderColor: '#e63946',
           backgroundColor: 'rgba(230,57,70,0.1)',
           fill: true, tension: 0.3, pointRadius: 5,
         }, {
           label: 'Destroyed/Ineffective',
-          data: [0, 50, 110, 160, 220, 280, 290, 300, 310],
+          data: [0, 50, 110, 160, 220, 280, 290, 300, 310, 315],
           borderColor: '#2a9d8f',
           backgroundColor: 'rgba(42,157,143,0.1)',
           fill: true, tension: 0.3, pointRadius: 5,
@@ -525,10 +529,10 @@ function initCharts() {
     new Chart(strikeCtx, {
       type: 'line',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24'],
         datasets: [{
           label: 'Total Iranian Daily Launches',
-          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50, 43, 35, 71],
+          data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50, 43, 35, 71, 54, 42],
           borderColor: '#e9c46a',
           backgroundColor: 'rgba(233,196,106,0.15)',
           fill: true, tension: 0.3, pointRadius: 5,
@@ -550,15 +554,15 @@ function initCharts() {
     new Chart(fireCtx, {
       type: 'bar',
       data: {
-        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22'],
+        labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24'],
         datasets: [{
           label: 'Ballistic Missiles',
-          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20, 18, 15, 16],
+          data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20, 18, 15, 16, 14, 12],
           backgroundColor: 'rgba(230,57,70,0.7)',
           borderRadius: 3,
         }, {
           label: 'Drones',
-          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30, 25, 20, 55],
+          data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30, 25, 20, 55, 40, 30],
           backgroundColor: 'rgba(244,162,97,0.7)',
           borderRadius: 3,
         }]

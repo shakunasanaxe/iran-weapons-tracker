@@ -415,12 +415,44 @@ const timelineData = [
     date: "Mar 23",
     dateLabel: "23 March 2026",
     dayNum: 24,
-    summary: "Iran threatens to completely shut Strait of Hormuz and launch retaliatory strikes on regional energy/water infrastructure if US attacks power plants; verified footage shows fire and smoke over Karaj after air attack; Australia and Singapore sign energy cooperation deal amid Hormuz supply crunch",
+    summary: "Trump orders 5-day pause on strikes against Iranian power plants after 'productive' talks — Tehran denies negotiations as 'fake news'; US-Israeli strikes hit Isfahan gas station and Khorramshahr pipeline; China's envoy urges ceasefire; AWS Bahrain disrupted again by drone activity; 7 Kuwait power lines out; Lebanon death toll reaches 1,039",
     events: [
+      { text: "Trump ordered 5-day postponement of all strikes on Iranian power plants and energy infrastructure, citing 'very good and productive' conversations with Tehran over past two days toward 'complete and total resolution of hostilities'", cat: "us" },
+      { text: "Tehran denied any negotiations with the US. Parliament Speaker Qalibaf called reports 'fake news' aimed at 'manipulating financial and oil markets'", cat: "iran" },
+      { text: "US-Israeli strikes hit Isfahan natural gas administration building and gas pressure reduction station (homes nearby damaged). In Khorramshahr, a natural gas pipeline belonging to a power plant was targeted — no casualties, power supply uninterrupted", cat: "us" },
       { text: "Iran declared it will completely shut the Strait of Hormuz and launch retaliatory attacks on regional energy and water infrastructure if the US attacks its power plants", cat: "iran" },
+      { text: "Iran said it maintains 'firm control' over the Persian Gulf and the Strait of Hormuz, stressing regional security does not require foreign intervention", cat: "iran" },
       { text: "Al Jazeera verified footage showing columns of fire and smoke rising over Karaj, west of Tehran, following an air attack", cat: "us" },
-      { text: "Australia and Singapore signed agreement to ramp up coordination to ensure uninterrupted trade in diesel and liquefied natural gas amid the ongoing war", cat: "europe" },
-      { text: "Countries worldwide scrambling to secure energy supply amid supply crunch resulting from closure of the Strait of Hormuz, through which a fifth of the world's oil exports transit", cat: "maritime" },
+      { text: "China's Middle East envoy Zhai Jun said the war 'should never have happened' — casualties exceeding 21,000 and surpassing last year's 12-day conflict. China urged immediate halt to military operations and called on US and Israel to 'cease military action and return to dialogue'", cat: "europe" },
+      { text: "China conducted intensive mediation — FM Wang Yi held calls with counterparts from Russia, Iran, Afghanistan, France, Israel, Saudi Arabia, UAE, UK. Envoy Zhai said protection of civilians is a 'red line' and Strait of Hormuz shipping must be upheld", cat: "europe" },
+      { text: "Amazon Web Services' Bahrain region 'disrupted' by drone activity for second time this month. AWS migrating customers to alternate regions. Extent of damage and recovery timeline not disclosed", cat: "gulf" },
+      { text: "Kuwait reported 7 overhead power transmission lines out of service across several areas due to falling shrapnel from air defence interception operations", cat: "gulf" },
+      { text: "Netanyahu summoned coalition party leaders for urgent meeting linked to US contacts regarding potential agreement with Iran", cat: "us" },
+      { text: "US set April 9 as potential date to end the war, amid expectations of upcoming US-Iran talks (Israeli media)", cat: "us" },
+      { text: "Trump said if the US reaches a deal with Iran, the US will take the country's enriched uranium", cat: "us" },
+      { text: "US denied that an F-15 fighter jet was shot down over Kuwait, calling claims part of an Iranian 'disinformation campaign'", cat: "us" },
+      { text: "Israeli Health Ministry reported 60 people injured in Iranian attacks on Monday, pushing total injuries to over 4,700 since Feb 28", cat: "iran" },
+      { text: "Israeli army carried out three airstrikes on southern suburbs of Beirut", cat: "us" },
+      { text: "Death toll from Israeli attacks on Lebanon reached 1,039 since Mar 2. Israeli attacks have displaced over 1.16 million people (top Lebanese official)", cat: "us" },
+      { text: "USS Gerald R. Ford arrived at Crete's Naval Support Activity Souda Bay for 'maintenance and repairs following operations in the Red Sea'", cat: "us" },
+      { text: "Israeli force advanced into southern Syria's Quneitra province", cat: "us" },
+      { text: "US delegation arriving in Pakistan 'in a day or two' for possible talks to end the Iran war (Islamabad Foreign Ministry sources)", cat: "us" },
+      { text: "Australia and Singapore signed agreement to ramp up coordination on diesel and LNG trade amid Hormuz supply crunch", cat: "europe" },
+      { text: "UK PM welcomed reports of US-Iran talks, saying top priority is 'swift resolution' of the conflict", cat: "europe" },
+      { text: "UN Secretary-General Guterres condemned Israeli attacks against Palestinians in the West Bank", cat: "europe" },
+      { text: "Colombian military C-130 Hercules crashed after takeoff in Putumayo — 66 of 125 on board killed (unrelated to Iran conflict)", cat: "europe" },
+      { text: "Countries worldwide scrambling to secure energy supply amid supply crunch from Strait of Hormuz closure — a fifth of world oil exports transit through it", cat: "maritime" },
+    ]
+  },
+  {
+    date: "Mar 24",
+    dateLabel: "24 March 2026",
+    dayNum: 25,
+    summary: "Iran launches multiple missile waves at Israel despite Trump's pause announcement — sirens in Tel Aviv, blasts from interceptions heard; 6 injured across 4 sites in Tel Aviv; homes damaged in northern Israel by interception debris",
+    events: [
+      { text: "Iran launched multiple waves of missiles at Israel after Trump's pause announcement. Sirens across Israel including Tel Aviv; blasts from interceptions heard", cat: "iran" },
+      { text: "Six people lightly injured at four different sites in Tel Aviv. Police handling 'several impact sites of munitions.' Videos showed a partially gutted building and vehicles on fire", cat: "iran" },
+      { text: "Homes in northern Israel damaged by falling debris following an interception. No deaths reported", cat: "iran" },
     ]
   },
 ];
@@ -446,7 +478,8 @@ const countryAttacksData = [
       "4 nationals arrested for spying for IRGC",
       "Ma'ameer industrial area targeted — limited damage (Mar 5)",
       "Mar 20: intercepted 2 missiles and 4 drones. IRGC claimed targeting US Patriot system in Bahrain",
-      "Mar 22: intercepted 2 drones and 2 missiles. IRGC claimed targeting US Fifth Fleet base in Manama"
+      "Mar 22: intercepted 2 drones and 2 missiles. IRGC claimed targeting US Fifth Fleet base in Manama",
+      "Mar 23: AWS Bahrain region 'disrupted' by drone activity for 2nd time — Amazon migrating customers to alternate regions"
     ]
   },
   {
@@ -515,7 +548,8 @@ const countryAttacksData = [
       "Italian MQ-9 Reaper destroyed by Iranian drone at Ali Al Salem (Mar 15)",
       "Army confronting hostile missile and drone attacks; National Guard shot down several drones (Mar 19)",
       "Mar 20: intercepted 15 of 25 drones — 8 landed harmlessly, 2 hit national oil company",
-      "Mar 22: intercepted 4 of 7 drones, 3 fell in open spaces"
+      "Mar 22: intercepted 4 of 7 drones, 3 fell in open spaces",
+      "Mar 23: 7 overhead power transmission lines out of service across several areas due to falling shrapnel from interceptions"
     ]
   },
   {
@@ -543,7 +577,7 @@ const countryAttacksData = [
     country: "🇮🇱 Israel",
     flag: "🇮🇱",
     color: "#0d47a1",
-    stats: { attacks: "400+ ballistic missiles since Feb 28", cluster: "~70% cluster munitions by Mar 22", casualties: "~200 injured in Dimona/Arad alone", interception: "92% interception rate" },
+    stats: { attacks: "400+ ballistic missiles since Feb 28", cluster: "~70% cluster munitions by Mar 22", casualties: "4,700+ total injuries since Feb 28", interception: "92% interception rate" },
     details: [
       "Tel Aviv building struck — 1 killed, dozens injured; sirens failed (Feb 28)",
       "Beit Shemesh synagogue shelter — 9 killed, dozens injured; largest single-incident casualties (Mar 1)",
@@ -556,7 +590,9 @@ const countryAttacksData = [
       "Only 5 missiles with conventional warheads struck populated areas in Israel throughout the war. 92% interception rate, close to April/October 2024 and June 2025 rates",
       "Cluster munitions hit Tel Aviv area on Mar 22 — impacts in Jaffa, Petah Tikva, Bat Yam, Holon",
       "IDF says Iran now firing mostly from central Iran (Esfahan Province) after western launchers destroyed",
-      "In-person classes cancelled across Israel on Mar 22-23"
+      "In-person classes cancelled across Israel on Mar 22-23",
+      "Mar 23: 60 injured in Iranian attacks on Monday alone; total injuries surpass 4,700 since Feb 28",
+      "Mar 24: Multiple missile waves despite Trump pause — 6 injured at 4 sites in Tel Aviv, homes damaged in northern Israel by interception debris"
     ]
   },
   {
@@ -909,6 +945,16 @@ const weaponsDatabase = {
           { name: "Offensive Drones", range: "Various", type: "UAV", details: "Reports of direct drone sales to Iran in the days leading up to February 2026 strikes.", icon: "fa-plane-up" },
           { name: "Electronic Warfare Systems", range: "—", type: "EW", details: "Reportedly supplied systems designed to jam stealth aircraft. Navigational support via BeiDou.", icon: "fa-tower-broadcast" },
         ]
+      },
+      diplomacy: {
+        label: "Diplomatic Mediation",
+        icon: "fa-handshake",
+        items: [
+          { name: "Envoy Zhai Jun Shuttle Diplomacy", range: "—", type: "Mediation", details: "Special envoy completed round of shuttle diplomacy across Middle East by Mar 23. Said the war 'should never have happened' with casualties exceeding 21,000. Called on US and Israel to 'cease military action and return to dialogue.'", icon: "fa-plane-departure" },
+          { name: "FM Wang Yi Phone Diplomacy", range: "—", type: "Multilateral outreach", details: "Foreign Minister Wang Yi held calls with counterparts from Russia, Iran, Afghanistan, France, Israel, Saudi Arabia, UAE, and UK since conflict began.", icon: "fa-phone" },
+          { name: "Civilian Protection Red Line", range: "—", type: "Policy position", details: "China declared protection of civilians a 'red line that must not be crossed.' Demanded non-military locations — especially energy, economic, and livelihood facilities — not be targeted.", icon: "fa-shield-halved" },
+          { name: "Hormuz Shipping Freedom", range: "—", type: "Policy position", details: "China reiterated that security of international shipping lanes, including the Strait of Hormuz, must be upheld. Envoy Zhai said 'the one who tied the bell should be the one to untie it' — pointing at US and Israel.", icon: "fa-anchor" },
+        ]
       }
     }
   },
@@ -1032,24 +1078,28 @@ const weaponImages = {
 
 // ===== METADATA STATS =====
 const metadataStats = {
-  targetsStruck: "9,000+",
-  airSorties: "8,500+",
+  targetsStruck: "9,500+",
+  airSorties: "9,000+",
   iranianShipsDestroyed: "100+",
   launchersNeutralized: "260–290",
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "Ongoing",
+  weeksExpected: "April 9 target",
   iranDailyMissiles: "~18 (down from 182)",
   iranDailyDrones: "~25 (down from hundreds)",
   clusterMunitionRate: "~70%",
-  bahInterceptions: "130+ missiles + 220+ drones",
-  uaeInterceptions: "360+ missiles + 1,750+ drones",
+  bahInterceptions: "134+ missiles + 224+ drones",
+  uaeInterceptions: "365+ missiles + 1,780+ drones",
   jordanInterceptions: "187 of 204",
   israelInterceptionRate: "92%",
   totalIranMissilesAtIsrael: "400+",
+  israelTotalInjuries: "4,700+",
   oilExportDecline: "60%+",
   maritimeIncidents: "21 confirmed (UKMTO)",
+  warCasualties: "21,000+",
+  lebDeathToll: "1,039 since Mar 2",
+  lebDisplaced: "1.16 million",
 };
 
 // ===== MARITIME ATTACKS =====
