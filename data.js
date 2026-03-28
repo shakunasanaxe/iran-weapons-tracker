@@ -453,6 +453,59 @@ const timelineData = [
       { text: "Iran launched multiple waves of missiles at Israel after Trump's pause announcement. Sirens across Israel including Tel Aviv; blasts from interceptions heard", cat: "iran" },
       { text: "Six people lightly injured at four different sites in Tel Aviv. Police handling 'several impact sites of munitions.' Videos showed a partially gutted building and vehicles on fire", cat: "iran" },
       { text: "Homes in northern Israel damaged by falling debris following an interception. No deaths reported", cat: "iran" },
+      { text: "Iranian drones struck a fuel tank at Kuwait International Airport, starting a fire. Damage reported but no casualties", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 25",
+    dateLabel: "25 March 2026",
+    dayNum: 26,
+    summary: "Combined force strikes Mashhad (northeastern-most targets of war) near Iran's 2nd largest city; CENTCOM says 10,000+ sites struck since Feb 28; India's Jaishankar calls Pakistan a 'dalal' for mediating between US and Iran",
+    events: [
+      { text: "Combined force conducted strikes near Mashhad International Airport, Khorasan Razavi Province — the northeastern-most strikes of the war. 14th Artesh Air Force Tactical Airbase and 5th Artesh Ground Forces Aviation Base co-located at the airport", cat: "us" },
+      { text: "Anti-regime media posted footage of smoke plumes rising across Mashhad, Iran's second most-populated city, suggesting multiple targets struck in the area", cat: "us" },
+      { text: "CENTCOM Commander Admiral Brad Cooper confirmed the combined force has struck over 10,000 sites across Iran since the war began", cat: "us" },
+      { text: "India's External Affairs Minister Jaishankar called Pakistan a 'dalal' (broker) for its mediation role between the US and Iran, saying Pakistan has played this role since 1981", cat: "europe" },
+      { text: "Jordan's military shot down 5 missiles and 1 drone launched from Iran in 24 hours. 17 reports of shrapnel and projectiles across Jordan", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Mar 26",
+    dateLabel: "26 March 2026",
+    dayNum: 27,
+    summary: "IDF kills IRGC Navy Commander Tangsiri in Bandar Abbas; Israel strikes Tehran residential area; US 15-point peace plan sent to Tehran via Pakistan; FM Araghchi says Hormuz 'closed only to enemies'; 2 killed in Abu Dhabi (Indian, Pakistani)",
+    events: [
+      { text: "IDF killed IRGC Navy Commander Rear Admiral Alireza Tangsiri in Bandar Abbas. Tangsiri served as IRGC Navy commander since 2018, previously commanded the Saheb ol Zaman Naval District controlling the Strait of Hormuz. US sanctioned him in June 2019 for threatening to close Hormuz and overseeing vessel sabotage", cat: "us" },
+      { text: "IDF also killed IRGC Navy Intelligence Deputy Behnam Rezaei in Bandar Abbas, responsible for regional intelligence collection and coordination", cat: "us" },
+      { text: "IDF launched wave of strikes targeting infrastructure across Tehran. Iranian SNN News Agency said strikes hit a residential area with rescuers searching rubble", cat: "us" },
+      { text: "Combined force continued strikes near Mashhad, marking the furthest northeast targets of the campaign as strikes sweep west to east across Iran", cat: "us" },
+      { text: "Reports of a US 15-point peace plan sent to Tehran via Pakistan — offering ceasefire and sanctions relief in return for abandoning nuclear programme and reopening the Strait of Hormuz. Trump said the US was making progress in negotiations", cat: "us" },
+      { text: "Iranian FM Araghchi said the Strait of Hormuz is 'closed only to enemies' — 'there is no reason to allow the ships of our enemies and their allies to pass.' Tehran's armed forces had 'provided safe passage' for ships from friendly nations", cat: "iran" },
+      { text: "Two people — an Indian and a Pakistani — killed and three severely injured in Abu Dhabi from shrapnel of an intercepted missile", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Mar 27",
+    dateLabel: "27 March 2026",
+    dayNum: 28,
+    summary: "Pakistan to host quadrilateral meeting (Turkey, Egypt, Saudi Arabia) on Mar 30 — first since war began; Pakistan delivers US 15-point peace plan to Iran; Iranian missile strike on Prince Sultan Air Base injures 10 US troops",
+    events: [
+      { text: "Islamabad set to host quadrilateral meeting of foreign ministers from Turkey, Egypt, and Saudi Arabia on March 30 to discuss the war — first such meeting since conflict began", cat: "europe" },
+      { text: "Turkey's FM Fidan said talks were originally planned for Turkey but shifted to Pakistan. Pakistan has emerged as key intermediary, delivering the US 15-point peace plan to Iran", cat: "europe" },
+      { text: "Iranian missile strike on Prince Sultan Air Base in Saudi Arabia injured 10 US servicemembers, including two seriously, and damaged several US refuelling aircraft", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 28",
+    dateLabel: "28 March 2026",
+    dayNum: 29,
+    summary: "First missile fired from Yemen (Houthis join war); 10 US troops injured at Saudi air base; Trump says war 'not finished yet' with 3,554 targets remaining; USS George H.W. Bush carrier deploying; 1,000+ troops being sent",
+    events: [
+      { text: "Israel's military identified the launch of a missile from Yemen toward Israeli territory — the first Houthi launch since the war began. Aerial defence systems operated to intercept", cat: "iran" },
+      { text: "At least 10 US service members injured in Iranian attack on an air base in Saudi Arabia", cat: "iran" },
+      { text: "Trump said the war is 'not finished yet' and the US has 'another 3,554' targets left to hit", cat: "us" },
+      { text: "Secretary of State Rubio said the US can achieve its objectives 'without any ground troops' and the war could end in weeks", cat: "us" },
+      { text: "USS George H.W. Bush aircraft carrier expected to deploy to the conflict area. Unclear if it will join or replace carriers already in region. Over 1,000 additional service members being deployed", cat: "us" },
     ]
   },
 ];
@@ -508,7 +561,8 @@ const countryAttacksData = [
       "Mar 20: intercepted 4 missiles and 26 drones",
       "Mar 21: UKMTO reported projectile explosion 15nm north of Sharjah (classified as 'suspicious activity')",
       "Mar 22: intercepted 25 drones and 4 ballistic missiles",
-      "UAE dismantled Hezbollah/Iran-funded 'terrorist network' using commercial cover for money laundering (Mar 20)"
+      "UAE dismantled Hezbollah/Iran-funded 'terrorist network' using commercial cover for money laundering (Mar 20)",
+      "Mar 26: Two people (Indian and Pakistani) killed, three severely injured in Abu Dhabi from shrapnel of intercepted missile"
     ]
   },
   {
@@ -549,7 +603,8 @@ const countryAttacksData = [
       "Army confronting hostile missile and drone attacks; National Guard shot down several drones (Mar 19)",
       "Mar 20: intercepted 15 of 25 drones — 8 landed harmlessly, 2 hit national oil company",
       "Mar 22: intercepted 4 of 7 drones, 3 fell in open spaces",
-      "Mar 23: 7 overhead power transmission lines out of service across several areas due to falling shrapnel from interceptions"
+      "Mar 23: 7 overhead power transmission lines out of service across several areas due to falling shrapnel from interceptions",
+      "Mar 24: Iranian drones struck fuel tank at Kuwait International Airport — fire, damage, no casualties"
     ]
   },
   {
@@ -570,7 +625,9 @@ const countryAttacksData = [
       "5 US Air Force refueling planes at Prince Sultan Air Base damaged (Mar 14)",
       "Two refineries attacked by Iran (Mar 19). Riyadh declared 'the little trust that remained in Iran has been completely shattered'",
       "Mar 20: intercepted 38 drones",
-      "Mar 22: intercepted 21 drones and 3 ballistic missiles (including one heading to Riyadh). IRGC claimed targeting Prince Sultan Air Base"
+      "Mar 22: intercepted 21 drones and 3 ballistic missiles (including one heading to Riyadh). IRGC claimed targeting Prince Sultan Air Base",
+      "Mar 27: Iranian missile strike on Prince Sultan Air Base injured 10 US servicemembers (2 seriously) and damaged several US refuelling aircraft",
+      "Mar 28: At least 10 US service members injured in another Iranian attack on air base in Saudi Arabia"
     ]
   },
   {
@@ -592,7 +649,8 @@ const countryAttacksData = [
       "IDF says Iran now firing mostly from central Iran (Esfahan Province) after western launchers destroyed",
       "In-person classes cancelled across Israel on Mar 22-23",
       "Mar 23: 60 injured in Iranian attacks on Monday alone; total injuries surpass 4,700 since Feb 28",
-      "Mar 24: Multiple missile waves despite Trump pause — 6 injured at 4 sites in Tel Aviv, homes damaged in northern Israel by interception debris"
+      "Mar 24: Multiple missile waves despite Trump pause — 6 injured at 4 sites in Tel Aviv, homes damaged in northern Israel by interception debris",
+      "Mar 28: First missile launched from Yemen (Houthis) toward Israeli territory since war began — aerial defences operating to intercept"
     ]
   },
   {
@@ -606,7 +664,8 @@ const countryAttacksData = [
       "Muwaffaq Salti Air Base — missile intercepted (Mar 3)",
       "Azraq: drone crashed wounding a girl, damaging homes (Mar 4)",
       "THAAD radar system damaged and replaced (Mar 6)",
-      "Bundeswehr field camp in eastern Jordan struck (Mar 1)"
+      "Bundeswehr field camp in eastern Jordan struck (Mar 1)",
+      "Mar 25: Air force shot down 5 missiles and 1 drone from Iran in 24 hours. 17 reports of shrapnel/projectiles across Jordan"
     ]
   },
   {
@@ -851,6 +910,8 @@ const weaponsDatabase = {
           { name: "Targeted Killing — Intelligence Min. Khatib", range: "—", type: "Decapitation strike", details: "Israel confirmed killing of Iran's Intelligence Minister Khatib in overnight air attack on Tehran (Mar 18). Other senior intelligence officials also eliminated.", icon: "fa-crosshairs" },
           { name: "South Pars Gas Facilities", range: "—", type: "Strategic infrastructure", details: "Offshore natural gas facilities associated with South Pars field attacked (Mar 18). South Pars is Iran's largest natural gas field.", icon: "fa-fire" },
           { name: "Taleghan Compound (Parchin)", range: "—", type: "Nuclear strike", details: "Covert nuclear weapons development site southeast of Tehran. Struck by Israeli Air Force on Mar 20 based on precise intelligence to prevent nuclear weapon development.", icon: "fa-radiation" },
+          { name: "IRGC Navy Commander Tangsiri (Killed)", range: "—", type: "Decapitation strike", details: "Rear Admiral Alireza Tangsiri killed in Bandar Abbas on Mar 26. IRGC Navy commander since 2018, controlled Strait of Hormuz operations via Saheb ol Zaman Naval District. US-sanctioned since June 2019. IRGC Navy Intel Deputy Rezaei also killed.", icon: "fa-crosshairs" },
+          { name: "Mashhad Airport Strikes", range: "—", type: "Airbase strike", details: "Combined force struck near Mashhad International Airport on Mar 25-26 — northeastern-most targets of the war. 14th Artesh Air Force Tactical Airbase and 5th Ground Forces Aviation Base co-located. Iran's 2nd most-populated city.", icon: "fa-plane-slash" },
           { name: "Kuh-e Barjamali Assembly Facility", range: "—", type: "Missile production", details: "Short/medium-range ballistic missile final assembly site at Khojir Aerospace Complex. CENTCOM published damage imagery from Mar 7 strikes. Produced Fath-360, Fateh-110, Zolfaghar, and Haj Qasem missiles. Iran supplied Fath-360s to Russia for Ukraine.", icon: "fa-industry" },
           { name: "Khojir Aerospace Complex", range: "—", type: "Defence industrial", details: "IDF struck Defence Ministry weapons production/storage site at this complex east of Tehran (Mar 22). Extensive damage to planetary mixer and casting sites confirmed from Mar 4 satellite imagery.", icon: "fa-industry" },
           { name: "Decapitation — Basij Leadership", range: "—", type: "Targeted killing", details: "IDF killed Basij Commander Brig Gen Soleimani and deputy Ghoreyshi (Mar 17), Basij Intelligence Chief Esmail Ahmadi (Mar 20), IRGC Spokesperson Brig Gen Naeini (Mar 20), IRGC Aerospace Commander in Esfahan Ghoreyshi (Mar 20), and Intel Ministry official Shamestan (Mar 20).", icon: "fa-crosshairs" },
@@ -1078,8 +1139,8 @@ const weaponImages = {
 
 // ===== METADATA STATS =====
 const metadataStats = {
-  targetsStruck: "9,500+",
-  airSorties: "9,000+",
+  targetsStruck: "10,000+",
+  airSorties: "9,500+",
   iranianShipsDestroyed: "100+",
   launchersNeutralized: "260–290",
   totalLaunchers: "410–440",

@@ -88,15 +88,113 @@ h1, h2, h3, h4, h5, h6 {
 }
 .breaking-text {
   display: inline-block;
-  font-family: var(--font-text);
-  font-size: 0.95rem;
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   color: #fff;
-  animation: tickerScroll 45s linear infinite;
+  animation: tickerScroll 30s linear infinite;
   padding-left: 100%;
 }
 @keyframes tickerScroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
+}
+
+/* ===== FEATURED PODCAST ===== */
+.featured-podcast {
+  background: linear-gradient(135deg, #1a0a2e 0%, #2c1654 100%);
+  border-bottom: 1px solid rgba(233,196,106,0.3);
+  padding: 14px 0;
+}
+.podcast-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.podcast-badge {
+  background: var(--accent-gold);
+  color: #1a0a2e;
+  font-family: var(--font-header);
+  font-weight: 800;
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 4px;
+}
+.podcast-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+.podcast-text {
+  flex: 1;
+}
+.podcast-title {
+  font-family: var(--font-header);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  margin: 0 0 6px 0;
+}
+.podcast-desc {
+  font-family: var(--font-text);
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.75);
+  margin: 0;
+  line-height: 1.4;
+}
+.podcast-embed {
+  flex-shrink: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+}
+.podcast-embed iframe {
+  display: block;
+}
+@media (max-width: 768px) {
+  .podcast-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .podcast-embed iframe {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+.featured-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 7px 14px;
+  background: rgba(233,196,106,0.12);
+  border: 1px solid rgba(233,196,106,0.3);
+  border-radius: 4px;
+  color: var(--accent-gold);
+  font-family: var(--font-header);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.featured-link:hover {
+  background: rgba(233,196,106,0.22);
+  border-color: var(--accent-gold);
+}
+.featured-link .fa-external-link-alt {
+  font-size: 0.7rem;
+  opacity: 0.6;
 }
 
 /* ===== METADATA BANNER ===== */
