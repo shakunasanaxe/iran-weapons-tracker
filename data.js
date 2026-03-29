@@ -506,6 +506,25 @@ const timelineData = [
       { text: "Trump said the war is 'not finished yet' and the US has 'another 3,554' targets left to hit", cat: "us" },
       { text: "Secretary of State Rubio said the US can achieve its objectives 'without any ground troops' and the war could end in weeks", cat: "us" },
       { text: "USS George H.W. Bush aircraft carrier expected to deploy to the conflict area. Unclear if it will join or replace carriers already in region. Over 1,000 additional service members being deployed", cat: "us" },
+      { text: "An expeditionary force of 2,500 US Marines arrived in the Middle East, marking a new escalation on the 30th day of the war", cat: "us" },
+      { text: "Parliament Speaker Ghalibaf accused the US of engaging in a front of diplomacy while 'secretly planning a ground invasion.' Said Iran's forces were 'waiting for American soldiers to enter on the ground so they can set them on fire'", cat: "iran" },
+      { text: "Ghalibaf described the US 15-point plan as an attempt to achieve by diplomacy what the US 'failed to achieve in war.' Said Iran would not accept 'humiliation' and is 'certain we can punish America'", cat: "iran" },
+    ]
+  },
+  {
+    date: "Mar 29",
+    dateLabel: "29 March 2026",
+    dayNum: 30,
+    summary: "Foreign ministers of Pakistan, Turkey, Egypt and Saudi Arabia meet in Islamabad to de-escalate; US 15-point peace plan delivered to Iran via Pakistan — Tehran rebuffs; Israel bombards Iran while Iran fires 6+ missile barrages at Israel (16 killed total since Feb 28); Israeli forces advance toward Litani River in Lebanon; 6 civilians killed in US-Israeli strike on Iranian village",
+    events: [
+      { text: "Foreign ministers from Pakistan, Turkey, Egypt and Saudi Arabia met in Islamabad looking to de-escalate the war — the first such quadrilateral meeting since the conflict began", cat: "europe" },
+      { text: "The Trump administration sent Iran a 15-point plan to end the conflict, delivered via Pakistani mediators. Iranian officials publicly rebuffed the offer", cat: "us" },
+      { text: "Ghalibaf accused Trump of engaging in diplomacy while 'secretly planning a ground invasion.' Described the 15-point plan as an attempt to achieve by diplomacy what the US 'failed to achieve in war'", cat: "iran" },
+      { text: "Israel bombarded Iran with an intense wave of airstrikes. Iran responded by firing ballistic missiles at Israel — at least six barrages since midnight, without causing casualties. Many intercepted, but some have slipped through since Feb 28, killing at least 16 people total", cat: "iran" },
+      { text: "Six civilians killed in US-Israeli strike on residential area in the village of Osmavandan, Iran. Two killed immediately, four died later in hospital. Five homes destroyed entirely, 22 severely damaged", cat: "us" },
+      { text: "Tehran headquarters of Al Araby TV (Qatari-owned) damaged in airstrikes — missile struck 2nd and 3rd floors of commercial building in Heravi district. 10 people injured", cat: "us" },
+      { text: "Lebanese military source told Al Jazeera that Israeli forces are advancing in multiple areas of southern Lebanon — bypassed Aitaroun, reached outskirts of Wadi al-Salouqi, entered al-Bayada, advanced toward Litani River from south of Qantara", cat: "us" },
+      { text: "Constant air-raid sirens and threat of attacks has kept many schools and businesses shuttered in Israel for about a month of war", cat: "iran" },
     ]
   },
 ];
@@ -650,7 +669,8 @@ const countryAttacksData = [
       "In-person classes cancelled across Israel on Mar 22-23",
       "Mar 23: 60 injured in Iranian attacks on Monday alone; total injuries surpass 4,700 since Feb 28",
       "Mar 24: Multiple missile waves despite Trump pause — 6 injured at 4 sites in Tel Aviv, homes damaged in northern Israel by interception debris",
-      "Mar 28: First missile launched from Yemen (Houthis) toward Israeli territory since war began — aerial defences operating to intercept"
+      "Mar 28: First missile launched from Yemen (Houthis) toward Israeli territory since war began — aerial defences operating to intercept",
+      "Mar 29: At least 6 missile barrages fired at Israel since midnight — no casualties in latest wave. At least 16 people killed total since Feb 28. Schools and businesses shuttered for ~1 month"
     ]
   },
   {
