@@ -527,6 +527,53 @@ const timelineData = [
       { text: "Constant air-raid sirens and threat of attacks has kept many schools and businesses shuttered in Israel for about a month of war", cat: "iran" },
     ]
   },
+  {
+    date: "Mar 30",
+    dateLabel: "30 March 2026",
+    dayNum: 31,
+    summary: "Extensive strikes across Iran — Tehran, Tabriz, Karaj, Yazd, Qom, Kurdistan, Bandar Abbas, Parchin, Kish Island; widespread power outages in Tehran/Alborz; 50,000+ US special forces in Middle East (NYT); Rasul-Allah Corps commander eliminated; UAE cumulative: 425 missiles, 15 cruise, 1,941 drones; Kuwaiti oil tanker ablaze in Dubai port; Indian worker killed in Kuwait; 404 total Iranian attack waves on Israel; 19 killed, 6,000+ injured in Israel",
+    events: [
+      { text: "Two successive Iranian missile salvos targeted central Israel around 5:30am — no injuries reported (Times of Israel)", cat: "iran" },
+      { text: "Extensive strikes across Iran: in Tehran — ballistic missile component development site, UAV engine production facility, IRGC military industries R&D complex for ballistic missiles and satellite launchers, SA-Iran (Iran Electronics Industries) building under Defence Ministry, and Imam Hussein University (IRGC's main military academic institution)", cat: "us" },
+      { text: "Strikes also hit Tabriz (petrochemical plant), Karaj, Yazd, Qom, Kurdistan region, Bandar Abbas, Parchin, and Kish Island. Bank branches across Tehran struck. Al-Araby TV offices struck again", cat: "us" },
+      { text: "Widespread power outages reported across Tehran and Alborz provinces following damage to electrical facilities", cat: "us" },
+      { text: "More than 50,000 American special forces have entered the Middle East region (New York Times)", cat: "us" },
+      { text: "Iranian opposition sources reported elimination of Hassan Hassanzadeh, commander of the Rasul-Allah Corps — the IRGC security unit in Tehran", cat: "us" },
+      { text: "General Majid Zakariaei, commander of Iran's Natural Resources Protection Forces, died from wounds sustained in a Mar 28 strike", cat: "us" },
+      { text: "Kuwait: missile attack on military base injured 10 Kuwaiti soldiers. An Indian worker killed in strike on desalination facility and power plant", cat: "iran" },
+      { text: "Kuwaiti oil tanker hit by Iranian attack while anchored in Dubai port — set ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill. Dubai response teams extinguished fire", cat: "maritime" },
+      { text: "Iran later claimed Israel was behind the Kuwait attack", cat: "iran" },
+      { text: "UAE Defence Ministry reported 11 missiles and 27 UAVs intercepted in past 24 hours. Cumulative since war start: 425 ballistic missiles, 15 cruise missiles, 1,941 UAVs launched toward UAE", cat: "gulf" },
+      { text: "Iran's Fars news agency published list of 23 universities in Israel, Lebanon, Iraq, Qatar, UAE, and Kuwait as potential attack targets — following strikes on Iranian academic institutions", cat: "iran" },
+      { text: "Convoys of Iraqi Shiite militias (PMF) entered Abadan in western Iran to assist the regime. PMF also transferring large sums of money and gold to Iran", cat: "iran" },
+      { text: "Iranian suicide UAV struck Victoria Base in Baghdad, damaging an Antonov 132 aircraft of the Iraqi Air Force", cat: "iran" },
+      { text: "Mar 29 summary: 11 Iranian attack waves against Israel using ballistic missiles — 70% targeting southern Israel, 10% Tel Aviv, 10% north. 404 total attack waves since war began", cat: "iran" },
+      { text: "Since Feb 28: 19 Israeli civilians killed by Iranian fire. Over 6,000 injured (direct hits, interception debris, secondary damage). Over 6,000 Israelis evacuated from damaged homes", cat: "iran" },
+      { text: "Mar 29: 77 Hezbollah attack waves against Israel — 44 rockets/missiles, 18 UAVs. Total since Mar 2: 1,388 Hezbollah attack waves. 6 IDF soldiers and 2 civilians killed by Hezbollah fire", cat: "iran" },
+      { text: "Factory in southern Israel struck — company specialising in plant protection solutions. Highlighting impact on economic and civilian infrastructure", cat: "iran" },
+      { text: "Australia slashed fuel excise in half and encouraged public transport after national cabinet agreed to plan managing the petrol crisis from Hormuz closure", cat: "europe" },
+    ]
+  },
+  {
+    date: "Mar 31",
+    dateLabel: "31 March 2026",
+    dayNum: 32,
+    summary: "Iran rejects US 15-point plan as 'maximalist' and 'unreasonable'; FM Araghchi calls for ejecting US forces from region; missile strike on Bazan refinery in Haifa; fires at Habshan-Fujairah pipeline; parliament drafting Strait of Hormuz management law with transit fees; Israeli evacuation warnings extend to western Bekaa; Iran framing Day 31 as proof US rapid-collapse strategy failed",
+    events: [
+      { text: "Iran's Foreign Ministry spokesperson Baghaei said the US 15-point plan has 'not been welcomed' — called it 'maximalist' and 'unreasonable.' Direct negotiation with the US 'not on the agenda.' Diplomatic sources confirm broad rejection across Iranian military and diplomatic establishment", cat: "iran" },
+      { text: "FM Araghchi said on X that it is 'high time to eject US forces from across the region.' Iran maintains deep mistrust — twice in past 10 months, Iran engaged in diplomacy only to face surprise air strikes", cat: "iran" },
+      { text: "Iranian missile strike hit Bazan refinery complex in Haifa, Israel — continuation of retaliatory strikes targeting Israeli energy infrastructure. Impact on Israeli infrastructure still limited compared to Gulf attacks, partly reflecting Iran's reduced capabilities at long range versus short range (Persian Gulf)", cat: "iran" },
+      { text: "Satellite imagery showed fires at two pumping stations along the Habshan-Fujairah pipeline, which transports Abu Dhabi oil to Fujairah port bypassing the Strait of Hormuz. Widely interpreted as Iran targeting alternatives to the strait to preserve its leverage", cat: "iran" },
+      { text: "Iran's parliamentary National Security and Foreign Policy Commission has prepared a draft law for 'management of the Strait of Hormuz' including imposing transit fees on passing vessels. Foreign Ministry considers wartime blockade legally justifiable — safe passage does not apply to belligerent parties", cat: "iran" },
+      { text: "Iranian state narratives frame Day 31 as proof that the US-Israeli objective of rapid strategic collapse has failed. Growing discussion of a 'war of endurance' where time and economic disruption work in Iran's favour", cat: "iran" },
+      { text: "Israeli evacuation warnings extended into western Bekaa, Lebanon — signalling shift toward broader targeting deeper inside Lebanese territory. Interpreted as Israel fragmenting Hezbollah's operational space", cat: "us" },
+      { text: "Iran refuses to withdraw ambassador from Beirut despite Lebanese government pressure. Tehran concerned this could give Israel pretext to attack Iranian embassy", cat: "iran" },
+      { text: "Yemen drone launches toward Eilat reinforcing southern pressure front. Even low-intensity Houthi activity compels Israel to divert air defence and surveillance assets from Iran and Lebanon — advantage for Iran in war of attrition", cat: "iran" },
+      { text: "Kuwait formally protested militia activity from Iraqi territory. Growing Gulf frustration with Baghdad's inability to contain armed groups. Iraqi militias shifting from anti-US tool to source of intra-regional friction", cat: "gulf" },
+      { text: "Iran intensified domestic security — expanded arrests and counterintelligence activity reflecting concerns over information leakage and wartime dissent. Dual-track approach of external resilience messaging with internal awareness of vulnerabilities", cat: "iran" },
+      { text: "Clearer multi-front division of labour emerging: Lebanon as primary attritional theatre, Yemen as latent maritime pressure zone, Iraq as flexible arena engaging both US and Gulf states", cat: "iran" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -558,7 +605,7 @@ const countryAttacksData = [
     country: "🇦🇪 UAE",
     flag: "🇦🇪",
     color: "#2a9d8f",
-    stats: { missiles: "327+ ballistic", drones: "1,699+ detected", intercepted: "806+", cruiseMissiles: "15+", casualties: "Multiple killed" },
+    stats: { missiles: "425+ ballistic", drones: "1,941+ detected", intercepted: "1,200+", cruiseMissiles: "15+", casualties: "Multiple killed" },
     details: [
       "By Mar 18: 327 ballistic missiles, 15 cruise missiles, 1,699 drones faced since start of attacks (UAE Defence Ministry)",
       "By Mar 2: 174 ballistic missiles tracked (161 intercepted, 13 fell to sea), 689 drones (645 intercepted), 8 cruise missiles struck",
@@ -581,7 +628,10 @@ const countryAttacksData = [
       "Mar 21: UKMTO reported projectile explosion 15nm north of Sharjah (classified as 'suspicious activity')",
       "Mar 22: intercepted 25 drones and 4 ballistic missiles",
       "UAE dismantled Hezbollah/Iran-funded 'terrorist network' using commercial cover for money laundering (Mar 20)",
-      "Mar 26: Two people (Indian and Pakistani) killed, three severely injured in Abu Dhabi from shrapnel of intercepted missile"
+      "Mar 26: Two people (Indian and Pakistani) killed, three severely injured in Abu Dhabi from shrapnel of intercepted missile",
+      "Mar 30: 11 missiles and 27 UAVs intercepted in 24hrs. Cumulative: 425 ballistic, 15 cruise, 1,941 UAVs since war start",
+      "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged, possible oil spill",
+      "Mar 31: Satellite imagery showed fires at two Habshan-Fujairah pipeline pumping stations — interpreted as Iran targeting bypass routes to preserve Hormuz leverage"
     ]
   },
   {
@@ -607,7 +657,7 @@ const countryAttacksData = [
     country: "🇰🇼 Kuwait",
     flag: "🇰🇼",
     color: "#457b9d",
-    stats: { killed: "6 US soldiers + 2 Navy + 2 border guards", wounded: "67 servicemen + 38 US hospitalized" },
+    stats: { killed: "6 US soldiers + 2 Navy + 2 border guards + 1 Indian worker", wounded: "67 servicemen + 38 US + 10 Kuwaiti soldiers" },
     details: [
       "Kuwait International Airport struck by drone (Feb 28)",
       "Ali Al Salem Air Base hit multiple times (Italian forces, Canadian Camp Canada)",
@@ -623,7 +673,9 @@ const countryAttacksData = [
       "Mar 20: intercepted 15 of 25 drones — 8 landed harmlessly, 2 hit national oil company",
       "Mar 22: intercepted 4 of 7 drones, 3 fell in open spaces",
       "Mar 23: 7 overhead power transmission lines out of service across several areas due to falling shrapnel from interceptions",
-      "Mar 24: Iranian drones struck fuel tank at Kuwait International Airport — fire, damage, no casualties"
+      "Mar 24: Iranian drones struck fuel tank at Kuwait International Airport — fire, damage, no casualties",
+      "Mar 30: Missile attack on military base injured 10 Kuwaiti soldiers. Indian worker killed in strike on desalination/power plant",
+      "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill"
     ]
   },
   {
@@ -653,7 +705,7 @@ const countryAttacksData = [
     country: "🇮🇱 Israel",
     flag: "🇮🇱",
     color: "#0d47a1",
-    stats: { attacks: "400+ ballistic missiles since Feb 28", cluster: "~70% cluster munitions by Mar 22", casualties: "4,700+ total injuries since Feb 28", interception: "92% interception rate" },
+    stats: { attacks: "404 attack waves since Feb 28", cluster: "~70% cluster munitions", casualties: "19 killed, 6,000+ injured, 6,000+ evacuated", interception: "92% interception rate" },
     details: [
       "Tel Aviv building struck — 1 killed, dozens injured; sirens failed (Feb 28)",
       "Beit Shemesh synagogue shelter — 9 killed, dozens injured; largest single-incident casualties (Mar 1)",
@@ -670,7 +722,10 @@ const countryAttacksData = [
       "Mar 23: 60 injured in Iranian attacks on Monday alone; total injuries surpass 4,700 since Feb 28",
       "Mar 24: Multiple missile waves despite Trump pause — 6 injured at 4 sites in Tel Aviv, homes damaged in northern Israel by interception debris",
       "Mar 28: First missile launched from Yemen (Houthis) toward Israeli territory since war began — aerial defences operating to intercept",
-      "Mar 29: At least 6 missile barrages fired at Israel since midnight — no casualties in latest wave. At least 16 people killed total since Feb 28. Schools and businesses shuttered for ~1 month"
+      "Mar 29: At least 6 missile barrages fired at Israel since midnight — no casualties in latest wave. At least 16 people killed total since Feb 28. Schools and businesses shuttered for ~1 month",
+      "Mar 29: 11 attack waves (70% south, 10% Tel Aviv, 10% north). 404 total attack waves since war start",
+      "Mar 30: 19 civilians killed since Feb 28. Over 6,000 injured (direct hits, debris, secondary). Over 6,000 evacuated from damaged homes",
+      "Mar 31: Missile strike on Bazan refinery complex in Haifa — Iran targeting Israeli energy infrastructure"
     ]
   },
   {
@@ -1160,7 +1215,7 @@ const weaponImages = {
 // ===== METADATA STATS =====
 const metadataStats = {
   targetsStruck: "10,000+",
-  airSorties: "9,500+",
+  airSorties: "10,000+",
   iranianShipsDestroyed: "100+",
   launchersNeutralized: "260–290",
   totalLaunchers: "410–440",
@@ -1171,11 +1226,11 @@ const metadataStats = {
   iranDailyDrones: "~25 (down from hundreds)",
   clusterMunitionRate: "~70%",
   bahInterceptions: "134+ missiles + 224+ drones",
-  uaeInterceptions: "365+ missiles + 1,780+ drones",
+  uaeInterceptions: "425+ missiles + 1,941+ drones",
   jordanInterceptions: "187 of 204",
   israelInterceptionRate: "92%",
-  totalIranMissilesAtIsrael: "400+",
-  israelTotalInjuries: "4,700+",
+  totalIranMissilesAtIsrael: "404 waves",
+  israelTotalInjuries: "6,000+",
   oilExportDecline: "60%+",
   maritimeIncidents: "21 confirmed (UKMTO)",
   warCasualties: "21,000+",
@@ -1202,8 +1257,10 @@ const maritimeAttacks = [
   { date: "Mar 11", vessel: "Safesea Vishnu / Zefyros", location: "Near Iraq", details: "Iraq oil ports ceased operations, 1 body recovered" },
   { date: "Mar 17", vessel: "Gas Al Ahmadiah (Kuwait)", location: "23nm E of Fujairah", details: "Minor structural damage" },
   { date: "Mar 21", vessel: "Unknown vessel", location: "15nm N of Sharjah, UAE", details: "Projectile explosion nearby — UKMTO classified as 'suspicious activity'" },
+  { date: "Mar 30", vessel: "Kuwaiti oil tanker (fully loaded crude)", location: "Dubai port", details: "Hit by Iranian attack while anchored — set ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill. Dubai teams extinguished fire" },
+  { date: "Mar 31", vessel: "Habshan-Fujairah pipeline", location: "Abu Dhabi-Fujairah", details: "Satellite imagery showed fires at two pumping stations. Pipeline bypasses Strait of Hormuz — attack interpreted as Iran targeting alternatives to preserve leverage" },
 ];
-// Note: UKMTO has recorded 21 confirmed maritime incidents in the Strait of Hormuz since Feb 28. Last confirmed Iranian attack on a vessel was Mar 11. Daily oil exports from Middle East fallen by at least 60% since war start.
+// Note: UKMTO has recorded 21+ confirmed maritime incidents in the Strait of Hormuz since Feb 28. Iran's parliament drafting Strait of Hormuz management law with transit fees. Daily oil exports from Middle East fallen by at least 60% since war start.
 
 // ===== ANUSHKA'S TAKES =====
 const analysisData = [
