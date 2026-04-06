@@ -574,6 +574,95 @@ const timelineData = [
       { text: "Clearer multi-front division of labour emerging: Lebanon as primary attritional theatre, Yemen as latent maritime pressure zone, Iraq as flexible arena engaging both US and Gulf states", cat: "iran" },
     ]
   },
+  {
+    date: "Apr 1",
+    dateLabel: "1 April 2026",
+    dayNum: 33,
+    summary: "Trump says US 'strategic objectives nearing completion' — will strike Iran for 'next 2-3 weeks'; Iran attacked Panamanian-flagged AQUA 1 tanker off Qatar; IDF struck ~15 weapons production sites + pharmaceutical company supplying fentanyl for chemical weapons; 10-missile salvo at Israel (largest since war start); Houthis' 4th attack on Israel; 19 drones + 4 missiles at Bahrain",
+    events: [
+      { text: "Trump stated US 'strategic objectives' for the war are 'nearing completion.' Said US will continue striking Iran for 'next two to three weeks' while indirect talks continue", cat: "us" },
+      { text: "Iran attacked the Panamanian-flagged AQUA 1 oil tanker (leased by Qatari state-owned energy firm) 17nm NW of Ras Laffan, Qatar. Tehran signalling it will use Strait of Hormuz as post-war leverage", cat: "maritime" },
+      { text: "Senior Tehran officials signalled they will not accept a ceasefire or halt shipping disruptions unless US and Israel cease all attacks. Iran seeks to use Hormuz energy flows as leverage for post-war concessions", cat: "iran" },
+      { text: "IDF struck approximately 15 weapons production sites including a MODAFL complex for advanced missile production", cat: "us" },
+      { text: "IDF struck a pharmaceutical R&D company that supplied Iran with materials including fentanyl that can be used for chemical weapons", cat: "us" },
+      { text: "IDF killed IRGC Quds Force Lebanon Corps Engineering Head responsible for underground projects in Lebanon and Syria for Hezbollah — managed dozens of underground facilities storing advanced weapons", cat: "us" },
+      { text: "Iran launched five missile salvoes at Israel including a 10-missile salvo — among the largest single salvoes since the war began", cat: "iran" },
+      { text: "Iran launched 19 drones and 4 ballistic missiles targeting Bahrain. Followed IRGC's Mar 31 threat to target US-linked tech, AI, and communications firms", cat: "iran" },
+      { text: "Hezbollah claimed 71 attacks targeting Israeli forces and northern Israeli communities in 24 hours", cat: "iran" },
+      { text: "Houthis launched ballistic missiles at southern Israel — 4th attack since joining war on Mar 28. Houthis claimed they coordinated the attack with Hezbollah and Iran", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 2",
+    dateLabel: "2 April 2026",
+    dayNum: 34,
+    summary: "Combined force strikes Darou Pakhsh pharma and Pasteur Institute (chemical/bio weapons links); US strikes B1 bridge between Tehran and Karaj to cut missile transfers to western Iran; IDF strikes Artesh Joint Staff HQ in Tehran; F-15E shot down over Iran — one crew rescued, one missing",
+    events: [
+      { text: "Combined force struck Darou Pakhsh Pharmaceutical Manufacturing Company and Pasteur Institute of Iran in Tehran Province. Japan listed both as entities associated with Iranian biological and chemical weapons activities", cat: "us" },
+      { text: "Combined force also targeting Iranian steel factories — critical for both military production and the economy. Strikes expanding beyond narrowly defined military targets", cat: "us" },
+      { text: "US forces struck the B1 (Bileghan) Bridge connecting Tehran and Karaj to disrupt Iran's ability to transfer missiles to western Iran. Iran has increasingly launched from central Iran as western launch capability was degraded", cat: "us" },
+      { text: "IDF struck the Artesh Joint Staff headquarters in Tehran — coordinates between service branches, logistics, and budget. Satellite imagery from Mar 29 confirmed strikes on IRGC Navy Besat Barracks in Shiraz", cat: "us" },
+      { text: "US F-15E shot down over Iran during combat mission. Iran claimed it was brought down by air defences. One crew member rescued; one (colonel rank) remained missing", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 3",
+    dateLabel: "3 April 2026",
+    dayNum: 35,
+    summary: "Missing F-15E crew member rescued after 'heavy firefight' — IRGC claims 2 C-130s and 2 Black Hawks destroyed during rescue; Trump sets 48-hour Hormuz deadline; Iran rejects US 48-hour ceasefire proposal; 5 killed in strikes during rescue; Bushehr nuclear plant staff evacuated; 170 wounded at Mahshahr Petrochemical Zone; Tehran seizes assets of 100+ individuals",
+    events: [
+      { text: "Missing F-15E crew member (colonel) found and rescued after a 'heavy firefight' in southern Isfahan. Five people killed in strikes during the rescue operation", cat: "us" },
+      { text: "IRGC claimed its forces destroyed two C-130 aircraft, two Black Hawk helicopters, and an MQ-9 Reaper drone during the US rescue operation in Isfahan", cat: "iran" },
+      { text: "Trump set a 48-hour deadline for Iran to open the Strait of Hormuz. Iran's central military command called it 'a helpless, nervous, unbalanced and stupid action'", cat: "us" },
+      { text: "Tehran rejected a US proposal for a 48-hour ceasefire (made via unnamed third country). Source told Fars news agency the proposal was rebuffed", cat: "iran" },
+      { text: "Russia evacuated 200 more staff from Bushehr Nuclear Power Plant after deadly attack on site perimeter. FM Araghchi warned raids expose entire region to radioactive contamination risk", cat: "europe" },
+      { text: "Iran says US-Israeli attacks killed 5 and wounded 170 at Mahshahr Petrochemical Zone. Over 30 Iranian universities targeted since Feb 28", cat: "iran" },
+      { text: "US-Israeli strikes in Ardabil province near Azerbaijan border killed 3 people", cat: "us" },
+      { text: "Tehran Prosecutor's Office ordered seizure of assets and freezing of bank accounts of 100+ high-profile individuals accused of 'supporting the enemy abroad'", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 4",
+    dateLabel: "4 April 2026",
+    dayNum: 36,
+    summary: "CENTCOM confirms both F-15E crew rescued — US established makeshift airstrip near major Iranian city; Bushehr nuclear facility struck for 4th time (guard killed); Hezbollah publishes FPV drone attack footage; Iran slightly shifts to more cruise missiles in Gulf strikes",
+    events: [
+      { text: "CENTCOM confirmed US forces completed rescue of both F-15E crew members on Apr 4, after Iran shot down their aircraft on Apr 2. US established makeshift airstrip very close to a major Iranian city and extracted all personnel", cat: "us" },
+      { text: "Iran's atomic agency said an airstrike hit near Bushehr nuclear facility — security guard killed, support building damaged. Fourth time the facility has been targeted during the war", cat: "us" },
+      { text: "Combined force continued striking missile launcher (reportedly for Haj Qassem, 1,400 km range), production facilities for engines, guidance systems, and components. IDF continuing to target tunnel entrances to prevent concealment of missile sites", cat: "us" },
+      { text: "Iran has slightly altered strike packages targeting Gulf states to include more cruise missiles — unclear if this represents new tactics, effort to manage remaining reserves, or experimentation", cat: "iran" },
+      { text: "Hezbollah published FPV drone attack footage from Mar 25 showing strikes on Israeli vehicle and two Merkava tanks in southern Lebanon", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 5",
+    dateLabel: "5 April 2026",
+    dayNum: 37,
+    summary: "US, Iran and regional mediators discussing 45-day ceasefire terms (Axios); Trump extends Hormuz deadline to Apr 7; Mojtaba Khamenei says Iran will continue attacking shipping; Hezbollah fires anti-ship cruise missiles at Israeli warship for first time; IDF estimates Hezbollah can sustain 200 rockets/drones per day for 5 more months; Parliament Speaker Qalibaf says Trump following 'Netanyahu's commands'",
+    events: [
+      { text: "US, Iran and regional mediators discussing terms for potential 45-day ceasefire that could lead to permanent end to the war (Axios, citing US, Israeli, and regional sources)", cat: "us" },
+      { text: "Trump appears to have extended Hormuz deadline to 8:00 PM ET April 7 amid discussions with Iranian officials", cat: "us" },
+      { text: "Supreme Leader Mojtaba Khamenei said Iran will continue attacking shipping through the Strait of Hormuz", cat: "iran" },
+      { text: "Parliament Speaker Qalibaf condemned Trump on X: 'Your reckless moves are dragging the United States into a living HELL for every single family, and our whole region is going to burn because you insist on following Netanyahu's commands'", cat: "iran" },
+      { text: "Hezbollah claimed it launched anti-ship cruise missiles at an Israeli warship 68nm off the Lebanese coast — first such attack since the war began", cat: "iran" },
+      { text: "IDF estimated Hezbollah can maintain fire rate of 200 rockets and drone launches per day at Israel for an additional 5 months. However, Hezbollah attacks do not appear to be altering Israel's decision-making on Iran strikes", cat: "iran" },
+      { text: "Iranian-backed Iraqi militias attempting to blame Kuwait for attacks on Iraqi oil infrastructure, likely to obfuscate responsibility to domestic Iraqi audience", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 6",
+    dateLabel: "6 April 2026",
+    dayNum: 38,
+    summary: "IDF completes wave of strikes on 'regime targets' in Tehran killing 13; Sharif University of Technology struck; Iran warns of 'much more devastating' retaliation; Iran shoots down another US military plane; Iran threatens to restrict Bab el-Mandeb Strait; Culture minister calls Trump 'unstable, delusional figure'; Hormuz 'open to world but closed to enemies'",
+    events: [
+      { text: "IDF completed wave of strikes against 'regime targets' in Tehran, killing at least 13 people. Sharif University of Technology also struck", cat: "us" },
+      { text: "Iran's central military command warned of 'much more devastating' retaliation if adversaries hit civilian targets", cat: "iran" },
+      { text: "Iran shot down another US military plane, demonstrating the perils of the bombing campaign and Iran's ability to hit back", cat: "iran" },
+      { text: "Iran struck infrastructure targets in Gulf countries and threatened to restrict the Bab el-Mandeb Strait — another heavily used waterway in the region", cat: "iran" },
+      { text: "Iran challenged the US account of the F-15E rescue mission", cat: "iran" },
+      { text: "Culture Minister Salihi-Amiri called Trump an 'unstable, delusional figure' and dismissed his threats. Said Strait of Hormuz is 'open to the world but closed to Iran's enemies'", cat: "iran" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -598,7 +687,8 @@ const countryAttacksData = [
       "Ma'ameer industrial area targeted — limited damage (Mar 5)",
       "Mar 20: intercepted 2 missiles and 4 drones. IRGC claimed targeting US Patriot system in Bahrain",
       "Mar 22: intercepted 2 drones and 2 missiles. IRGC claimed targeting US Fifth Fleet base in Manama",
-      "Mar 23: AWS Bahrain region 'disrupted' by drone activity for 2nd time — Amazon migrating customers to alternate regions"
+      "Mar 23: AWS Bahrain region 'disrupted' by drone activity for 2nd time — Amazon migrating customers to alternate regions",
+      "Apr 1: Iran launched 19 drones and 4 ballistic missiles at Bahrain — followed IRGC threat to target US-linked tech/AI firms"
     ]
   },
   {
@@ -725,7 +815,9 @@ const countryAttacksData = [
       "Mar 29: At least 6 missile barrages fired at Israel since midnight — no casualties in latest wave. At least 16 people killed total since Feb 28. Schools and businesses shuttered for ~1 month",
       "Mar 29: 11 attack waves (70% south, 10% Tel Aviv, 10% north). 404 total attack waves since war start",
       "Mar 30: 19 civilians killed since Feb 28. Over 6,000 injured (direct hits, debris, secondary). Over 6,000 evacuated from damaged homes",
-      "Mar 31: Missile strike on Bazan refinery complex in Haifa — Iran targeting Israeli energy infrastructure"
+      "Mar 31: Missile strike on Bazan refinery complex in Haifa — Iran targeting Israeli energy infrastructure",
+      "Apr 1: 10-missile salvo at Israel — among the largest since war began. Houthis' 4th attack from Yemen, coordinated with Hezbollah and Iran",
+      "Apr 5: Hezbollah fires anti-ship cruise missiles at Israeli warship 68nm off Lebanese coast — first such attack of war. IDF estimates Hezbollah can sustain 200 rockets/drones per day for 5 more months"
     ]
   },
   {
@@ -877,7 +969,7 @@ const weaponsDatabase = {
         items: [
           { name: "F-35 Lightning II", range: "2,200 km", type: "Stealth multirole", details: "~30 Air Force F-35s amassed from RAF Lakenheath 48th FW and Vermont ANG 158th FW. Marine F-35Cs from VMFA-314 on USS Abraham Lincoln. On Mar 20, one F-35 made emergency landing after Iran mission — likely hit by Iranian fire (would be first confirmed F-35 combat damage).", icon: "fa-jet-fighter" },
           { name: "F-22 Raptor", range: "2,960 km", type: "Air superiority", details: "~12 from Joint Base Langley-Eustis deployed to Israel — first combat deployment there. Likely escorted strike aircraft and engaged air-to-air threats.", icon: "fa-jet-fighter" },
-          { name: "F-15E Strike Eagle", range: "3,900 km", type: "Strike fighter", details: "Multiple squadrons in Middle East. Effective shooting down Iranian drones and missiles. 3 lost to Kuwaiti friendly fire (crews survived).", icon: "fa-jet-fighter" },
+          { name: "F-15E Strike Eagle", range: "3,900 km", type: "Strike fighter", details: "Multiple squadrons in Middle East. Effective shooting down Iranian drones and missiles. 3 lost to Kuwaiti friendly fire (crews survived). F-15E shot down over Iran on Apr 2 by Iranian air defences — first US fighter jet downed in Iran. Both crew rescued Apr 4 after heavy firefight; US established makeshift airstrip near major Iranian city for extraction. IRGC claimed destroying 2 C-130s, 2 Black Hawks, and 1 MQ-9 during rescue. Another US military plane shot down by Iran Apr 6.", icon: "fa-jet-fighter" },
           { name: "F-16 Fighting Falcon", range: "4,220 km", type: "Multirole / SEAD", details: "Dozens in region including 'Wild Weasel' SEAD variants from Spangdahlem ('SP' tails). Suppression of enemy air defenses.", icon: "fa-jet-fighter" },
           { name: "F/A-18 Super Hornet", range: "2,300 km", type: "Carrier strike", details: "Operated from USS Ford and USS Lincoln. Strike missions with Tomahawks and drones against command centers.", icon: "fa-jet-fighter" },
           { name: "EA-18G Growler", range: "2,300 km", type: "Electronic attack", details: "Jams and attacks enemy air defenses. Both carriers carry them. ~6 operating from regional base. Used in both Epic Fury and prior Operation Absolute Resolve.", icon: "fa-tower-broadcast" },
@@ -987,6 +1079,9 @@ const weaponsDatabase = {
           { name: "Taleghan Compound (Parchin)", range: "—", type: "Nuclear strike", details: "Covert nuclear weapons development site southeast of Tehran. Struck by Israeli Air Force on Mar 20 based on precise intelligence to prevent nuclear weapon development.", icon: "fa-radiation" },
           { name: "IRGC Navy Commander Tangsiri (Killed)", range: "—", type: "Decapitation strike", details: "Rear Admiral Alireza Tangsiri killed in Bandar Abbas on Mar 26. IRGC Navy commander since 2018, controlled Strait of Hormuz operations via Saheb ol Zaman Naval District. US-sanctioned since June 2019. IRGC Navy Intel Deputy Rezaei also killed.", icon: "fa-crosshairs" },
           { name: "Mashhad Airport Strikes", range: "—", type: "Airbase strike", details: "Combined force struck near Mashhad International Airport on Mar 25-26 — northeastern-most targets of the war. 14th Artesh Air Force Tactical Airbase and 5th Ground Forces Aviation Base co-located. Iran's 2nd most-populated city.", icon: "fa-plane-slash" },
+          { name: "Darou Pakhsh / Pasteur Institute", range: "—", type: "Chemical/bio strike", details: "Struck Apr 1-2 in Tehran Province. Japan listed both as entities associated with Iranian biological and chemical weapons activities. IDF also struck pharma R&D company supplying fentanyl for chemical weapons.", icon: "fa-biohazard" },
+          { name: "Artesh Joint Staff HQ (Tehran)", range: "—", type: "Command strike", details: "Struck Apr 2. Coordinates between Artesh service branches, determines logistics and budget. B1 (Bileghan) Bridge between Tehran-Karaj also struck to cut missile transfer routes.", icon: "fa-building" },
+          { name: "Sharif University of Technology", range: "—", type: "Academic/regime target", details: "Struck Apr 6 alongside wave of strikes on 'regime targets' in Tehran killing at least 13. Over 30 Iranian universities targeted since Feb 28.", icon: "fa-graduation-cap" },
           { name: "Kuh-e Barjamali Assembly Facility", range: "—", type: "Missile production", details: "Short/medium-range ballistic missile final assembly site at Khojir Aerospace Complex. CENTCOM published damage imagery from Mar 7 strikes. Produced Fath-360, Fateh-110, Zolfaghar, and Haj Qasem missiles. Iran supplied Fath-360s to Russia for Ukraine.", icon: "fa-industry" },
           { name: "Khojir Aerospace Complex", range: "—", type: "Defence industrial", details: "IDF struck Defence Ministry weapons production/storage site at this complex east of Tehran (Mar 22). Extensive damage to planetary mixer and casting sites confirmed from Mar 4 satellite imagery.", icon: "fa-industry" },
           { name: "Decapitation — Basij Leadership", range: "—", type: "Targeted killing", details: "IDF killed Basij Commander Brig Gen Soleimani and deputy Ghoreyshi (Mar 17), Basij Intelligence Chief Esmail Ahmadi (Mar 20), IRGC Spokesperson Brig Gen Naeini (Mar 20), IRGC Aerospace Commander in Esfahan Ghoreyshi (Mar 20), and Intel Ministry official Shamestan (Mar 20).", icon: "fa-crosshairs" },
@@ -1259,6 +1354,7 @@ const maritimeAttacks = [
   { date: "Mar 21", vessel: "Unknown vessel", location: "15nm N of Sharjah, UAE", details: "Projectile explosion nearby — UKMTO classified as 'suspicious activity'" },
   { date: "Mar 30", vessel: "Kuwaiti oil tanker (fully loaded crude)", location: "Dubai port", details: "Hit by Iranian attack while anchored — set ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill. Dubai teams extinguished fire" },
   { date: "Mar 31", vessel: "Habshan-Fujairah pipeline", location: "Abu Dhabi-Fujairah", details: "Satellite imagery showed fires at two pumping stations. Pipeline bypasses Strait of Hormuz — attack interpreted as Iran targeting alternatives to preserve leverage" },
+  { date: "Apr 1", vessel: "AQUA 1 (Panama-flagged, Qatari-leased)", location: "17nm NW of Ras Laffan, Qatar", details: "Oil tanker attacked by Iran. Leased by Qatari state-owned energy firm" },
 ];
 // Note: UKMTO has recorded 21+ confirmed maritime incidents in the Strait of Hormuz since Feb 28. Iran's parliament drafting Strait of Hormuz management law with transit fees. Daily oil exports from Middle East fallen by at least 60% since war start.
 
