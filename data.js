@@ -663,6 +663,46 @@ const timelineData = [
       { text: "Culture Minister Salihi-Amiri called Trump an 'unstable, delusional figure' and dismissed his threats. Said Strait of Hormuz is 'open to the world but closed to Iran's enemies'", cat: "iran" },
     ]
   },
+  {
+    date: "Apr 7",
+    dateLabel: "7 April 2026",
+    dayNum: 39,
+    summary: "US and Iran announce two-week ceasefire hours before Trump's 8 PM deadline; Trump pulls back from 'devastating strikes' after conversations with Pakistan PM Sharif and Gen Asim Munir; oil prices fall 15% to $93/barrel; fresh attacks reported across Gulf as ceasefire news slow to reach local commanders; Trump had warned 'a whole civilisation will die' if Iran did not accept deal and reopen Hormuz",
+    events: [
+      { text: "United States and Iran announced a two-week ceasefire on Tuesday evening, shortly before Trump's 8 PM deadline for Iran to unblock the Strait of Hormuz or see its 'whole civilisation' destroyed", cat: "us" },
+      { text: "Trump pulled back from threats to launch 'devastating strikes' on Iran, swerving to de-escalate. Said decision was 'based on conversations' with Pakistan PM Shehbaz Sharif and Gen Asim Munir", cat: "us" },
+      { text: "International oil price benchmark fell 15% to $93/barrel on ceasefire news", cat: "gulf" },
+      { text: "Fresh missile and drone attacks reported across the Persian Gulf on Wednesday morning — unclear whether ceasefire news had reached Iranian local commanders", cat: "iran" },
+      { text: "Unclear whether ship operators considered the Strait of Hormuz safe for transit despite ceasefire announcement", cat: "maritime" },
+      { text: "Trump had warned on Apr 4 that Tehran had 48 hours to cut a deal or face 'all Hell', and on Apr 7 that 'a whole civilisation will die' if Iran did not accept his deal and reopen Hormuz", cat: "us" },
+    ]
+  },
+  {
+    date: "Apr 8",
+    dateLabel: "8 April 2026",
+    dayNum: 40,
+    summary: "Iran's 10-point plan demands US accept uranium enrichment and lift all sanctions; Pakistan PM Sharif declares ceasefire 'everywhere' between US, Iran and allies; UAE official Gargash says UAE 'emerged victorious'; Maersk welcomes ceasefire but says maritime uncertainty remains; oil at $93/barrel",
+    events: [
+      { text: "Tehran said its 10-point plan for ending the war would require Washington to accept Iran's uranium enrichment programme and the lifting of all sanctions", cat: "iran" },
+      { text: "Pakistan PM Shehbaz Sharif said the US, Iran and their allies had agreed to a ceasefire 'everywhere'", cat: "us" },
+      { text: "Top Emirati official Anwar Gargash said UAE had 'emerged victorious from a war we sincerely sought to avoid'. Added: 'We are poised to navigate a complex regional landscape with greater resources, deeper understanding, and a more robust capacity to influence and shape the future'", cat: "gulf" },
+      { text: "Shipping giant Maersk welcomed ceasefire and statements that Strait of Hormuz passage may be possible again, but said: 'The ceasefire may create transit opportunities, but it does not yet provide full maritime certainty'", cat: "maritime" },
+      { text: "China's FM Spokesperson Mao Ning welcomed the ceasefire but refused to confirm China's role in brokering it. Deflected Trump's claim that China pushed Iran to negotiate by listing diplomatic activity — Wang Yi's 26 phone calls with counterparts, envoy shuttle diplomacy, and a joint five-point initiative with Pakistan", cat: "europe" },
+      { text: "Mao Ning explicitly blamed US and Israel for the Hormuz crisis: 'the root cause of the Strait of Hormuz blockage is the illegal military actions by the US and Israel against Iran.' Opposed UNSC draft resolution, saying Council must not give 'a legal cloak to unauthorised military action' or 'a green light for the use of force'", cat: "europe" },
+      { text: "Beijing deflected on Iran's proposed Hormuz toll fee (transit fees on ships, revenue shared with Oman). Mao gave a non-answer: the Strait is an important international trade corridor and all parties should work to restore normal passage", cat: "europe" },
+    ]
+  },
+  {
+    date: "Apr 9",
+    dateLabel: "9 April 2026",
+    dayNum: 41,
+    summary: "IDF says overnight Beirut strikes killed Hezbollah chief Qassem's personal secretary Ali Yusuf Harshi; IDF attacks 'key crossings' over Litani River and Hezbollah infrastructure in southern Lebanon; 40th day mourning processions across Iran for Ayatollah Khamenei — large crowds in Tehran and other cities",
+    events: [
+      { text: "Israeli military said overnight air strikes in Beirut killed Ali Yusuf Harshi, personal secretary to Hezbollah chief Naim Qassem. IDF said Harshi 'played a central role in managing and securing' Qassem's office and was 'a close associate and personal advisor'", cat: "us" },
+      { text: "IDF also attacked two 'key crossings' over the Litani River and Hezbollah infrastructure in southern Lebanon", cat: "us" },
+      { text: "Across Iran, supporters of the government gathered for mourning processions to commemorate the 40th day since Ayatollah Ali Khamenei was killed in US-Israeli airstrikes. Large crowds walked through streets of Tehran and several other cities. In Shia Islam, the 40th day after a death is an important mourning milestone", cat: "iran" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -721,7 +761,8 @@ const countryAttacksData = [
       "Mar 26: Two people (Indian and Pakistani) killed, three severely injured in Abu Dhabi from shrapnel of intercepted missile",
       "Mar 30: 11 missiles and 27 UAVs intercepted in 24hrs. Cumulative: 425 ballistic, 15 cruise, 1,941 UAVs since war start",
       "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged, possible oil spill",
-      "Mar 31: Satellite imagery showed fires at two Habshan-Fujairah pipeline pumping stations — interpreted as Iran targeting bypass routes to preserve Hormuz leverage"
+      "Mar 31: Satellite imagery showed fires at two Habshan-Fujairah pipeline pumping stations — interpreted as Iran targeting bypass routes to preserve Hormuz leverage",
+      "Apr 8: Presidential adviser Anwar Gargash declared UAE 'emerged victorious from a war we sincerely sought to avoid' — said UAE poised to navigate post-war landscape with greater resources and influence"
     ]
   },
   {
@@ -817,7 +858,8 @@ const countryAttacksData = [
       "Mar 30: 19 civilians killed since Feb 28. Over 6,000 injured (direct hits, debris, secondary). Over 6,000 evacuated from damaged homes",
       "Mar 31: Missile strike on Bazan refinery complex in Haifa — Iran targeting Israeli energy infrastructure",
       "Apr 1: 10-missile salvo at Israel — among the largest since war began. Houthis' 4th attack from Yemen, coordinated with Hezbollah and Iran",
-      "Apr 5: Hezbollah fires anti-ship cruise missiles at Israeli warship 68nm off Lebanese coast — first such attack of war. IDF estimates Hezbollah can sustain 200 rockets/drones per day for 5 more months"
+      "Apr 5: Hezbollah fires anti-ship cruise missiles at Israeli warship 68nm off Lebanese coast — first such attack of war. IDF estimates Hezbollah can sustain 200 rockets/drones per day for 5 more months",
+      "Apr 9: IDF overnight strikes in Beirut killed Ali Yusuf Harshi — personal secretary to Hezbollah chief Naim Qassem. Also attacked two 'key crossings' over Litani River and Hezbollah infrastructure in southern Lebanon"
     ]
   },
   {
@@ -1185,6 +1227,7 @@ const weaponsDatabase = {
           { name: "FM Wang Yi Phone Diplomacy", range: "—", type: "Multilateral outreach", details: "Foreign Minister Wang Yi held calls with counterparts from Russia, Iran, Afghanistan, France, Israel, Saudi Arabia, UAE, and UK since conflict began.", icon: "fa-phone" },
           { name: "Civilian Protection Red Line", range: "—", type: "Policy position", details: "China declared protection of civilians a 'red line that must not be crossed.' Demanded non-military locations — especially energy, economic, and livelihood facilities — not be targeted.", icon: "fa-shield-halved" },
           { name: "Hormuz Shipping Freedom", range: "—", type: "Policy position", details: "China reiterated that security of international shipping lanes, including the Strait of Hormuz, must be upheld. Envoy Zhai said 'the one who tied the bell should be the one to untie it' — pointing at US and Israel.", icon: "fa-anchor" },
+          { name: "Ceasefire Response (Apr 8)", range: "—", type: "Diplomatic posture", details: "FM Spokesperson Mao Ning welcomed ceasefire but refused to confirm China's brokering role. Deflected Trump's claim by listing Wang Yi's 26 calls and envoy shuttle diplomacy. Blamed US/Israel for Hormuz crisis. Opposed UNSC resolution as giving 'legal cloak to unauthorised military action.' Deflected on Iran's proposed Hormuz toll fee. Joint five-point initiative with Pakistan.", icon: "fa-gavel" },
         ]
       }
     }
@@ -1316,7 +1359,7 @@ const metadataStats = {
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "April 9 target",
+  weeksExpected: "Ceasefire Apr 7",
   iranDailyMissiles: "~18 (down from 182)",
   iranDailyDrones: "~25 (down from hundreds)",
   clusterMunitionRate: "~70%",
@@ -1355,8 +1398,10 @@ const maritimeAttacks = [
   { date: "Mar 30", vessel: "Kuwaiti oil tanker (fully loaded crude)", location: "Dubai port", details: "Hit by Iranian attack while anchored — set ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill. Dubai teams extinguished fire" },
   { date: "Mar 31", vessel: "Habshan-Fujairah pipeline", location: "Abu Dhabi-Fujairah", details: "Satellite imagery showed fires at two pumping stations. Pipeline bypasses Strait of Hormuz — attack interpreted as Iran targeting alternatives to preserve leverage" },
   { date: "Apr 1", vessel: "AQUA 1 (Panama-flagged, Qatari-leased)", location: "17nm NW of Ras Laffan, Qatar", details: "Oil tanker attacked by Iran. Leased by Qatari state-owned energy firm" },
+  { date: "Apr 7", vessel: "Multiple vessels (various)", location: "Persian Gulf / Strait of Hormuz", details: "Fresh attacks reported across Gulf on morning after ceasefire announcement — unclear if local commanders received word. Ship operators unsure if Hormuz safe for transit" },
+  { date: "Apr 8", vessel: "Maersk (statement)", location: "Strait of Hormuz", details: "Maersk welcomed ceasefire but said: 'it does not yet provide full maritime certainty.' Working urgently for more information; no specific changes to routing yet" },
 ];
-// Note: UKMTO has recorded 21+ confirmed maritime incidents in the Strait of Hormuz since Feb 28. Iran's parliament drafting Strait of Hormuz management law with transit fees. Daily oil exports from Middle East fallen by at least 60% since war start.
+// Note: UKMTO has recorded 21+ confirmed maritime incidents in the Strait of Hormuz since Feb 28. Iran's parliament drafting Strait of Hormuz management law with transit fees. Daily oil exports from Middle East fallen by at least 60% since war start. Two-week ceasefire announced Apr 7 but maritime safety not yet confirmed.
 
 // ===== ANUSHKA'S TAKES =====
 const analysisData = [
@@ -1399,5 +1444,9 @@ const analysisData = [
   {
     title: "Who Keeps Iran in the Fight",
     body: `Iran is not doing this alone. <span class="take-ref" data-note="See the Weapons Database under China for sodium perchlorate supply and BeiDou satellite navigation details." data-link="#weapons-db">China supplies solid rocket fuel ingredients (sodium perchlorate) and access to its BeiDou satellite navigation</span>. <span class="take-ref" data-note="See the Weapons Database under Russia for Su-35 fighters, R-37M missiles, and Verba MANPADS." data-link="#weapons-db">Russia has sent Su-35 fighters, R-37M long-range missiles, and Verba shoulder-fired air defence systems</span>. Without this support, Iran's war effort would look very different. Meanwhile, Gulf states that used to stay on the sidelines are now shooting back. The <span class="take-ref" data-note="See the Ecosystem of Actors for Qatar's role, and the March 2 timeline for this air engagement." data-link="#ecosystem">Qatari Air Force shot down two Iranian Su-24 bombers</span> — its first air-to-air kills ever — minutes before they reached Qatari territory.`
+  },
+  {
+    title: "Beijing's Three-Sided Game",
+    body: `When the ceasefire was announced on April 7, Trump claimed China had pushed Iran to negotiate. <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for the Apr 8 ceasefire response and Mao Ning's statements." data-link="#weapons-db">Beijing's spokesperson Mao Ning refused to confirm this</span> — instead rattling off a list of diplomatic credentials: <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for FM Wang Yi's phone diplomacy." data-link="#weapons-db">Wang Yi's 26 phone calls</span>, the envoy's shuttle diplomacy, and a joint five-point plan with Pakistan. China wants credit for peacemaking without fingerprints on the deal. At the same time, Mao explicitly blamed the US and Israel for the Hormuz crisis, calling their military actions "illegal," and opposed the UN Security Council draft resolution as giving "a legal cloak to unauthorised military action." And when asked about <span class="take-ref" data-note="Iran's parliament has been drafting a Strait of Hormuz management law with transit fees. See the Maritime section." data-link="#maritime">Iran's proposed toll fees on Hormuz shipping</span>, Beijing gave a diplomatic non-answer. The pattern is clear: <span class="take-ref" data-note="See the Weapons Database under China → Support to Iran for sodium perchlorate, BeiDou, drone components, and anti-ship missile deals." data-link="#weapons-db">supply Iran with rocket fuel and satellite navigation</span>, mediate publicly, blame America privately, and keep all three relationships — with Washington, Tehran, and Islamabad — open for business.`
   }
 ];
