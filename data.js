@@ -701,6 +701,123 @@ const timelineData = [
       { text: "Israeli military said overnight air strikes in Beirut killed Ali Yusuf Harshi, personal secretary to Hezbollah chief Naim Qassem. IDF said Harshi 'played a central role in managing and securing' Qassem's office and was 'a close associate and personal advisor'", cat: "us" },
       { text: "IDF also attacked two 'key crossings' over the Litani River and Hezbollah infrastructure in southern Lebanon", cat: "us" },
       { text: "Across Iran, supporters of the government gathered for mourning processions to commemorate the 40th day since Ayatollah Ali Khamenei was killed in US-Israeli airstrikes. Large crowds walked through streets of Tehran and several other cities. In Shia Islam, the 40th day after a death is an important mourning milestone", cat: "iran" },
+      { text: "China's Mao Ning asked whether ceasefire includes Lebanon — responded that Beijing 'hopes' all parties can 'take the opportunity' to 'reach a temporary ceasefire' to 'resolve all disputes.' Hints: either Lebanon not included, Beijing unaware of terms, or Israel was not part of China-Pakistan-US-Iran discussions", cat: "europe" },
+    ]
+  },
+  {
+    date: "Apr 10",
+    dateLabel: "10 April 2026",
+    dayNum: 42,
+    summary: "Strait of Hormuz effectively closed — Iran charging $1M+ tolls per ship; Islamabad locked down for US-Iran talks; VP Vance to lead delegation with Witkoff and Kushner; Iranian delegation (Araghchi, Ghalibaf) arrives; Egypt and Pakistan named formal ceasefire guarantors; India grants waivers for Iranian cargo; Japan releases 2nd batch of strategic oil reserves; Brent at $97/barrel",
+    events: [
+      { text: "Strait of Hormuz remains effectively closed — Iran limiting ships and charging tolls exceeding $1 million per vessel. Majority of ships passing through were Iran-linked; other vessels delaying voyages", cat: "maritime" },
+      { text: "Islamabad locked down for US-Iran talks — roads empty, checkpoints at major arteries, two-day public holiday declared. Additional troops and police deployed. Pakistan offering visas on arrival for media", cat: "europe" },
+      { text: "US VP JD Vance to lead American delegation with Special Envoy Steve Witkoff and Jared Kushner. Iranian delegation led by FM Abbas Araghchi and Parliament Speaker Ghalibaf arrived in Islamabad on Apr 9", cat: "us" },
+      { text: "Egypt and Pakistan named as formal guarantors of the temporary ceasefire between US and Iran", cat: "europe" },
+      { text: "India granted waivers allowing two Iranian cargoes to dock at Indian ports — one aboard an older tanker, one on a sanctioned vessel. Petroleum Minister Puri visiting Qatar; EAM Jaishankar heading to UAE", cat: "gulf" },
+      { text: "Japan to release second batch of strategic oil reserves (20 days' supply) starting early May — first batch of 50 days' worth already released. Brent crude at ~$97/barrel", cat: "gulf" },
+      { text: "Iran threatened to withdraw from ceasefire if Israel continued strikes on Lebanon. Strait of Hormuz remains under IRGC Navy selective blockade. Two US carrier strike groups (Lincoln, Bush) remain in region with USS Tripoli Amphibious Ready Group", cat: "iran" },
+    ]
+  },
+  {
+    date: "Apr 11",
+    dateLabel: "11 April 2026",
+    dayNum: 43,
+    summary: "Only 2 ships pass through Hormuz; Trump says US forces 'clearing' the strait — destroyers enter for first time since war began; Iran warns off US vessel, accuses ceasefire violation; Vance arrives in Rawalpindi; trilateral talks begin with observers from China, Egypt, Saudi Arabia, Qatar; White House first official acknowledgment of China's brokering role; Jaishankar arrives in UAE; India rejects reports of paying Iran tolls",
+    events: [
+      { text: "Strait of Hormuz: only 2 ships passed through. Trump said US forces had started 'clearing' the strait — several US Navy destroyers entered for the first time since the war began", cat: "us" },
+      { text: "Iran said a US vessel turned back after receiving warning it would be attacked if it continued through the Strait. Iranian government accused the US of a ceasefire violation", cat: "iran" },
+      { text: "VP Vance arrived in Rawalpindi, welcomed by PM Sharif and Field Marshal Asim Munir. Trilateral meeting between Iranian, US, and Pakistani negotiators formally began in Islamabad. Officials from China, Egypt, Saudi Arabia, and Qatar also present", cat: "us" },
+      { text: "White House Press Secretary Karoline Leavitt acknowledged China's involvement in negotiations with Iran — first official US acknowledgment of Beijing's indirect brokering role", cat: "europe" },
+      { text: "EAM Jaishankar arrived in UAE for two-day visit. India rejected reports it was paying tolls to Tehran for ships transiting the Strait of Hormuz", cat: "gulf" },
+      { text: "Vance, before departure to Islamabad, warned Iran not to 'play' the US in peace talks — if Iran does not reopen Hormuz, ceasefire will end and US will resume military operations", cat: "us" },
+    ]
+  },
+  {
+    date: "Apr 12",
+    dateLabel: "12 April 2026",
+    dayNum: 44,
+    summary: "Islamabad talks collapse after 21+ hours — nuclear enrichment the central sticking point; Vance announces 'Iran chose not to accept our terms' and departs Pakistan; Trump announces full naval blockade of Hormuz and orders mine clearing; Pakistan FM Dar urges both sides to maintain ceasefire; Jaishankar concludes UAE visit reviewing energy agreements and welfare of 3.5M Indians",
+    events: [
+      { text: "US-Iran peace talks in Islamabad collapsed after over 21 hours of negotiations. VP Vance announced no agreement reached and departed Pakistan for Washington. Cited Iran's refusal to commit to giving up nuclear weapons as central sticking point", cat: "us" },
+      { text: "Trump announced a full naval blockade of the Strait of Hormuz, declared US forces would 'begin destroying the mines the Iranians laid in the Straits,' warning: 'any Iranian who fires at us, or at peaceful vessels, will be BLOWN TO HELL!'", cat: "us" },
+      { text: "Pakistani FM Ishaq Dar urged the US and Iran to continue upholding their ceasefire despite the collapse of talks", cat: "europe" },
+      { text: "Jaishankar concluded UAE visit — focused on restarting Indian exports, reviewing energy supply agreements disrupted by the conflict, and welfare of 3.5 million Indians in the UAE", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Apr 13",
+    dateLabel: "13 April 2026",
+    dayNum: 45,
+    summary: "Trump/Vance acknowledge progress on many issues except nuclear enrichment; Trump announces blockade of Iranian ports effective Monday; EU fossil fuel bill up €22B+ in 44 days despite no change in supply; Europe boosted Russian LNG imports (69 of 71 cargoes from Yamal); UN proposes safe Hormuz passage for fertilizer vessels; CENTCOM begins blockade with Arleigh Burke destroyers and P-8A Poseidons; Brent below $100; ADB: Asia GDP slowing to 5.1%",
+    events: [
+      { text: "Trump and Vance acknowledged progress on several issues in Islamabad talks but nuclear enrichment remains the sticking point. Trump announced blockade of Iranian ports starting Monday", cat: "us" },
+      { text: "EU fossil fuel import bill increased by over €22 billion in 44 days despite no change in energy quantity supplied. Von der Leyen pointed to Gulf disruptions. Europe received 69 of 71 Russian LNG cargoes from Yamal project in Q1 — March alone saw 25 shipments, exceeding Jan and Feb", cat: "europe" },
+      { text: "UN announced diplomatic initiative proposing mechanism for safe passage of commercial vessels carrying fertilizers through the Strait of Hormuz to avert humanitarian consequences for Asia and Africa", cat: "europe" },
+      { text: "US CENTCOM began blockade using Arleigh Burke-class destroyers and P-8A Poseidon maritime patrol aircraft. Trump instructed US forces to 'destroy any Iranian warship' that interfered with US assets or showed aggression", cat: "us" },
+      { text: "Iran retaliated to blockade announcement with fast-attack craft equipped with anti-ship missiles", cat: "iran" },
+      { text: "Brent crude below $100/barrel after Trump claimed Iran ready to negotiate. Asian Development Bank forecast Asia GDP growth slowing to 5.1% from 5.4% in 2025", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Apr 14",
+    dateLabel: "14 April 2026",
+    dayNum: 46,
+    summary: "US Navy formally implements full blockade of all maritime traffic at Iranian ports; China blames US/Israel for Hormuz obstruction, defends Venezuela's sovereignty; Pakistan offers to host fresh talks; US officials indicate possible 2nd round from Apr 15; Israel intensifies SE Lebanon ops — Golani Brigade in Taybeh and Khiam; Hezbollah deploys FPV drones against IDF; Oil jumps back above $100; Indian container ship Paya Lebar first to cross Hormuz under blockade; UNDP warns 2.5M Indians could enter poverty; Rupee falls to 93.32/USD",
+    events: [
+      { text: "US Navy formally began implementing full blockade of all maritime traffic entering and exiting Iranian ports. Smaller Indian cargos freely moving through Oman's waters. Iranian and Iran-aligned vessels positioned around Hormuz Island", cat: "us" },
+      { text: "China's Guo Jiankun (Apr 13) made three points: Hormuz obstruction root cause is the war; China willing to work with all parties on energy security but peace must come first; Venezuela is a sovereign state with full sovereignty over its resources", cat: "europe" },
+      { text: "Pakistan offered to host fresh round of US-Iran talks in Islamabad. US officials indicated possible second round of talks from Apr 15 onward, ahead of Apr 21 ceasefire deadline", cat: "europe" },
+      { text: "Israel intensified operations in southeast Lebanon — IDF Golani Brigade (36th Division) active in Taybeh and Khiam. Hezbollah deployed FPV drones and tanks against IDF in ongoing clashes", cat: "us" },
+      { text: "Trump mentioned 'deadly system of killing' — likely Seahawk helicopters with integrated AGM-114 Hellfire missiles. US using Aegis Baseline 9/10 radar software to 'tag' ships within 200 miles of Hormuz", cat: "us" },
+      { text: "Oil jumped back above $100/barrel on blockade announcement. Container ship Paya Lebar became one of first vessels to cross Hormuz from India toward Dubai under blockade conditions", cat: "maritime" },
+      { text: "Iranian Ambassador to India held media briefing in New Delhi on collapsing ceasefire. UNDP warned the conflict could push 2.5 million Indians into poverty. Rupee depreciated to 93.32 vs USD", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Apr 15",
+    dateLabel: "15 April 2026",
+    dayNum: 47,
+    summary: "US blockade turns back 6 vessels; CENTCOM: zero tankers entered/exited Iranian ports in first 36 hours; Chinese tanker Rich Starry transits Hormuz under 'neutral transit' clause despite US sanctions; Core disagreement: US demands 20-year nuclear enrichment ban, Iran offers 5; US won't renew sanctions waiver; Israel-Lebanon talks in DC; Trump-Modi 40-min call on Hormuz; Hezbollah rockets at Israel intercepted; IMF slashes West Asia 2026 growth to 1.1%; Indian markets crash",
+    events: [
+      { text: "US imposed full naval blockade turning back 6 vessels. CENTCOM claimed zero tankers successfully entered or exited Iranian ports in first 36 hours. Intercepted 8 tankers via radio", cat: "us" },
+      { text: "Chinese-origin tanker Rich Starry (250,000 barrels of methanol, Sharjah to China) transited Hormuz under 'neutral transit' clause despite being Washington-sanctioned. Vessel falsely flagged as Malawian but operated by Shanghai Xuanrun Shipping Co", cat: "maritime" },
+      { text: "Core disagreement in negotiations: US demands 20-year ban on nuclear enrichment, Iran willing to accept 5 years. US Treasury confirmed no extension to temporary easing of sanctions against Iran", cat: "us" },
+      { text: "Israel and Lebanon held talks in Washington DC — Israel seeking Hezbollah disarmament, Lebanon seeking immediate ceasefire and return of displaced citizens. Hezbollah fired salvo of rockets toward northern Israel — most intercepted by Iron Dome", cat: "us" },
+      { text: "Trump and PM Modi held 40-minute call focused on Strait of Hormuz. Modi stressed keeping waterway open for global trade and energy security. Jaishankar spoke to Israeli FM Sa'ar and Australian FM Wong on regional fallout", cat: "gulf" },
+      { text: "IMF reduced 2026 growth forecast for West Asia and North Africa to 1.1% from 3.9%. Indian Nifty 50 crashed 207 points (23,842); Sensex down 702 points (76,847); Bank Nifty collapsed 3,307 points. Brent at $95/barrel", cat: "gulf" },
+      { text: "US won't renew 30-day waiver of sanctions on Iranian oil at sea expiring this week. Similar waiver on Russian oil also expired. US destroyers equipped with Aegis Baseline tracking all vessels within 200 miles", cat: "us" },
+    ]
+  },
+  {
+    date: "Apr 16",
+    dateLabel: "16 April 2026",
+    dayNum: 48,
+    summary: "Trump announces 10-day ceasefire between Israel and Hezbollah/Lebanon; Pentagon chief Hegseth: 'locked and loaded' on Iran's critical infrastructure; Rystad: $58B energy infrastructure damaged in war; 80+ energy facilities attacked (IEA); Europe 6 weeks from jet fuel shortage; CENTCOM blockade 'fully implemented' — 6 vessels intercepted; US Senate fails War Powers Resolution (47-52) and Israel arms sale block; Brent at $99; India at UNGA calls shipping attacks 'deplorable'",
+    events: [
+      { text: "Trump announced a 10-day ceasefire between Israel and Hezbollah/Lebanon to enable peace negotiations", cat: "us" },
+      { text: "Pentagon chief Pete Hegseth warned Iran: 'We are locked and loaded on your critical dual-use infrastructure, on your remaining power generation, and on your energy industry. We'd rather not have to do it'", cat: "us" },
+      { text: "Rystad Energy estimates war has damaged approximately $58 billion worth of energy infrastructure. IEA reported over 80 energy facilities attacked. Europe reportedly only 6 weeks from jet fuel shortages", cat: "europe" },
+      { text: "CENTCOM declared naval blockade 'fully implemented' — 6 merchant vessels intercepted and turned back, halting nearly all Iranian seaborne trade. Blockade enforced through ISR, destroyer positioning, and 31st MEU for boarding/seizure operations. Strategy: coercive compliance rather than destruction", cat: "us" },
+      { text: "Iran reported standoff in which IRGC warned off a US destroyer, claiming it retreated. No shots fired. Iran views blockade as truce violation — threatened to close the Gulf, Oman Sea, and Red Sea", cat: "iran" },
+      { text: "US Senate failed to pass War Powers Resolution limiting Iran military action (47-52 party-line split). Also failed to pass Sanders-sponsored bill blocking arms sales to Israel — measure received unusually high Democratic support", cat: "us" },
+      { text: "Pakistan shuttle diplomacy: Army Chief Munir heading to Washington Apr 17; PM Sharif arrived in Doha after Saudi Arabia visit, then scheduled for Turkey. China's Guo Jiankun (Apr 15) warned Hormuz blockade could cause 'global economic recession'", cat: "europe" },
+      { text: "India at UN General Assembly called for 'early restoration of freedom of navigation' through Hormuz. Explicitly termed targeting of commercial shipping 'deplorable' — warned blockade threatens energy and economic security", cat: "gulf" },
+      { text: "Brent crude at $99/barrel. Aluminium hit highest since Mar 2022 at $3,672/metric ton. Russian LNG cargo from sanctioned Portovaya plant en route to India — would be first such delivery. Inbound tourism to India down 10-15%; nearly 1 million people have traveled to India from region since conflict start", cat: "gulf" },
+      { text: "Modi met Austrian Chancellor Stocker in Delhi — stressed 'secure and uninterrupted maritime routes essential for global trade.' US Ambassador met India's Petroleum Minister to discuss increased LNG/LPG imports and small modular reactors", cat: "gulf" },
+    ]
+  },
+  {
+    date: "Apr 17",
+    dateLabel: "17 April 2026",
+    dayNum: 49,
+    summary: "IRGC outlines 3 conditions for Hormuz transit — retaining operational control as leverage; IRGC harshly criticises FM Araghchi after he declared strait 'completely open' — exposing regime divisions; CENTCOM: 19 vessels complied with US direction to turn around, zero have breached blockade; Non-Iranian-linked vessels freely transiting; Significant gaps remain between US and Iran negotiating positions; Iran reportedly exploiting ceasefire to regenerate ballistic missile force",
+    events: [
+      { text: "IRGC outlined 3 conditions for vessels transiting the Strait of Hormuz: only commercial vessels not 'related to belligerent countries' may transit; vessels must use Iran's approved route through Iranian territorial waters; vessels must coordinate passage with Iranian forces. IRGC seeks to retain operational control as leverage for concessions", cat: "iran" },
+      { text: "IRGC harshly criticised FM Abbas Araghchi after he announced on X that the Strait of Hormuz is 'completely open.' The criticism reflects broader divisions within the Iranian regime, which CTP-ISW has consistently reported on", cat: "iran" },
+      { text: "CENTCOM announced 19 vessels have complied with US direction to turn around — zero vessels have successfully breached the blockade. No Iranian-linked vessels approached the US blockade line on Apr 17", cat: "us" },
+      { text: "Commercially available maritime data shows some non-Iranian-linked vessels approaching the US blockade line to exit the strait. These ships do not fall under the US blockade and can freely transit in and out", cat: "maritime" },
+      { text: "Significant gaps remain between US and Iranian negotiating positions on several core issues. Some Iranian officials seek a preliminary agreement to extend ceasefire for further negotiations. CTP-ISW warns Iran is exploiting the ceasefire to reorganise and regenerate its ballistic missile force", cat: "iran" },
     ]
   },
 ];
@@ -859,7 +976,10 @@ const countryAttacksData = [
       "Mar 31: Missile strike on Bazan refinery complex in Haifa — Iran targeting Israeli energy infrastructure",
       "Apr 1: 10-missile salvo at Israel — among the largest since war began. Houthis' 4th attack from Yemen, coordinated with Hezbollah and Iran",
       "Apr 5: Hezbollah fires anti-ship cruise missiles at Israeli warship 68nm off Lebanese coast — first such attack of war. IDF estimates Hezbollah can sustain 200 rockets/drones per day for 5 more months",
-      "Apr 9: IDF overnight strikes in Beirut killed Ali Yusuf Harshi — personal secretary to Hezbollah chief Naim Qassem. Also attacked two 'key crossings' over Litani River and Hezbollah infrastructure in southern Lebanon"
+      "Apr 9: IDF overnight strikes in Beirut killed Ali Yusuf Harshi — personal secretary to Hezbollah chief Naim Qassem. Also attacked two 'key crossings' over Litani River and Hezbollah infrastructure in southern Lebanon",
+      "Apr 14: IDF intensified operations in SE Lebanon — Golani Brigade (36th Division) active in Taybeh and Khiam. Hezbollah deployed FPV drones and tanks against IDF",
+      "Apr 15: Israel-Lebanon talks held in Washington DC — Israel seeking Hezbollah disarmament, Lebanon seeking immediate ceasefire and return of displaced. Hezbollah fired salvo of rockets at northern Israel — most intercepted by Iron Dome",
+      "Apr 16: Trump announced 10-day ceasefire between Israel and Hezbollah/Lebanon to enable peace negotiations"
     ]
   },
   {
@@ -1228,6 +1348,9 @@ const weaponsDatabase = {
           { name: "Civilian Protection Red Line", range: "—", type: "Policy position", details: "China declared protection of civilians a 'red line that must not be crossed.' Demanded non-military locations — especially energy, economic, and livelihood facilities — not be targeted.", icon: "fa-shield-halved" },
           { name: "Hormuz Shipping Freedom", range: "—", type: "Policy position", details: "China reiterated that security of international shipping lanes, including the Strait of Hormuz, must be upheld. Envoy Zhai said 'the one who tied the bell should be the one to untie it' — pointing at US and Israel.", icon: "fa-anchor" },
           { name: "Ceasefire Response (Apr 8)", range: "—", type: "Diplomatic posture", details: "FM Spokesperson Mao Ning welcomed ceasefire but refused to confirm China's brokering role. Deflected Trump's claim by listing Wang Yi's 26 calls and envoy shuttle diplomacy. Blamed US/Israel for Hormuz crisis. Opposed UNSC resolution as giving 'legal cloak to unauthorised military action.' Deflected on Iran's proposed Hormuz toll fee. Joint five-point initiative with Pakistan.", icon: "fa-gavel" },
+          { name: "Lebanon Ceasefire Ambiguity (Apr 9)", range: "—", type: "Diplomatic signal", details: "Mao Ning asked if ceasefire covers Lebanon. Response hinted at 3 possibilities: Lebanon not included in US-Iran ceasefire; Beijing unaware of terms; or China-Pakistan discussed Lebanon with US/Iran but Israel was not involved.", icon: "fa-question-circle" },
+          { name: "Hormuz Blockade Response (Apr 13-15)", range: "—", type: "Diplomatic escalation", details: "Guo Jiankun: root cause of Hormuz obstruction is the war, not Iran. Called US military actions 'dangerous and irresponsible.' Defended Venezuela's sovereignty over its resources against Trump's pressure. Apr 15: warned Hormuz blockade could trigger 'global economic recession.' Meanwhile, Chinese tanker Rich Starry transited Hormuz under 'neutral transit' clause despite US sanctions.", icon: "fa-ship" },
+          { name: "White House Acknowledgment (Apr 11)", range: "—", type: "Diplomatic milestone", details: "Press Secretary Karoline Leavitt noted China's involvement in Iran negotiations — first official US acknowledgment of Beijing's indirect brokering role in facilitating the ceasefire.", icon: "fa-handshake-angle" },
         ]
       }
     }
@@ -1359,9 +1482,9 @@ const metadataStats = {
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "Ceasefire Apr 7",
-  iranDailyMissiles: "~18 (down from 182)",
-  iranDailyDrones: "~25 (down from hundreds)",
+  weeksExpected: "Blockade + Talks",
+  iranDailyMissiles: "~2 (ceasefire)",
+  iranDailyDrones: "~3 (ceasefire)",
   clusterMunitionRate: "~70%",
   bahInterceptions: "134+ missiles + 224+ drones",
   uaeInterceptions: "425+ missiles + 1,941+ drones",
@@ -1369,8 +1492,11 @@ const metadataStats = {
   israelInterceptionRate: "92%",
   totalIranMissilesAtIsrael: "404 waves",
   israelTotalInjuries: "6,000+",
-  oilExportDecline: "60%+",
-  maritimeIncidents: "21 confirmed (UKMTO)",
+  energyInfraDamage: "$58B (Rystad)",
+  energyFacilitiesHit: "80+ (IEA)",
+  brentCrude: "$99/barrel",
+  oilExportDecline: "Near total (blockade)",
+  maritimeIncidents: "Dual blockade active",
   warCasualties: "21,000+",
   lebDeathToll: "1,039 since Mar 2",
   lebDisplaced: "1.16 million",
@@ -1400,8 +1526,15 @@ const maritimeAttacks = [
   { date: "Apr 1", vessel: "AQUA 1 (Panama-flagged, Qatari-leased)", location: "17nm NW of Ras Laffan, Qatar", details: "Oil tanker attacked by Iran. Leased by Qatari state-owned energy firm" },
   { date: "Apr 7", vessel: "Multiple vessels (various)", location: "Persian Gulf / Strait of Hormuz", details: "Fresh attacks reported across Gulf on morning after ceasefire announcement — unclear if local commanders received word. Ship operators unsure if Hormuz safe for transit" },
   { date: "Apr 8", vessel: "Maersk (statement)", location: "Strait of Hormuz", details: "Maersk welcomed ceasefire but said: 'it does not yet provide full maritime certainty.' Working urgently for more information; no specific changes to routing yet" },
+  { date: "Apr 10", vessel: "Iran-controlled traffic only", location: "Strait of Hormuz", details: "Strait effectively closed. Iran charging $1M+ tolls per ship. Majority of transiting vessels Iran-linked; others delaying voyages" },
+  { date: "Apr 11", vessel: "2 ships only", location: "Strait of Hormuz", details: "Only 2 ships passed through. US destroyers entered strait for first time since war began. Iran warned a US vessel it would be attacked — vessel turned back" },
+  { date: "Apr 12", vessel: "Blockade announced", location: "Strait of Hormuz", details: "Trump announced full US naval blockade and mine-clearing operations. 'Any Iranian who fires at us or peaceful vessels will be BLOWN TO HELL'" },
+  { date: "Apr 13-14", vessel: "US Navy blockade begins", location: "Iranian ports / Strait of Hormuz", details: "US Navy formally implements full blockade of all maritime traffic entering/exiting Iranian ports. Arleigh Burke destroyers and P-8A Poseidons enforcing. Iran retaliates with fast-attack craft. Indian container Paya Lebar among first to cross under blockade" },
+  { date: "Apr 15", vessel: "Rich Starry (China/Malawi-flagged)", location: "Strait of Hormuz", details: "Chinese tanker carrying 250,000 barrels methanol transited under 'neutral transit' clause despite US sanctions. Operated by Shanghai Xuanrun Shipping Co. CENTCOM: zero tankers entered/exited Iranian ports in 36 hours; 8 intercepted via radio" },
+  { date: "Apr 16", vessel: "6 vessels intercepted", location: "Strait of Hormuz / Iranian ports", details: "CENTCOM declared blockade 'fully implemented.' 6 merchant vessels intercepted and turned back. 31st MEU used for boarding/seizure. IRGC warned off a US destroyer — no shots fired. Iran threatened to close Gulf, Oman Sea, and Red Sea" },
+  { date: "Apr 17", vessel: "19 vessels turned back (cumulative)", location: "Strait of Hormuz", details: "CENTCOM: 19 vessels complied with US direction to turn around; zero have breached blockade. IRGC set 3 conditions for transit: no 'belligerent' vessels, Iran-approved routes only, coordinate with Iranian forces. Non-Iranian-linked vessels freely transiting. FM Araghchi claimed strait 'completely open' — IRGC contradicted him" },
 ];
-// Note: UKMTO has recorded 21+ confirmed maritime incidents in the Strait of Hormuz since Feb 28. Iran's parliament drafting Strait of Hormuz management law with transit fees. Daily oil exports from Middle East fallen by at least 60% since war start. Two-week ceasefire announced Apr 7 but maritime safety not yet confirmed.
+// Note: UKMTO has recorded 21+ confirmed maritime incidents since Feb 28. US naval blockade fully implemented Apr 16. Iran charging $1M+ per ship tolls. Strait remains under dual blockade (Iranian selective + US naval). Brent crude at $99/barrel. $58B energy infrastructure damaged (Rystad). 80+ energy facilities attacked (IEA). Europe 6 weeks from jet fuel shortages.
 
 // ===== ANUSHKA'S TAKES =====
 const analysisData = [
@@ -1447,6 +1580,6 @@ const analysisData = [
   },
   {
     title: "Beijing's Three-Sided Game",
-    body: `When the ceasefire was announced on April 7, Trump claimed China had pushed Iran to negotiate. <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for the Apr 8 ceasefire response and Mao Ning's statements." data-link="#weapons-db">Beijing's spokesperson Mao Ning refused to confirm this</span> — instead rattling off a list of diplomatic credentials: <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for FM Wang Yi's phone diplomacy." data-link="#weapons-db">Wang Yi's 26 phone calls</span>, the envoy's shuttle diplomacy, and a joint five-point plan with Pakistan. China wants credit for peacemaking without fingerprints on the deal. At the same time, Mao explicitly blamed the US and Israel for the Hormuz crisis, calling their military actions "illegal," and opposed the UN Security Council draft resolution as giving "a legal cloak to unauthorised military action." And when asked about <span class="take-ref" data-note="Iran's parliament has been drafting a Strait of Hormuz management law with transit fees. See the Maritime section." data-link="#maritime">Iran's proposed toll fees on Hormuz shipping</span>, Beijing gave a diplomatic non-answer. The pattern is clear: <span class="take-ref" data-note="See the Weapons Database under China → Support to Iran for sodium perchlorate, BeiDou, drone components, and anti-ship missile deals." data-link="#weapons-db">supply Iran with rocket fuel and satellite navigation</span>, mediate publicly, blame America privately, and keep all three relationships — with Washington, Tehran, and Islamabad — open for business.`
+    body: `When the ceasefire was announced on April 7, Trump claimed China had pushed Iran to negotiate. <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for the Apr 8 ceasefire response and Mao Ning's statements." data-link="#weapons-db">Beijing's spokesperson Mao Ning refused to confirm this</span> — instead rattling off a list of diplomatic credentials: <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for FM Wang Yi's phone diplomacy." data-link="#weapons-db">Wang Yi's 26 phone calls</span>, the envoy's shuttle diplomacy, and a joint five-point plan with Pakistan. China wants credit for peacemaking without fingerprints on the deal. At the same time, Mao explicitly blamed the US and Israel for the Hormuz crisis, calling their military actions "illegal," and opposed the UN Security Council draft resolution as giving "a legal cloak to unauthorised military action." And when asked about <span class="take-ref" data-note="Iran's parliament has been drafting a Strait of Hormuz management law with transit fees. See the Maritime section." data-link="#maritime">Iran's proposed toll fees on Hormuz shipping</span>, Beijing gave a diplomatic non-answer. Then came the blockade, and the pattern sharpened further. Even as Beijing condemned the US naval blockade as <span class="take-ref" data-note="See China → Diplomatic Mediation → Hormuz Blockade Response (Apr 13-15) in the Weapons Database." data-link="#weapons-db">"dangerous and irresponsible,"</span> a <span class="take-ref" data-note="See the Maritime section for the Rich Starry transit on April 15." data-link="#maritime">Chinese-owned tanker, the Rich Starry, sailed straight through Hormuz</span> under the "neutral transit" clause — falsely flagged as Malawian, already US-sanctioned, carrying 250,000 barrels of methanol back to China. The <span class="take-ref" data-note="The White House acknowledged China's brokering role on April 11. See timeline." data-link="#battlefield">White House acknowledged China's indirect brokering role on April 11</span>. The pattern is clear: <span class="take-ref" data-note="See the Weapons Database under China → Support to Iran for sodium perchlorate, BeiDou, drone components, and anti-ship missile deals." data-link="#weapons-db">supply Iran with rocket fuel and satellite navigation</span>, mediate publicly, blame America privately, exploit the blockade commercially, and keep all three relationships — with Washington, Tehran, and Islamabad — open for business.`
   }
 ];
