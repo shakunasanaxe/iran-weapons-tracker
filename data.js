@@ -820,6 +820,51 @@ const timelineData = [
       { text: "Significant gaps remain between US and Iranian negotiating positions on several core issues. Some Iranian officials seek a preliminary agreement to extend ceasefire for further negotiations. CTP-ISW warns Iran is exploiting the ceasefire to reorganise and regenerate its ballistic missile force", cat: "iran" },
     ]
   },
+  {
+    date: "Apr 21-27",
+    dateLabel: "Week of 21–27 April 2026",
+    dayNum: 50,
+    summary: "WEEKLY UPDATE — US Treasury sanctions Hengli Petrochemical (Dalian), China's 2nd-largest 'teapot' refinery, plus ~40 shipping firms operating in Iran's shadow fleet (Apr 25); Bessent warns 2 Chinese banks of secondary sanctions if Iranian money traced; Beijing pushes back, calling move 'politicising trade'; timing ahead of Trump's planned May Beijing visit signals deliberate pressure tactic, not strategic decoupling",
+    events: [
+      { text: "US Treasury on Apr 25 sanctioned Hengli Petrochemical (Dalian), China's second-largest 'teapot' refinery, for purchasing billions of dollars of Iranian crude oil", cat: "us" },
+      { text: "US Treasury also sanctioned approximately 40 shipping firms operating in Iran's shadow fleet", cat: "us" },
+      { text: "Treasury Secretary Bessent warned two Chinese banks of potential secondary sanctions if Iranian money is traced through their accounts", cat: "us" },
+      { text: "Beijing pushed back on US sanctions, calling the move 'politicising trade'", cat: "europe" },
+      { text: "Timing of sanctions — ahead of Trump's planned May Beijing visit — signals deliberate pressure tactic rather than strategic decoupling", cat: "us" },
+    ]
+  },
+  {
+    date: "Apr 28 – May 4",
+    dateLabel: "Week of 28 April – 4 May 2026",
+    dayNum: 51,
+    summary: "WEEKLY UPDATE — May 1: War Powers Resolution 60-day deadline passes without congressional authorisation; Trump declares hostilities 'terminated' owing to ceasefire, skirting legal requirement; second round of Islamabad talks collapses — Araghchi visits Islamabad twice meeting Munir and Sharif but Tehran refuses direct US engagement; Trump calls off Witkoff/Kushner trip citing Iran's 'unchanged positions'; Iran's proposal (Hormuz reopening for blockade lift, defer nuclear) rejected; Indian NSA Doval to Abu Dhabi meets UAE President MBZ; India PMI declines to 2023 level; March FPI outflow $13.1B",
+    events: [
+      { text: "May 1: War Powers Resolution 60-day deadline passed without congressional authorisation. Trump announced hostilities 'terminated' owing to ceasefire, effectively skirting the legal requirement. Congressional will in enforcing institutional oversight to be tested against partisan loyalty pressures", cat: "us" },
+      { text: "Anticipated second round of talks in Islamabad collapsed. Iranian FM Araghchi visited Islamabad twice in two days, meeting Pakistan Army Chief Munir and PM Sharif — but Tehran refused direct engagement with US envoys", cat: "europe" },
+      { text: "Trump abruptly called off Steve Witkoff and Jared Kushner's trip, citing Iran's 'unchanged positions': would not authorise 'an 18-hour flight to sit around talking about nothing'", cat: "us" },
+      { text: "Iran's new proposal — reopening the Strait of Hormuz in exchange for lifting US naval blockade while deferring nuclear talks — was rejected by Washington", cat: "iran" },
+      { text: "War hit 60-day mark on May 1 with ongoing backchannel negotiations but no diplomatic resolution in sight", cat: "iran" },
+      { text: "Indian NSA Ajit Doval traveled to Abu Dhabi to meet UAE President Mohamed bin Zayed — high-level Gulf engagement focused on energy security. Pakistan's active backchannel role risks New Delhi being sidelined in its own extended neighbourhood", cat: "gulf" },
+      { text: "India: composite Purchasing Managers' Index (PMI) declined to its 2023 level due to contraction in services and manufacturing. Foreign Portfolio Investment recorded net outflow of $13.1 billion in March 2026 as investors pulled back from emerging markets", cat: "gulf" },
+    ]
+  },
+  {
+    date: "May 5 – 11",
+    dateLabel: "Week of 5–11 May 2026",
+    dayNum: 52,
+    summary: "WEEKLY UPDATE — UAE exit set to weaken OPEC, reducing cartel's leverage in managing global oil supply; Oil drops below $100/barrel on May 6 (from ~$113) on UAE-OPEC exit and US-Iran deal prospects; May 6: Araghchi meets Wang Yi in Beijing — endorses Xi's four-point proposal and calls for China central role in 'new post-war regional architecture'; Wang Yi measured, framing China as facilitator not guarantor; Pakistan urges US to avoid military engagement; Dar reaffirms Saudi defence commitments calling KSA 'no-go area' for Pakistan; India announces Rs 5,000 crore ECLGS for aviation; US Navy attempts to break Iranian blockade — resumes use of force, reactivating War Powers grey area",
+    events: [
+      { text: "UAE's exit from OPEC set to weaken the cartel as it loses a major producer. Expected to reduce OPEC's leverage in managing global oil supply and pricing, increasing market volatility. Risks escalating internal OPEC conflict and possibility of price wars", cat: "gulf" },
+      { text: "Oil prices dropped below $100/barrel on May 6 (from around $113 before) on UAE-OPEC exit news and prospects of US-Iran deal", cat: "gulf" },
+      { text: "May 6: Iranian FM Abbas Araghchi met Wang Yi in Beijing. Visit confirms Tehran's positioning of China as principal external interlocutor", cat: "iran" },
+      { text: "Araghchi endorsed Xi's four-point proposal and explicitly called for China to play a central role in shaping a 'new post-war regional architecture' — language going beyond crisis management toward a preferred-partner regional shape", cat: "europe" },
+      { text: "Wang Yi's response was more measured, framing China's role as facilitator rather than guarantor", cat: "europe" },
+      { text: "Pakistan continued diplomatic efforts, urging US to avoid military engagement with Iran during negotiations. Repeated claims of 'imminent breakthrough' have yet to materialise", cat: "europe" },
+      { text: "Pakistan Deputy PM Ishaq Dar reaffirmed Islamabad's security commitments to Riyadh under longstanding defence understanding — warned all parties Saudi Arabia remained a 'no-go area' for Pakistan", cat: "europe" },
+      { text: "India announced Emergency Credit Line Guarantee Scheme (ECLGS) of Rs 5,000 crore for aviation sector to mitigate fuel price hike. Fuel now accounts for 60% of Indian airline operating costs (up from 40%). 11% ad valorem excise on ATF compounds the crisis", cat: "gulf" },
+      { text: "Later in week: US Navy attempted to break the Iranian blockade and pass through the Strait. Move triggered US resuming use of force against Iranian forces — potentially reactivating War Powers clauses and bringing the war back into legal grey area", cat: "us" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -1351,6 +1396,8 @@ const weaponsDatabase = {
           { name: "Lebanon Ceasefire Ambiguity (Apr 9)", range: "—", type: "Diplomatic signal", details: "Mao Ning asked if ceasefire covers Lebanon. Response hinted at 3 possibilities: Lebanon not included in US-Iran ceasefire; Beijing unaware of terms; or China-Pakistan discussed Lebanon with US/Iran but Israel was not involved.", icon: "fa-question-circle" },
           { name: "Hormuz Blockade Response (Apr 13-15)", range: "—", type: "Diplomatic escalation", details: "Guo Jiankun: root cause of Hormuz obstruction is the war, not Iran. Called US military actions 'dangerous and irresponsible.' Defended Venezuela's sovereignty over its resources against Trump's pressure. Apr 15: warned Hormuz blockade could trigger 'global economic recession.' Meanwhile, Chinese tanker Rich Starry transited Hormuz under 'neutral transit' clause despite US sanctions.", icon: "fa-ship" },
           { name: "White House Acknowledgment (Apr 11)", range: "—", type: "Diplomatic milestone", details: "Press Secretary Karoline Leavitt noted China's involvement in Iran negotiations — first official US acknowledgment of Beijing's indirect brokering role in facilitating the ceasefire.", icon: "fa-handshake-angle" },
+          { name: "Hengli Petrochemical Sanctions (Apr 25)", range: "—", type: "US sanctions pressure", details: "US Treasury sanctioned Hengli Petrochemical (Dalian) — China's 2nd-largest 'teapot' refinery — for buying billions of dollars of Iranian crude. Also sanctioned ~40 shipping firms in Iran's shadow fleet. Bessent warned 2 Chinese banks of secondary sanctions if Iranian money is traced. Beijing called it 'politicising trade.' Timing ahead of Trump's planned May Beijing visit signals deliberate pressure tactic.", icon: "fa-ban" },
+          { name: "Araghchi–Wang Yi Beijing Meeting (May 6)", range: "—", type: "Strategic alignment", details: "Iranian FM Araghchi met Wang Yi in Beijing — confirms Tehran's positioning of China as principal external interlocutor. Araghchi endorsed Xi's four-point proposal and called for China to play a central role in a 'new post-war regional architecture' — language beyond crisis management. Wang Yi's response was measured, framing China as facilitator rather than guarantor.", icon: "fa-handshake" },
         ]
       }
     }
@@ -1482,7 +1529,7 @@ const metadataStats = {
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "Blockade + Talks",
+  weeksExpected: "Weekly updates",
   iranDailyMissiles: "~2 (ceasefire)",
   iranDailyDrones: "~3 (ceasefire)",
   clusterMunitionRate: "~70%",
@@ -1494,7 +1541,7 @@ const metadataStats = {
   israelTotalInjuries: "6,000+",
   energyInfraDamage: "$58B (Rystad)",
   energyFacilitiesHit: "80+ (IEA)",
-  brentCrude: "$99/barrel",
+  brentCrude: "<$100/barrel",
   oilExportDecline: "Near total (blockade)",
   maritimeIncidents: "Dual blockade active",
   warCasualties: "21,000+",
@@ -1533,6 +1580,7 @@ const maritimeAttacks = [
   { date: "Apr 15", vessel: "Rich Starry (China/Malawi-flagged)", location: "Strait of Hormuz", details: "Chinese tanker carrying 250,000 barrels methanol transited under 'neutral transit' clause despite US sanctions. Operated by Shanghai Xuanrun Shipping Co. CENTCOM: zero tankers entered/exited Iranian ports in 36 hours; 8 intercepted via radio" },
   { date: "Apr 16", vessel: "6 vessels intercepted", location: "Strait of Hormuz / Iranian ports", details: "CENTCOM declared blockade 'fully implemented.' 6 merchant vessels intercepted and turned back. 31st MEU used for boarding/seizure. IRGC warned off a US destroyer — no shots fired. Iran threatened to close Gulf, Oman Sea, and Red Sea" },
   { date: "Apr 17", vessel: "19 vessels turned back (cumulative)", location: "Strait of Hormuz", details: "CENTCOM: 19 vessels complied with US direction to turn around; zero have breached blockade. IRGC set 3 conditions for transit: no 'belligerent' vessels, Iran-approved routes only, coordinate with Iranian forces. Non-Iranian-linked vessels freely transiting. FM Araghchi claimed strait 'completely open' — IRGC contradicted him" },
+  { date: "May 5–11", vessel: "US Navy attempts blockade break", location: "Strait of Hormuz", details: "US Navy attempted to break the Iranian blockade and pass through the strait. Move triggered US resuming use of force against Iranian forces — potentially reactivating War Powers clauses. Brings war back into legal grey area after Trump's May 1 'terminated' declaration" },
 ];
 // Note: UKMTO has recorded 21+ confirmed maritime incidents since Feb 28. US naval blockade fully implemented Apr 16. Iran charging $1M+ per ship tolls. Strait remains under dual blockade (Iranian selective + US naval). Brent crude at $99/barrel. $58B energy infrastructure damaged (Rystad). 80+ energy facilities attacked (IEA). Europe 6 weeks from jet fuel shortages.
 
@@ -1577,6 +1625,10 @@ const analysisData = [
   {
     title: "Who Keeps Iran in the Fight",
     body: `Iran is not doing this alone. <span class="take-ref" data-note="See the Weapons Database under China for sodium perchlorate supply and BeiDou satellite navigation details." data-link="#weapons-db">China supplies solid rocket fuel ingredients (sodium perchlorate) and access to its BeiDou satellite navigation</span>. <span class="take-ref" data-note="See the Weapons Database under Russia for Su-35 fighters, R-37M missiles, and Verba MANPADS." data-link="#weapons-db">Russia has sent Su-35 fighters, R-37M long-range missiles, and Verba shoulder-fired air defence systems</span>. Without this support, Iran's war effort would look very different. Meanwhile, Gulf states that used to stay on the sidelines are now shooting back. The <span class="take-ref" data-note="See the Ecosystem of Actors for Qatar's role, and the March 2 timeline for this air engagement." data-link="#ecosystem">Qatari Air Force shot down two Iranian Su-24 bombers</span> — its first air-to-air kills ever — minutes before they reached Qatari territory.`
+  },
+  {
+    title: "Tehran Picks Its Architect",
+    body: `On May 6, in Beijing, Iran's foreign minister Abbas Araghchi did something that mattered more than what he said. He <span class="take-ref" data-note="See China → Diplomatic Mediation → Araghchi–Wang Yi Beijing Meeting (May 6) in the Weapons Database." data-link="#weapons-db">endorsed Xi Jinping's four-point proposal and called for China to play a central role in shaping a 'new post-war regional architecture'</span>. That phrase is not crisis management. That is Tehran picking a partner for what comes after the bombs stop. Wang Yi's response was deliberately cooler — China as <span class="take-ref" data-note="Wang Yi framed China as facilitator rather than guarantor. See China → Diplomatic Mediation in the Weapons Database." data-link="#weapons-db">facilitator, not guarantor</span>. Beijing wants the optics of leadership without the cost of underwriting Iran's security. Meanwhile, the <span class="take-ref" data-note="See China → Diplomatic Mediation → Hengli Petrochemical Sanctions (Apr 25) for details." data-link="#weapons-db">US sanctioned Hengli Petrochemical, China's second-largest 'teapot' refinery</span>, and warned two Chinese banks about secondary sanctions — timed deliberately ahead of Trump's planned May Beijing visit. The pattern from earlier weeks holds: <span class="take-ref" data-note="See the Weapons Database under China → Support to Iran for sodium perchlorate, BeiDou, drone components." data-link="#weapons-db">China supplies Iran with rocket fuel and satellite navigation</span>, mediates publicly, exploits the blockade commercially, and now offers itself as the architect of a regional order Washington may not be invited to. The post-war Middle East may not look very Western.`
   },
   {
     title: "Beijing's Three-Sided Game",
