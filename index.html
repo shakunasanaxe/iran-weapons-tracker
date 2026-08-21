@@ -3,104 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tracking Iran War Weapons & Attacks Daily</title>
-  <link rel="stylesheet" href="styles.css?v=20">
+  <title>Iran War Watch · Takshashila Institution</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=22">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
+  <!-- ===== NAVBAR ===== -->
+  <nav class="tk-nav" id="mainNav">
+    <div class="tk-container tk-nav-inner">
+      <a href="#" class="tk-nav-brand">Iran War<em>Watch</em></a>
+      <ul class="tk-nav-links">
+        <li><a href="#battlefield">Battlefield</a></li>
+        <li><a href="#weapons-db">Weapons Database</a></li>
+        <li><a href="#strategy">Strategy</a></li>
+        <li><a href="#maritime">Maritime</a></li>
+        <li><a href="#ecosystem">Actors</a></li>
+        <li><a href="#takes">Analysis</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- ===== FEATURED LINKS BAR ===== -->
   <div class="featured-links-bar">
     <div class="featured-links-inner">
-      <a href="https://takshashila.org.in/pages/trackers/westasianwar/" target="_blank" rel="noopener" class="featured-link-btn">
-        <i class="fas fa-book-open"></i>
-        <span>Takshashila's Live Dossier: Iran At War</span>
-        <i class="fas fa-external-link-alt"></i>
+      <span class="tk-eyebrow">Companion pieces</span>
+      <a href="https://takshashila.org.in/pages/trackers/westasianwar/" target="_blank" rel="noopener" class="tk-btn tk-btn-ghost">
+        Live Dossier: Iran At War <span aria-hidden="true">↗</span>
       </a>
-      <a href="https://takshashila.org.in/content/publications/Shahed-Iran-Drone-Strategy-14042026.html" target="_blank" rel="noopener" class="featured-link-btn">
-        <i class="fas fa-file-alt"></i>
-        <span>Issue Brief: Iran's Shahed Drone Strategy</span>
-        <i class="fas fa-external-link-alt"></i>
+      <a href="https://takshashila.org.in/content/publications/Shahed-Iran-Drone-Strategy-14042026.html" target="_blank" rel="noopener" class="tk-btn tk-btn-ghost">
+        Issue Brief: Iran's Shahed Drone Strategy <span aria-hidden="true">↗</span>
       </a>
     </div>
   </div>
 
-  <!-- ===== METADATA BANNER ===== -->
-  <div class="metadata-banner" id="metaBanner">
-    <div class="banner-inner" id="bannerContent">
-      <!-- Filled by JS -->
-    </div>
-  </div>
+  <!-- ===== MASTHEAD ===== -->
+  <header class="tk-section tk-masthead">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Takshashila Institution · Live Tracker · Updated weekly</p>
+      <h1 class="tk-h1">Tracking the <em>Iran war</em> day by day</h1>
+      <p class="tk-lede">Weapons deployed, strikes recorded, and shifts in strategy across every party to the conflict — compiled from CENTCOM, ISW, UKMTO, and open-source reporting.</p>
+      <p class="tk-meta">February 28, 2026 &rarr; Now &nbsp;·&nbsp; <em>War resumed 8 July after MoU collapse</em></p>
 
-  <!-- ===== HERO ===== -->
-  <header class="hero">
-    <div class="hero-content">
-      <p class="hero-tag">War Watch</p>
-      <h1>Tracking Iran War Weapons &amp; Attacks Daily</h1>
-      <p class="hero-meta">February 28, 2026 to Now</p>
-      <div class="hero-stats">
-        <div class="stat-card">
-          <span class="stat-number" data-count="10000">0</span><span class="stat-plus">+</span>
-          <span class="stat-label">Targets Struck</span>
+      <div class="tk-stats-grid" id="heroStats">
+        <div class="tk-stat">
+          <span class="tk-stat-n"><span data-count="10000" class="stat-number">0</span><sup>+</sup></span>
+          <span class="tk-stat-lbl">Targets struck</span>
         </div>
-        <div class="stat-card">
-          <span class="stat-number" data-count="9500">0</span><span class="stat-plus">+</span>
-          <span class="stat-label">Air Sorties</span>
+        <div class="tk-stat">
+          <span class="tk-stat-n"><span data-count="9500" class="stat-number">0</span><sup>+</sup></span>
+          <span class="tk-stat-lbl">Air sorties</span>
         </div>
-        <div class="stat-card">
-          <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
-          <span class="stat-label">Iranian Ships Destroyed</span>
+        <div class="tk-stat">
+          <span class="tk-stat-n"><span data-count="100" class="stat-number">0</span><sup>+</sup></span>
+          <span class="tk-stat-lbl">Iranian ships destroyed</span>
         </div>
-        <div class="stat-card">
-          <span class="stat-number" data-count="290">0</span>
-          <span class="stat-label">Launchers Neutralized</span>
+        <div class="tk-stat">
+          <span class="tk-stat-n"><span data-count="290" class="stat-number">0</span></span>
+          <span class="tk-stat-lbl">Launchers neutralised</span>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- ===== NAV ===== -->
-  <nav class="main-nav" id="mainNav">
-    <div class="nav-inner">
-      <span class="nav-logo">WAR WATCH</span>
-      <ul class="nav-links">
-        <li><a href="#battlefield">Battlefield</a></li>
-        <li><a href="#weapons-db">Weapons Database</a></li>
-        <li><a href="#strategy">Strategy</a></li>
-        <li><a href="#maritime">Maritime</a></li>
-        <li><a href="#ecosystem">Ecosystem of Actors</a></li>
-        <li><a href="#takes">Anushka's Takes</a></li>
-      </ul>
+  <!-- ===== KEY FIGURES STRIP ===== -->
+  <section class="tk-section tk-section-deep tk-metastrip-section">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Key figures across the war</p>
+      <h2 class="tk-h3" style="margin-bottom:8px">The numbers, at a glance</h2>
+      <div class="tk-metastrip" id="bannerContent">
+        <!-- Filled by JS -->
+      </div>
+      <p class="chart-caption" style="margin-top:16px">Sources: CENTCOM, ISW, UAE Defence Ministry, UKMTO, Rystad Energy, IEA.</p>
     </div>
-  </nav>
+  </section>
 
-  <!-- ===== BATTLEFIELD: Timeline (left) + Iran Attacks by Country (right) ===== -->
-  <section id="battlefield" class="section section-dark">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-timeline" style="color:var(--heading-purple)"></i> The Battlefield</h2>
-      <p class="section-desc">Day-by-day military events alongside Iran's attacks mapped by target country. Click any row to expand details.</p>
+  <!-- ===== BATTLEFIELD ===== -->
+  <section id="battlefield" class="tk-section">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 01 · Battlefield</p>
+      <h2 class="tk-h2">Day-by-day military events, mapped against strikes on <em>each country</em></h2>
+      <p class="tk-lede">The left column tracks the war chronologically. The right column groups strikes by target country. Click any row to expand.</p>
 
       <div class="battlefield-grid">
-        <!-- LEFT: Timeline -->
         <div class="battlefield-col">
-          <h3><i class="fa-solid fa-calendar-days"></i> Day-by-Day Military Timeline</h3>
+          <h3>Timeline</h3>
           <div class="timeline-controls">
             <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="us">US / Israel</button>
+            <button class="filter-btn" data-filter="us">US &amp; Israel</button>
             <button class="filter-btn" data-filter="iran">Iran</button>
             <button class="filter-btn" data-filter="gulf">Gulf States</button>
             <button class="filter-btn" data-filter="maritime">Maritime</button>
-            <button class="filter-btn" data-filter="europe">Europe</button>
+            <button class="filter-btn" data-filter="europe">Europe &amp; Others</button>
           </div>
           <div class="timeline-scroll" id="timelineContainer">
             <!-- Filled by JS -->
           </div>
         </div>
 
-        <!-- RIGHT: Iran Attacks by Country -->
         <div class="battlefield-col">
-          <h3><i class="fa-solid fa-crosshairs"></i> Iran's Attacks by Target Country</h3>
+          <h3>By target country</h3>
           <div class="attacks-scroll" id="attacksContainer">
             <!-- Filled by JS -->
           </div>
@@ -110,144 +116,112 @@
   </section>
 
   <!-- ===== WEAPONS DATABASE ===== -->
-  <section id="weapons-db" class="section weapons-db-section">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-database" style="color:var(--heading-purple)"></i> Complete Weapons Database</h2>
-      <p class="section-desc">Every weapon system deployed by every party — categorized by country, then by weapon type. Click a country, then a category to explore.</p>
+  <section id="weapons-db" class="tk-section tk-section-deep">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 02 · Weapons Database</p>
+      <h2 class="tk-h2">Every system deployed, catalogued by <em>country</em> and category</h2>
+      <p class="tk-lede">Pick a country, then a category, to browse specific weapons and how each has been used across the war.</p>
 
-      <!-- Country Selector Tabs -->
       <div class="country-tabs" id="countryTabs">
         <!-- Filled by JS -->
       </div>
 
-      <!-- Weapons Content Area -->
       <div id="weaponsDbArea">
         <!-- Filled by JS -->
       </div>
     </div>
   </section>
 
-  <!-- ===== STRATEGY BY DAY + TRENDS ===== -->
-  <section id="strategy" class="section section-dark">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-chess" style="color:var(--heading-purple)"></i> Strategy &amp; Trends</h2>
-      <p class="section-desc">Iranian attack strategy compared to US/Israeli response — by day and by phase. Plus trends in Iranian launch degradation.</p>
+  <!-- ===== STRATEGY & TRENDS ===== -->
+  <section id="strategy" class="tk-section">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 03 · Strategy &amp; Trends</p>
+      <h2 class="tk-h2">Iranian strategy set against the <em>US–Israeli</em> response</h2>
+      <p class="tk-lede">Fire mix by day, sortie volume, launcher attrition, and daily strike totals — each series read left to right.</p>
 
       <div class="strategy-grid">
-        <!-- LEFT: Iran's Strategy -->
-        <div class="strategy-col iran-col">
-          <h3><i class="fa-solid fa-flag"></i> Iran's Attack Strategy</h3>
-          <div class="chart-container">
-            <canvas id="iranStrategyChart"></canvas>
-          </div>
+        <div class="strategy-col">
+          <h3>Iran's attack mix, by day</h3>
+          <div class="chart-container"><canvas id="iranStrategyChart"></canvas></div>
+          <p class="chart-caption">Source: ISW-CTP Iran Update, UAE Defence Ministry briefings, Feb–May 2026.</p>
         </div>
-
-        <!-- RIGHT: US/Israel Strategy -->
-        <div class="strategy-col us-col">
-          <h3><i class="fa-solid fa-star"></i> US &amp; Israel Strategy</h3>
-          <div class="chart-container">
-            <canvas id="usStrategyChart"></canvas>
-          </div>
+        <div class="strategy-col">
+          <h3>US &amp; Israeli response volume</h3>
+          <div class="chart-container"><canvas id="usStrategyChart"></canvas></div>
+          <p class="chart-caption">Source: CENTCOM readouts, IDF Spokesperson briefings, Feb–May 2026.</p>
         </div>
       </div>
 
-      <!-- Trends in Iranian Attacks -->
       <div class="trends-subsection">
-        <h3><i class="fa-solid fa-chart-line"></i> Trends in Iranian Attacks</h3>
+        <h3>Trends in the Iranian fires campaign</h3>
         <div class="trends-charts-grid">
           <div class="trend-chart-card">
-            <h4><i class="fa-solid fa-arrow-trend-down"></i> Iranian Launcher Degradation</h4>
-            <div class="chart-container">
-              <canvas id="launcherChart"></canvas>
-            </div>
+            <h4>Iranian launcher degradation</h4>
+            <div class="chart-container"><canvas id="launcherChart"></canvas></div>
+            <p class="chart-caption">Estimate. Source: ISW-CTP, US and Israeli battle-damage assessments.</p>
           </div>
           <div class="trend-chart-card">
-            <h4><i class="fa-solid fa-chart-area"></i> Strike Volume Decline</h4>
-            <div class="chart-container">
-              <canvas id="strikeVolumeChart"></canvas>
-            </div>
+            <h4>Iranian daily strike volume</h4>
+            <div class="chart-container"><canvas id="strikeVolumeChart"></canvas></div>
+            <p class="chart-caption">Combined ballistic missiles, cruise missiles and drones. Source: ISW-CTP.</p>
           </div>
           <div class="trend-chart-card">
-            <h4><i class="fa-solid fa-fire"></i> Iranian Daily Fire Rate</h4>
-            <div class="chart-container">
-              <canvas id="iranFireChart"></canvas>
-            </div>
+            <h4>Iranian daily fire rate</h4>
+            <div class="chart-container"><canvas id="iranFireChart"></canvas></div>
+            <p class="chart-caption">Source: national defence ministry statements, ISW-CTP.</p>
           </div>
           <div class="trend-chart-card">
-            <h4><i class="fa-solid fa-shield-halved"></i> Interception Rates by Country</h4>
-            <div class="chart-container">
-              <canvas id="interceptionChart"></canvas>
-            </div>
+            <h4>Interception rates by country</h4>
+            <div class="chart-container"><canvas id="interceptionChart"></canvas></div>
+            <p class="chart-caption">Cumulative through mid-April 2026. Source: national defence ministries.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== MARITIME ATTACKS ===== -->
-  <section id="maritime" class="section section-maritime">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-ship" style="color:var(--heading-purple)"></i> Maritime &amp; Shipping Attacks</h2>
-      <p class="section-desc">Attacks on commercial shipping in the Strait of Hormuz and Gulf waters. At least 10 oil tankers attacked since Feb 28.</p>
+  <!-- ===== MARITIME ===== -->
+  <section id="maritime" class="tk-section tk-section-deep">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 04 · Maritime &amp; Shipping</p>
+      <h2 class="tk-h2">Attacks on <em>commercial shipping</em> across the Strait of Hormuz and Gulf waters</h2>
+      <p class="tk-lede">UKMTO has logged at least 21 confirmed maritime incidents since Feb 28. A dual blockade — Iranian selective controls plus a US naval blockade — remains in force.</p>
       <div id="maritimeContainer">
         <!-- Filled by JS -->
       </div>
     </div>
   </section>
 
-  <!-- ===== ECOSYSTEM OF ACTORS ===== -->
-  <section id="ecosystem" class="section section-navy">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-globe" style="color:var(--heading-purple)"></i> Ecosystem of Actors</h2>
-      <p class="section-desc">The broader coalition — Gulf states' defense, European deployments, Russia's arms supply to Iran, China's strategic support, and coalition strike summary.</p>
+  <!-- ===== ECOSYSTEM ===== -->
+  <section id="ecosystem" class="tk-section">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 05 · Ecosystem of Actors</p>
+      <h2 class="tk-h2">The wider coalition, and the states arming Iran</h2>
+      <p class="tk-lede">Gulf-state air defence, European deployments, the Russian arms pipeline into Iran, and China's strategic support.</p>
 
       <div class="ecosystem-grid" id="ecosystemGrid">
         <!-- Filled by JS -->
       </div>
 
-      <!-- Coalition Summary -->
       <div class="coalition-summary">
         <div>
-          <h3 style="color:var(--heading-purple);margin-bottom:16px;"><i class="fa-solid fa-chart-pie"></i> Coalition Strike Summary</h3>
+          <h3><i class="fa-solid fa-chart-pie"></i>Coalition strike composition</h3>
           <div class="coalition-chart-wrap">
             <canvas id="coalitionChart"></canvas>
           </div>
+          <p class="chart-caption">Source: CENTCOM, IDF, national defence ministries. Illustrative shares of total kinetic activity.</p>
         </div>
         <div>
-          <h3 style="color:var(--heading-purple);margin-bottom:16px;"><i class="fa-solid fa-square-poll-vertical"></i> Key Figures</h3>
+          <h3><i class="fa-solid fa-square-poll-vertical"></i>Coalition, in figures</h3>
           <div class="coalition-stats">
-            <div class="coalition-stat-card">
-              <span class="cnum">7,000+</span>
-              <span class="clbl">Targets Struck</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">6,500+</span>
-              <span class="clbl">Air Sorties</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">100+</span>
-              <span class="clbl">Iranian Ships Destroyed</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">60%+</span>
-              <span class="clbl">Launchers Neutralized</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">3</span>
-              <span class="clbl">US Carriers Deployed</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">18</span>
-              <span class="clbl">Bombers at RAF Fairford</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">10+</span>
-              <span class="clbl">Oil Tankers Attacked</span>
-            </div>
-            <div class="coalition-stat-card">
-              <span class="cnum">~50%</span>
-              <span class="clbl">Cluster Munition Rate</span>
-            </div>
+            <div class="coalition-stat-card"><span class="cnum">7,000<sup style="font-size:0.55em">+</sup></span><span class="clbl">Targets struck</span></div>
+            <div class="coalition-stat-card"><span class="cnum">6,500<sup style="font-size:0.55em">+</sup></span><span class="clbl">Air sorties</span></div>
+            <div class="coalition-stat-card"><span class="cnum">100<sup style="font-size:0.55em">+</sup></span><span class="clbl">Iranian ships destroyed</span></div>
+            <div class="coalition-stat-card"><span class="cnum">60<sup style="font-size:0.55em">%</sup></span><span class="clbl">Iranian launchers gone</span></div>
+            <div class="coalition-stat-card"><span class="cnum">3</span><span class="clbl">US carriers deployed</span></div>
+            <div class="coalition-stat-card"><span class="cnum">18</span><span class="clbl">Bombers at RAF Fairford</span></div>
+            <div class="coalition-stat-card"><span class="cnum">10<sup style="font-size:0.55em">+</sup></span><span class="clbl">Oil tankers attacked</span></div>
+            <div class="coalition-stat-card"><span class="cnum">~50<sup style="font-size:0.55em">%</sup></span><span class="clbl">Cluster munition rate</span></div>
           </div>
         </div>
       </div>
@@ -255,19 +229,20 @@
   </section>
 
   <!-- ===== ANUSHKA'S TAKES ===== -->
-  <section id="takes" class="section section-takes">
-    <div class="container">
-      <h2 class="section-title"><i class="fa-solid fa-pen-fancy" style="color:var(--accent-gold)"></i> Anushka's Takes</h2>
-      <p class="section-desc takes-desc">Analysis, assessments, and observations from the data.</p>
+  <section id="takes" class="tk-section section-takes">
+    <div class="tk-container">
+      <p class="tk-eyebrow">Section 06 · Analysis</p>
+      <h2 class="tk-h2">Anushka's <em>Takes</em></h2>
+      <p class="tk-lede">Twelve short readings of the war so far — patterns, inflections, and moves that changed the shape of the conflict.</p>
 
       <div class="takes-carousel">
-        <button class="carousel-arrow carousel-prev" id="takesPrev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-arrow carousel-prev" id="takesPrev" aria-label="Previous take"><i class="fa-solid fa-chevron-left"></i></button>
         <div class="carousel-viewport" id="takesViewport">
           <div class="carousel-track" id="takesTrack">
             <!-- Filled by JS -->
           </div>
         </div>
-        <button class="carousel-arrow carousel-next" id="takesNext"><i class="fa-solid fa-chevron-right"></i></button>
+        <button class="carousel-arrow carousel-next" id="takesNext" aria-label="Next take"><i class="fa-solid fa-chevron-right"></i></button>
       </div>
 
       <div class="carousel-dots" id="takesDots"></div>
@@ -276,15 +251,48 @@
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <p class="footer-text">Tracking Iran War Weapons &amp; Attacks Daily</p>
-    <p class="footer-sub">Data sourced from CENTCOM, ISW, UKMTO, official defense ministry statements &bull; February 28 &ndash; May 11, 2026 &bull; Now updated weekly</p>
+  <footer class="tk-footer">
+    <div class="tk-footer-inner">
+      <div class="tk-footer-brand">
+        <h4>Iran War<em>Watch</em></h4>
+        <p>A live tracker maintained by Anushka Saxena at the Takshashila Institution, updated weekly through the course of the Iran war. Latest events surface first; scroll to move backwards in time.</p>
+        <a href="https://takshashila.org.in/pages/trackers/westasianwar/" target="_blank" rel="noopener" class="tk-btn">Support This Tracker <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="tk-footer-col">
+        <h5>Sections</h5>
+        <a href="#battlefield">Battlefield</a>
+        <a href="#weapons-db">Weapons Database</a>
+        <a href="#strategy">Strategy &amp; Trends</a>
+        <a href="#maritime">Maritime</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#takes">Analysis</a>
+      </div>
+      <div class="tk-footer-col">
+        <h5>Sources</h5>
+        <span>US CENTCOM</span>
+        <span>ISW-CTP Iran Update</span>
+        <span>UKMTO</span>
+        <span>IDF Spokesperson</span>
+        <span>National defence ministries</span>
+        <span>Rystad Energy · IEA</span>
+      </div>
+      <div class="tk-footer-col">
+        <h5>Takshashila</h5>
+        <a href="https://takshashila.org.in" target="_blank" rel="noopener">About Takshashila <span aria-hidden="true">↗</span></a>
+        <a href="https://takshashila.org.in/pages/trackers/westasianwar/" target="_blank" rel="noopener">Live Dossier <span aria-hidden="true">↗</span></a>
+        <a href="https://takshashila.org.in/content/publications/Shahed-Iran-Drone-Strategy-14042026.html" target="_blank" rel="noopener">Shahed Issue Brief <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="tk-footer-bottom">
+      <p>February 28 &ndash; August 20, 2026 &nbsp;·&nbsp; Updated weekly &nbsp;·&nbsp; Latest first</p>
+      <span>© 2026 Takshashila Institution</span>
+    </div>
   </footer>
 
   <!-- Tooltip -->
   <div class="tooltip" id="globalTooltip"></div>
 
-  <script src="data.js?v=20"></script>
-  <script src="app.js?v=20"></script>
+  <script src="data.js?v=22"></script>
+  <script src="app.js?v=22"></script>
 </body>
 </html>

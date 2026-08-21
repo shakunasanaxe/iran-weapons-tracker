@@ -29,31 +29,35 @@ function initBanner() {
   if (!bannerEl || typeof metadataStats === 'undefined') return;
 
   const items = [
+    { num: metadataStats.weeksExpected, lbl: 'Status' },
+    { num: metadataStats.mouSigned, lbl: 'US–Iran MoU' },
+    { num: metadataStats.militiaDeadline, lbl: 'Iraq Militia Disarmament' },
     { num: metadataStats.targetsStruck, lbl: 'Targets Struck' },
     { num: metadataStats.airSorties, lbl: 'Air Sorties' },
     { num: metadataStats.iranianShipsDestroyed, lbl: 'Ships Destroyed' },
-    { num: metadataStats.launchersNeutralized, lbl: 'of ' + metadataStats.totalLaunchers + ' Launchers Neutralized' },
+    { num: metadataStats.launchersNeutralized, lbl: 'of ' + metadataStats.totalLaunchers + ' Launchers Neutralised' },
     { num: metadataStats.percentDestroyed, lbl: 'Iranian Launchers Gone' },
     { num: metadataStats.oilTankersAttacked, lbl: 'Oil Tankers Attacked' },
-    { num: metadataStats.energyInfraDamage, lbl: 'Energy Infrastructure Damaged' },
+    { num: metadataStats.energyInfraDamage, lbl: 'Energy Infra. Damaged' },
     { num: metadataStats.energyFacilitiesHit, lbl: 'Energy Facilities Attacked' },
     { num: metadataStats.brentCrude, lbl: 'Brent Crude' },
-    { num: metadataStats.iranDailyMissiles, lbl: 'Daily Missiles Now' },
-    { num: metadataStats.iranDailyDrones, lbl: 'Daily Drones Now' },
+    { num: metadataStats.iranDailyMissiles, lbl: 'Iranian Missiles' },
+    { num: metadataStats.iranDailyDrones, lbl: 'Iranian Drones' },
     { num: metadataStats.clusterMunitionRate, lbl: 'Cluster Munitions to Israel' },
     { num: metadataStats.bahInterceptions, lbl: 'Bahrain Interceptions' },
     { num: metadataStats.uaeInterceptions, lbl: 'UAE Interceptions' },
     { num: metadataStats.jordanInterceptions, lbl: 'Jordan Interceptions' },
     { num: metadataStats.israelTotalInjuries, lbl: 'Israeli Injuries' },
-    { num: metadataStats.warCasualties, lbl: 'Total War Casualties' },
+    { num: metadataStats.warCasualties, lbl: 'Total Casualties' },
     { num: metadataStats.lebDeathToll, lbl: 'Lebanon Deaths' },
     { num: metadataStats.lebDisplaced, lbl: 'Displaced in Lebanon' },
-    { num: metadataStats.weeksExpected, lbl: 'Status' },
+    { num: metadataStats.oilExportDecline, lbl: 'Middle East Oil Exports' },
+    { num: metadataStats.maritimeIncidents, lbl: 'Maritime Status' },
   ];
 
-  // Duplicate for infinite scroll
-  const html = [...items, ...items].map(i =>
-    `<span class="banner-stat"><span class="num">${i.num}</span> <span class="lbl">${i.lbl}</span></span><span class="banner-stat"><span class="sep">|</span></span>`
+  // Static gapless grid — no scroll ticker in the new design
+  const html = items.map(i =>
+    `<div class="tk-metastrip-item"><span class="tk-metastrip-num">${i.num}</span><span class="tk-metastrip-lbl">${i.lbl}</span></div>`
   ).join('');
   bannerEl.innerHTML = html;
 }
@@ -82,16 +86,20 @@ function initTimeline() {
   const container = document.getElementById('timelineContainer');
   if (!container || typeof timelineData === 'undefined') return;
 
-  timelineData.forEach((day) => {
+  // Render newest first — user wants descending chronological order.
+  // T.NN codes still reflect original chronological position (T.01 = first day).
+  [...timelineData].reverse().forEach((day, revIdx) => {
+    const idx = timelineData.length - 1 - revIdx;
     const dayEl = document.createElement('div');
     dayEl.className = 'timeline-day';
     dayEl.dataset.cats = [...new Set(day.events.map(e => e.cat))].join(',');
+    const code = 'T.' + String(idx + 1).padStart(2, '0');
 
     dayEl.innerHTML = `
       <div class="timeline-day-header">
-        <span class="timeline-date">${day.date}</span>
+        <span class="timeline-date"><span class="tk-code">${code}</span> ${day.date}</span>
         <span class="timeline-summary">${day.summary}</span>
-        <span class="timeline-expand">&#9660;</span>
+        <span class="timeline-expand"><i class="fa-solid fa-chevron-down"></i></span>
       </div>
       <div class="timeline-detail">
         <div class="timeline-detail-inner">
@@ -143,7 +151,7 @@ function initCountryAttacks() {
     card.innerHTML = `
       <div class="country-attack-header">
         <span class="country-name">${c.country}</span>
-        <span class="expand-icon">&#9660;</span>
+        <span class="expand-icon"><i class="fa-solid fa-chevron-down"></i></span>
       </div>
       <div class="country-attack-stats">${statsHtml}</div>
       <div class="country-attack-details">
@@ -339,7 +347,39 @@ function initEcosystem() {
         '<i class="fa-solid fa-shield"></i> S-300 long-range SAM — Iran\'s primary air defense',
         '<i class="fa-solid fa-person-military-rifle"></i> Verba MANPADS (9K333) — purchased late 2025 for low-altitude defense',
         '<i class="fa-solid fa-truck-monster"></i> T-72 tanks, BMP-2 IFVs, MiG-29 fighters',
-        '<i class="fa-solid fa-arrows-rotate"></i> Drone-for-arms exchange: Shaheds for advanced weapons'
+        '<i class="fa-solid fa-arrows-rotate"></i> Drone-for-arms exchange: Shaheds for advanced weapons',
+        '<i class="fa-solid fa-ship"></i> Aug 2026 (NBC): Russia transferring drone components, ammunition, and TNT to Iran via Caspian Sea — 24+ ships delivering to Amirabad Port, Mazandaran',
+        '<i class="fa-solid fa-satellite-dish"></i> Jul 2026 (Reuters): Russia may be providing Iran with targeting intelligence on US sites in the region — improving Iranian strike accuracy',
+        '<i class="fa-solid fa-crosshairs"></i> Provided advanced drone tactics from Russia-Ukraine war — including drone-swarm targeting used to down US F-15E in April 2026'
+      ]
+    },
+    {
+      emoji: '🇮🇶', name: 'Iranian-backed Iraqi Militias', color: '#8b1a4a',
+      items: [
+        '<i class="fa-solid fa-users"></i> Coalition includes Kataib Hezbollah, Badr Organization, Asa\'ib Ahl al-Haq — organised under "Islamic Resistance in Iraq"',
+        '<i class="fa-solid fa-sitemap"></i> Directed by IRGC Quds Force via small covert cells (5–10 fighters) that bypass main militia leadership (per US-funded Arabic media, Aug 8)',
+        '<i class="fa-solid fa-crosshairs"></i> Attacks in 2026 include Kuwait Abdali crossing (Jul 23), Erbil airport & US Consulate (Jul 15), Camp Taji tank-shell strike (Aug 2), Erbil drones from Ninewa (Aug 14), Jordan (Jul 27)',
+        '<i class="fa-solid fa-triangle-exclamation"></i> US-Saudi joint strikes on militia positions Jul 28. Sept 30 disarmament deadline (matches US-led coalition withdrawal from Iraq)',
+        '<i class="fa-solid fa-handshake"></i> Handing over "scrap" missiles and inoperable drones while retaining functional heavy weapons; some seek transfer of weapons to Iran-infiltrated PMF instead of disarmament'
+      ]
+    },
+    {
+      emoji: '🇾🇪', name: 'Houthis (Ansar Allah, Yemen)', color: '#457b9d',
+      items: [
+        '<i class="fa-solid fa-ship"></i> Naval blockade against Saudi Arabia announced Jul 20 — 7+ vessels have diverted from Bab al Mandeb since',
+        '<i class="fa-solid fa-oil-well"></i> Attacking Saudi oil infrastructure since Jul 24 (Jizan refinery hit 4+ times, Najran airport, East-West pipeline, Yanbu) to force Riyadh to end Yemen operations',
+        '<i class="fa-solid fa-anchor"></i> Sank Indian-flagged MSV FAIZE NOORE OLIYA with one-way naval attack drone near Bab al Mandeb (Aug 4)',
+        '<i class="fa-solid fa-crosshairs"></i> Attacks on Israel: Yemen-launched missiles since Mar 28 (first Houthi strike on Israel); coordinated with Hezbollah and Iran',
+        '<i class="fa-solid fa-microchip"></i> First fiber-optic FPV drone use against ROYG forces in Marib Aug 11 — battlefield adaptation from Russia-Ukraine war',
+        '<i class="fa-solid fa-phone"></i> Directly coordinating with IRGC Quds Force and Iraqi militias — virtual conference calls held with Hezbollah, Iraqi militia commanders during April ceasefire (per NYT Aug 1)'
+      ]
+    },
+    {
+      emoji: '🇸🇾', name: 'Syria (Neutral / friction with Axis)', color: '#a8703a',
+      items: [
+        '<i class="fa-solid fa-border-none"></i> Deployed increased forces to Syria-Iraq border in response to Iranian and Axis threats and activity',
+        '<i class="fa-solid fa-scissors"></i> Actively disrupting Hezbollah smuggling routes on the Lebanese border — Iran interprets this as Syrian cooperation with Israel and US',
+        '<i class="fa-solid fa-triangle-exclamation"></i> ISW-CTP flags risk of Iranian clandestine cells conducting "spectacular attacks" in Syria to force Damascus to divert resources from border regions'
       ]
     },
     {
@@ -420,9 +460,55 @@ function initEcosystem() {
 
 // ===== CHARTS =====
 function initCharts() {
-  Chart.defaults.color = '#8899aa';
-  Chart.defaults.borderColor = 'rgba(255,255,255,0.08)';
-  Chart.defaults.font.family = 'Arial, sans-serif';
+  // Takshashila dataviz palette
+  const TK = {
+    wine: '#620d3c',
+    gold: '#f1a222',
+    teal: '#2f6b6b',
+    wineTint: '#b8809f',
+    slate: '#4a5a7a',
+    bronze: '#a8703a',
+    ink: '#171413',
+    ink50: 'rgba(23,20,19,0.50)',
+    grid: 'rgba(23,20,19,0.08)',
+  };
+
+  Chart.defaults.color = TK.ink50;
+  Chart.defaults.borderColor = TK.grid;
+  Chart.defaults.font.family = "'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif";
+  Chart.defaults.font.size = 11;
+
+  // Shared axis config — horizontal gridlines only, no plot border,
+  // mono-ish tabular numerals on the value axis
+  const axisMono = {
+    family: "'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace",
+    size: 10,
+  };
+  const commonScales = {
+    x: {
+      grid: { display: false, drawBorder: false },
+      border: { display: false },
+      ticks: { font: axisMono, color: TK.ink50 },
+    },
+    y: {
+      grid: { color: TK.grid, drawBorder: false, drawTicks: false },
+      border: { display: false },
+      beginAtZero: true,
+      ticks: { font: axisMono, color: TK.ink50, padding: 8 },
+    },
+  };
+  const legendOpts = {
+    position: 'top',
+    align: 'start',
+    labels: {
+      boxWidth: 10,
+      boxHeight: 10,
+      padding: 14,
+      color: TK.ink,
+      font: { family: "'Inter', system-ui, sans-serif", size: 12 },
+      usePointStyle: false,
+    },
+  };
 
   // Iran Strategy Chart (stacked bar)
   const iranCtx = document.getElementById('iranStrategyChart');
@@ -432,29 +518,29 @@ function initCharts() {
       data: {
         labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8', 'Mar 9', 'Mar 10', 'Mar 11-13', 'Mar 14-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24', 'Mar 25-26', 'Mar 27-28', 'Mar 29', 'Mar 30-31', 'Apr 1-3', 'Apr 4-6', 'Apr 7-9', 'Apr 10-12', 'Apr 13-16', 'Apr 17-May 4', 'May 5-11'],
         datasets: [{
-          label: 'Ballistic Missiles',
+          label: 'Ballistic missiles',
           data: [182, 80, 60, 45, 55, 40, 30, 28, 26, 24, 24, 24, 24, 13, 20, 18, 15, 16, 14, 12, 11, 10, 10, 9, 10, 8, 3, 1, 1, 0, 1],
-          backgroundColor: 'rgba(194,24,91,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.wine,
+          borderRadius: 0,
         }, {
           label: 'Drones',
           data: [40, 120, 150, 100, 130, 135, 80, 70, 60, 55, 48, 48, 48, 27, 30, 25, 20, 55, 40, 30, 22, 18, 15, 27, 19, 15, 5, 2, 1, 0, 0],
-          backgroundColor: 'rgba(244,162,97,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.gold,
+          borderRadius: 0,
         }, {
-          label: 'Cruise Missiles',
+          label: 'Cruise missiles',
           data: [0, 5, 8, 3, 5, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0],
-          backgroundColor: 'rgba(123,45,142,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.teal,
+          borderRadius: 0,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 10 } } } },
+        plugins: { legend: legendOpts },
         scales: {
-          x: { stacked: true, ticks: { font: { size: 9 } } },
-          y: { stacked: true, beginAtZero: true, title: { display: true, text: 'Est. Count', font: { size: 10 } } }
+          x: { ...commonScales.x, stacked: true },
+          y: { ...commonScales.y, stacked: true }
         }
       }
     });
@@ -468,30 +554,27 @@ function initCharts() {
       data: {
         labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5-7', 'Mar 8-10', 'Mar 11-14', 'Mar 15-17', 'Mar 18-20', 'Mar 21-24', 'Mar 25-28', 'Mar 29-31', 'Apr 1-6', 'Apr 7-9', 'Apr 10-12', 'Apr 13-16', 'Apr 17-May 4', 'May 5-11'],
         datasets: [{
-          label: 'Air Sorties',
+          label: 'Air sorties',
           data: [500, 600, 550, 450, 500, 1200, 900, 1000, 800, 900, 750, 700, 650, 600, 100, 30, 40, 20, 60],
-          backgroundColor: 'rgba(21,101,192,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.wine,
+          borderRadius: 0,
         }, {
-          label: 'Targets Struck',
+          label: 'Targets struck',
           data: [750, 400, 300, 350, 300, 800, 600, 700, 500, 550, 450, 400, 380, 350, 40, 10, 15, 5, 10],
-          backgroundColor: 'rgba(30,136,229,0.6)',
-          borderRadius: 3,
+          backgroundColor: TK.gold,
+          borderRadius: 0,
         }, {
-          label: 'Ships Destroyed',
+          label: 'Ships destroyed',
           data: [0, 0, 0, 18, 20, 16, 5, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-          backgroundColor: 'rgba(69,123,157,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.teal,
+          borderRadius: 0,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 10 } } } },
-        scales: {
-          x: { ticks: { font: { size: 9 } } },
-          y: { beginAtZero: true, title: { display: true, text: 'Est. Count', font: { size: 10 } } }
-        }
+        plugins: { legend: legendOpts },
+        scales: commonScales,
       }
     });
   }
@@ -504,24 +587,24 @@ function initCharts() {
       data: {
         labels: ['Feb 28', 'Mar 2', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 19', 'Mar 22', 'Mar 24', 'Mar 28', 'Mar 31', 'Apr 6', 'Apr 8', 'Apr 16', 'May 4', 'May 11'],
         datasets: [{
-          label: 'Active Launchers',
+          label: 'Active launchers',
           data: [430, 380, 320, 270, 210, 150, 140, 130, 120, 115, 105, 95, 80, 75, 70, 75, 80],
-          borderColor: '#e63946',
-          backgroundColor: 'rgba(230,57,70,0.1)',
-          fill: true, tension: 0.3, pointRadius: 5,
+          borderColor: TK.wine,
+          backgroundColor: 'rgba(98,13,60,0.08)',
+          fill: true, tension: 0.25, pointRadius: 3, pointBackgroundColor: TK.wine, borderWidth: 2,
         }, {
-          label: 'Destroyed/Ineffective',
+          label: 'Destroyed / ineffective',
           data: [0, 50, 110, 160, 220, 280, 290, 300, 310, 315, 325, 335, 350, 355, 360, 360, 360],
-          borderColor: '#2a9d8f',
-          backgroundColor: 'rgba(42,157,143,0.1)',
-          fill: true, tension: 0.3, pointRadius: 5,
+          borderColor: TK.gold,
+          backgroundColor: 'rgba(241,162,34,0.10)',
+          fill: true, tension: 0.25, pointRadius: 3, pointBackgroundColor: TK.gold, borderWidth: 2.5,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 10 } } } },
-        scales: { y: { beginAtZero: true, max: 450 } }
+        plugins: { legend: legendOpts },
+        scales: { ...commonScales, y: { ...commonScales.y, max: 450 } }
       }
     });
   }
@@ -534,19 +617,18 @@ function initCharts() {
       data: {
         labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 7', 'Mar 10', 'Mar 14', 'Mar 17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24', 'Mar 25', 'Mar 26', 'Mar 27', 'Mar 28', 'Mar 29', 'Mar 30', 'Mar 31', 'Apr 1', 'Apr 3', 'Apr 6', 'Apr 7', 'Apr 8', 'Apr 9', 'Apr 11', 'Apr 13', 'Apr 16', 'Apr 25', 'May 4', 'May 11'],
         datasets: [{
-          label: 'Total Iranian Daily Launches',
+          label: 'Total Iranian daily launches',
           data: [222, 200, 210, 145, 185, 175, 98, 72, 60, 55, 40, 50, 43, 35, 71, 54, 42, 35, 34, 31, 28, 25, 38, 30, 33, 25, 23, 13, 5, 5, 3, 2, 2, 1, 0, 1],
-          borderColor: '#e9c46a',
-          backgroundColor: 'rgba(233,196,106,0.15)',
-          fill: true, tension: 0.3, pointRadius: 5,
-          pointBackgroundColor: '#e9c46a',
+          borderColor: TK.wine,
+          backgroundColor: 'rgba(98,13,60,0.10)',
+          fill: true, tension: 0.25, pointRadius: 2.5, pointBackgroundColor: TK.wine, borderWidth: 2,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         plugins: { legend: { display: false } },
-        scales: { y: { beginAtZero: true } }
+        scales: commonScales,
       }
     });
   }
@@ -559,22 +641,22 @@ function initCharts() {
       data: {
         labels: ['Feb 28', 'Mar 1', 'Mar 2', 'Mar 3', 'Mar 4', 'Mar 5', 'Mar 6', 'Mar 7', 'Mar 8-9', 'Mar 10', 'Mar 11-17', 'Mar 18', 'Mar 19', 'Mar 20', 'Mar 21', 'Mar 22', 'Mar 23', 'Mar 24', 'Mar 25-26', 'Mar 27-29', 'Mar 30-31', 'Apr 1-3', 'Apr 4-6', 'Apr 7-9', 'Apr 10-12', 'Apr 13-16', 'Apr 17-May 4', 'May 5-11'],
         datasets: [{
-          label: 'Ballistic Missiles',
+          label: 'Ballistic missiles',
           data: [182, 80, 60, 45, 55, 40, 30, 28, 25, 24, 24, 13, 20, 18, 15, 16, 14, 12, 11, 10, 9, 10, 8, 3, 1, 1, 0, 1],
-          backgroundColor: 'rgba(230,57,70,0.7)',
-          borderRadius: 3,
+          backgroundColor: TK.wine,
+          borderRadius: 0,
         }, {
           label: 'Drones',
           data: [40, 120, 150, 100, 130, 135, 80, 70, 58, 48, 48, 27, 30, 25, 20, 55, 40, 30, 22, 17, 27, 19, 15, 5, 2, 1, 0, 0],
-          backgroundColor: 'rgba(244,162,97,0.7)',
-          borderRadius: 3,
+          backgroundColor: TK.gold,
+          borderRadius: 0,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
-        plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 10 } } } },
-        scales: { y: { beginAtZero: true } }
+        plugins: { legend: legendOpts },
+        scales: commonScales,
       }
     });
   }
@@ -589,23 +671,28 @@ function initCharts() {
         datasets: [{
           label: 'Intercepted',
           data: [360, 1750, 15, 350, 108, 79, 66, 62, 19, 370],
-          backgroundColor: 'rgba(42,157,143,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.wine,
+          borderRadius: 0,
         }, {
-          label: 'Got Through / Fell',
+          label: 'Got through / fell',
           data: [30, 110, 5, 5, 11, 6, 0, 0, 14, 32],
-          backgroundColor: 'rgba(230,57,70,0.8)',
-          borderRadius: 3,
+          backgroundColor: TK.gold,
+          borderRadius: 0,
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         indexAxis: 'y',
-        plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 10 } } } },
+        plugins: { legend: legendOpts },
         scales: {
-          x: { stacked: true, beginAtZero: true },
-          y: { stacked: true, ticks: { font: { size: 10 } } }
+          x: { ...commonScales.y, stacked: true },
+          y: {
+            stacked: true,
+            grid: { display: false, drawBorder: false },
+            border: { display: false },
+            ticks: { font: axisMono, color: TK.ink50 },
+          }
         }
       }
     });
@@ -618,25 +705,34 @@ function initCharts() {
       type: 'doughnut',
       data: {
         labels: [
-          'US Air Sorties (8,500+)',
-          'Iranian Ballistic Missiles (900+)',
-          'Iranian Drones (1,800+)',
-          'Iranian Cruise Missiles',
-          'US Naval Strikes (Tomahawk)',
-          'Israeli Strikes',
+          'US air sorties (8,500+)',
+          'Iranian ballistic missiles (900+)',
+          'Iranian drones (1,800+)',
+          'Iranian cruise missiles',
+          'US naval strikes (Tomahawk)',
+          'Israeli strikes',
         ],
         datasets: [{
           data: [6500, 800, 1500, 50, 500, 2000],
-          backgroundColor: ['#1e88e5', '#e63946', '#f4a261', '#c2185b', '#457b9d', '#0d47a1'],
-          borderWidth: 2,
-          borderColor: '#0a1628',
+          backgroundColor: [TK.wine, TK.gold, TK.teal, TK.wineTint, TK.slate, TK.bronze],
+          borderWidth: 1,
+          borderColor: '#FFFFFF',
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        cutout: '58%',
         plugins: {
-          legend: { position: 'right', labels: { font: { size: 11 }, padding: 10, boxWidth: 14 } }
+          legend: {
+            position: 'right',
+            align: 'start',
+            labels: {
+              padding: 10, boxWidth: 12, boxHeight: 12, usePointStyle: false,
+              color: TK.ink,
+              font: { family: "'Inter', system-ui, sans-serif", size: 12 },
+            }
+          }
         }
       }
     });

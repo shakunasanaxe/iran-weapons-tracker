@@ -865,6 +865,336 @@ const timelineData = [
       { text: "Later in week: US Navy attempted to break the Iranian blockade and pass through the Strait. Move triggered US resuming use of force against Iranian forces — potentially reactivating War Powers clauses and bringing the war back into legal grey area", cat: "us" },
     ]
   },
+  {
+    date: "May 12 – 31",
+    dateLabel: "Late May 2026 (bridging period)",
+    dayNum: 53,
+    summary: "WEEKLY BRIDGE — Fragile ceasefire holds through mid-May as US-Iran negotiators work on a memorandum of understanding; low-intensity exchanges continue. On May 31, IRGC-affiliated media announced Iranian air defences downed a US MQ-1 Predator drone over 'Iranian territorial waters' — CENTCOM responded with defensive strikes on Qeshm Island and Goruk (Hormozgan). IRGC retaliated with two missiles at US forces in Kuwait",
+    events: [
+      { text: "Fragile ceasefire held through mid-May while US-Iran negotiators worked on a memorandum of understanding (MoU). Low-intensity exchanges continued, US-led coalition kept pressure on Iranian ports", cat: "us" },
+      { text: "May 31: IRGC-affiliated media announced Iranian air defences downed a US MQ-1 Predator drone over 'Iranian territorial waters'", cat: "iran" },
+      { text: "May 31: US CENTCOM responded with defensive strikes on Iranian targets on Qeshm Island and in Goruk, Hormozgan Province", cat: "us" },
+      { text: "May 31: IRGC retaliated by launching two missiles at US forces in Kuwait", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jun 1",
+    dateLabel: "1 June 2026",
+    dayNum: 54,
+    summary: "Iran suspends US-Iran negotiations, IRGC-affiliated Tasnim citing Israeli operations against Hezbollah in Lebanon; ISW-CTP assesses IRGC Commander Major General Ahmad Vahidi and his inner circle — who continue to dominate regime decision-making — see the status quo as favourable; suspension is likely a response to Trump's recent amendments to the draft MoU; Iranian forces likely struck a civilian cargo vessel ~40nm SE of Umm Qasr in the northern Persian Gulf",
+    events: [
+      { text: "IRGC-affiliated Tasnim News Agency announced Iran had suspended US-Iran negotiations, ostensibly in response to Israeli operations against Hezbollah in Lebanon", cat: "iran" },
+      { text: "ISW-CTP: IRGC Commander Major General Ahmad Vahidi and his inner circle — who dominate regime decision-making — likely calculate that the status quo (no concessions, no full-scale war) is favourable and advances Iran's core objectives: Hormuz control, nuclear programme, Hezbollah preservation", cat: "iran" },
+      { text: "The regime's focus on the Lebanon issue is almost certainly a response to Trump's recent amendments to the draft US-Iran MoU. Regime seeks to preserve Hezbollah and drive a wedge between US and Israel", cat: "iran" },
+      { text: "Iranian forces likely attacked a civilian cargo vessel ~40nm SE of Umm Qasr Port, Iraq. UKMTO reported an unspecified projectile struck the vessel in the northern Persian Gulf", cat: "maritime" },
+    ]
+  },
+  {
+    date: "Jun 3 – 5",
+    dateLabel: "3–5 June 2026",
+    dayNum: 55,
+    summary: "Trump announces partial Israel-Hezbollah ceasefire (no Beirut strikes; Hezbollah halts attacks); Hezbollah rejects and resumes rocket attacks on IDF in northern Israel Jun 3; Iran and Hezbollah escalate demands for full ceasefire + IDF withdrawal from Lebanon, using Lebanon as deflection from Hormuz/nuclear talks; 85 Iranian parliamentarians write Mojtaba Khamenei implicitly calling for ICBM development; Ghalibaf performing executive-level foreign-policy role as Pezeshkian sidelined",
+    events: [
+      { text: "Trump announced a partial Israel-Hezbollah ceasefire — no Israeli strikes on Hezbollah in Beirut; Hezbollah to halt attacks on Israel", cat: "us" },
+      { text: "Hezbollah officials rejected the partial ceasefire, demanded a complete ceasefire and IDF withdrawal from Lebanon. Hezbollah conducted rocket attacks against IDF in northern Israel on Jun 3 for the first time since Jun 1", cat: "iran" },
+      { text: "Iranian officials echoed Hezbollah's maximalist demands as part of an effort to deflect from Hormuz and nuclear talks. Regime likely calculates it can preserve leverage on other issues by turning the negotiations into a Lebanon discussion", cat: "iran" },
+      { text: "Eighty-five Iranian parliamentarians implicitly called for the development of intercontinental ballistic missile (ICBM) capabilities in a letter to Supreme Leader Mojtaba Khamenei (dated May 31, surfaced this week)", cat: "iran" },
+      { text: "Parliament Speaker and Iran's Special Representative for PRC Affairs Mohammad Bagher Ghalibaf appears to be performing an executive-level role in Iran's economic and foreign policy — reports of President Pezeshkian being sidelined", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jun 15 – 16",
+    dateLabel: "15–16 June 2026",
+    dayNum: 56,
+    summary: "Multiple sources publish what appears to be text of the US-Iran MoU; if accurate, Iran emerges from conflict in a stronger strategic position. MoU reportedly grants Iran significant economic relief and lets Iran exploit ambiguous Hormuz language to enforce control; Iran interprets 'ceasefire on all fronts' clause as requiring Israel to cease Hezbollah ops and withdraw from Lebanon; Press TV frames MoU as 'political codification of a battlefield reality'",
+    events: [
+      { text: "Multiple sources published what appears to be the text of the US-Iran agreement, leaked to Bloomberg. Neither Washington nor Tehran officially published it", cat: "us" },
+      { text: "Leaked text: Iran receives significant economic relief that it could use to reconstitute missile, drone, and nuclear programmes as well as the Axis of Resistance. Further relief tied to a final agreement on nuclear issues — no indication Iranian decision-makers are willing to make concessions there", cat: "iran" },
+      { text: "Ambiguous Hormuz language: MoU does not explicitly bar Iran from 'managing' the strait; Iran could continue to insist vessels use its illegal traffic separation scheme and pay 'fees' to the IRGC Navy", cat: "iran" },
+      { text: "Iranian regime interpreting 'ceasefire on all fronts' clause as requiring Israel to cease Hezbollah operations and withdraw from Lebanon — part of a broader effort to preserve Hezbollah", cat: "iran" },
+      { text: "Press TV framed the MoU as 'political codification of a battlefield reality' — not simply a ceasefire", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jun 17",
+    dateLabel: "17 June 2026",
+    dayNum: 57,
+    summary: "MoU SIGNED — United States and Iran sign the memorandum of understanding; Iran claims final text satisfies key war aims on Lebanon and Strait of Hormuz; final text basically unchanged from the Bloomberg leak except for clause 1 and clause 5 modifications Iran requested; Iran will likely use renewed economic access to reconstitute Axis of Resistance (particularly Hezbollah) during the 60-day negotiation period; US reportedly conditioned economic support for Iraqi PM Zaydi's government on disarming Iranian-backed militias and dismantling PMF militia-aligned leadership",
+    events: [
+      { text: "United States and Iran signed the memorandum of understanding (MoU) — a 60-day negotiation period begins with tiered economic relief for Iran, tied ultimately to a nuclear agreement", cat: "us" },
+      { text: "Iran claiming the final MoU satisfies key war aims on Lebanon and Strait of Hormuz. Final text basically unchanged from the Bloomberg leak, except for clause 1 and clause 5 modifications Iran reportedly requested. Ambiguity suggests US and Iran have divergent views of the same text", cat: "iran" },
+      { text: "Iran has already told Hezbollah it will increase funding as soon as US unfreezes Iranian assets — reconstitution of Axis of Resistance is the near-term Iranian priority", cat: "iran" },
+      { text: "US reportedly conditioned economic support for Iraqi PM Ali al Zaydi's government on disarming Iranian-backed Iraqi militias and dismantling their financial networks — including removing PMF leaders associated with the militias before integrating the PMF into official Iraqi security institutions", cat: "us" },
+    ]
+  },
+  {
+    date: "Jun 21",
+    dateLabel: "21 June 2026",
+    dayNum: 58,
+    summary: "US and Iran hold quadrilateral talks with Qatari and Pakistani mediators in Bürgenstock, Switzerland; Iranian officials emphasise talks focused only on pushing US to implement MoU clauses that must be met before nuclear negotiations begin; Iran using MoU clause 1 (ceasefire on all fronts) to try to force US to pressure Israel to cease ops against Hezbollah and withdraw from Lebanon; Iran also frontloading economic benefits before nuclear file",
+    events: [
+      { text: "US and Iran held quadrilateral talks with Qatari and Pakistani mediators in Bürgenstock, Switzerland", cat: "us" },
+      { text: "Iranian officials emphasised the talks focused only on pushing the US to implement MoU clauses that the agreement states must be implemented before nuclear negotiations can begin", cat: "iran" },
+      { text: "Iran using MoU clause 1 (ceasefire on all fronts) to compel US to pressure Israel to cease Hezbollah operations and withdraw from Lebanon — part of a broader effort to preserve Hezbollah as central to Iran's deterrence strategy", cat: "iran" },
+      { text: "Israeli and Hezbollah attacks largely paused since Jun 20; IDF continues clearing operations within its 'security zone' in southern Lebanon", cat: "us" },
+      { text: "Iran also frontloading economic benefits from MoU before addressing nuclear file — likely seeks to acquire funds up front in case negotiations collapse, and to reduce US leverage in later nuclear talks", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jun 25",
+    dateLabel: "25 June 2026",
+    dayNum: 59,
+    summary: "US and GCC foreign ministers issue joint statement emphasising 'free, unconditional, and unrestricted navigation' through the Strait of Hormuz and rejecting 'any tolls, fees, or attempts to assert control over the strait'; statement explicitly opposes any payment requirement for transit and implicitly opposes Iran's traffic separation scheme and requirements to coordinate with IRGC Navy",
+    events: [
+      { text: "US and GCC foreign ministers issued a joint statement emphasising 'free, unconditional, and unrestricted navigation' through the Strait of Hormuz. Explicitly rejected 'any tolls, fees, or attempts to assert control over the strait'", cat: "us" },
+      { text: "Statement implicitly opposes Iran's illegal traffic separation scheme and any requirement that vessels coordinate with the IRGC Navy — a direct challenge to Iran's post-MoU interpretation", cat: "gulf" },
+      { text: "Iran's involvement in Switzerland talks has also exposed fissures among Iranian factions over how to advance objectives", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jun 28 – 30",
+    dateLabel: "28–30 June 2026",
+    dayNum: 60,
+    summary: "Pezeshkian meets senior Shia clerics in Qom to rally clerical support for the MoU, present it as economic relief, and insulate negotiators from hardline criticism; Assembly of Experts clerics divided on how to implement MoU; International correspondent releases text of Jun 26 Israel-Lebanon-US trilateral framework agreement's security annex (four-stage LAF-IDF dismantling of non-state armed groups in southern Lebanon 'pilot zones'); Hezbollah delegitimises the agreement; US-Iran talks to resume in Doha on Jun 30",
+    events: [
+      { text: "Pezeshkian met with several senior Shia clerics in Qom to rally clerical support for the MoU, present it as a source of economic relief, and insulate Iranian negotiators from criticism by hardline clerics", cat: "iran" },
+      { text: "Clerics within Iran's Assembly of Experts appear divided over how the regime should implement the MoU and how much latitude Iranian negotiators should have", cat: "iran" },
+      { text: "Jun 29: An international media correspondent released the text of the Jun 26 Israel-Lebanon-US trilateral framework agreement's security annex — a four-stage mechanism for the LAF to backfill the IDF in southern Lebanon 'pilot zones' and dismantle non-state armed groups", cat: "us" },
+      { text: "Hezbollah-affiliated media argued the trilateral framework agreement is invalid because it allegedly violates Lebanese sovereignty, popular consent, and the Lebanese constitution — signed under Israeli 'duress'", cat: "iran" },
+      { text: "Jun 30: Ghalibaf gave an interview appearing to build intra-regime support for the MoU; argued Iran will continue collecting fees from vessels transiting the Strait of Hormuz — implicitly arguing MoU supports Iranian sovereignty claims", cat: "iran" },
+      { text: "Iran and US to hold talks in Doha on Jun 30 to discuss MoU implementation, despite recent exchanges of fire", cat: "us" },
+    ]
+  },
+  {
+    date: "Jul 1 – 4",
+    dateLabel: "1–4 July 2026",
+    dayNum: 61,
+    summary: "Iran pushing US to unfreeze significant financial assets and acknowledge Iranian Hormuz control as part of MoU; senior political adviser to former Supreme Leader Ali Khamenei, Brigadier General Rasoul Sanaei Rad, says Iran will move beyond 2,000km missile-range limit — Ali Khamenei had issued 'phased' guidance to increase range then improve accuracy; Supreme Leader Representative to IRGC Sadeghi tells IRGC and Basij that Mojtaba's recent MoU message is the regime's 'final basis for action' — attempt to contain factional dispute; Iran reshuffles senior military positions — Rear Admiral Ali Ozmaei replaces Rear Admiral Alireza Tangsiri as IRGC Navy commander",
+    events: [
+      { text: "Iran pushing US to unfreeze significant Iranian financial assets and acknowledge Iranian control of the Strait of Hormuz as part of MoU implementation — would leave Iran in a stronger strategic position and support military reconstitution", cat: "iran" },
+      { text: "Jul 1: Brigadier General Rasoul Sanaei Rad, senior political adviser to former Supreme Leader Ali Khamenei, said Ali Khamenei had issued 'phased' guidance to increase missile range beyond the long-held 2,000km limit and then improve accuracy — Iranian officials openly discussing longer-range missiles", cat: "iran" },
+      { text: "Jul 4: Supreme Leader Representative to the IRGC Abdollah Haji Sadeghi told IRGC and Basij commanders in a letter that Mojtaba's recent message on the MoU is the regime's 'final basis for action' — attempt to contain the growing factional dispute over Mojtaba's MoU position", cat: "iran" },
+      { text: "Iranian regime reshuffling senior military positions after the US-Israel-Iran war. Defa Press reported Rear Admiral Ali Ozmaei replaced Rear Admiral Alireza Tangsiri as IRGC Navy commander", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 6 – 7",
+    dateLabel: "6–7 July 2026",
+    dayNum: 62,
+    summary: "Iran launches two missile attacks on tankers in the Strait on Jul 6 for failing to use Iranian-approved transit mechanisms; another drone attack on unspecified tanker Jul 7; multiple Iranian outlets report UAE proposed a plan to the International Maritime Organization (IMO) to manage the strait — Iran rejects; NATO foreign ministers set to discuss the strait with Bahraini, Kuwaiti, Qatari, and Emirati counterparts on sidelines of Ankara NATO summit; Hezbollah preparing to use Iranian funds to resume financial payments to displaced Lebanese families",
+    events: [
+      { text: "Jul 6: Iran launched two missile attacks on tankers in the Strait of Hormuz because both vessels failed to use Iranian-approved transit mechanisms. Iran also launched another drone at an unspecified tanker Jul 7", cat: "maritime" },
+      { text: "Iranian media reported UAE proposed a plan to the International Maritime Organization (IMO) to manage the strait — Iran rejected. Eight unspecified UAE 'allies' supported the plan; Iran claimed it 'lacked legal basis' and 'exceeds the IMO Council's technical mandate'", cat: "gulf" },
+      { text: "NATO foreign ministers set to discuss the strait issue with Bahraini, Kuwaiti, Qatari, and Emirati foreign ministers on the sidelines of the NATO summit in Ankara", cat: "europe" },
+      { text: "Hezbollah preparing to use Iranian funds to resume financial payments to displaced Lebanese families in Hezbollah's political strongholds — effort to rebuild support among Lebanese public", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 8 – 9",
+    dateLabel: "8–9 July 2026 · WAR RESUMES",
+    dayNum: 63,
+    summary: "WAR RESUMES — US strikes on Iran Jul 8–9; talks to resume but Iran's negotiating position and war aims unchanged (Hormuz control, nuclear preservation, Hezbollah protection); Iran launches strikes on Kuwait, Bahrain, and Qatar in response; likely Gulf states struck targets in Chabahar (Sistan-Baluchistan), Bandar Abbas and Qeshm Island (Hormozgan), and Ahvaz (Khuzestan) per open-source intelligence; US and Iraq to sign agreement — US investment in Iraq in return for curbing Iranian influence; militias handing 'scrap' missiles and inoperable drones while keeping functional heavy weapons",
+    events: [
+      { text: "US conducted strikes on Iran between Jul 8–9. Talks to resume, but Iran's negotiating position and war aims remain unchanged — Hormuz control, nuclear programme preservation, Hezbollah protection", cat: "us" },
+      { text: "Jul 9: Iran launched strikes on Kuwait, Bahrain, and Qatar in response to US strikes intended to degrade Iran's ability and willingness to control the strait", cat: "iran" },
+      { text: "Jul 9: Likely Gulf-state strikes on unspecified targets in Chabahar (Sistan-Baluchistan), Bandar Abbas and Qeshm Island (Hormozgan), and Ahvaz (Khuzestan) per an open-source intelligence account — Gulf states divided on how to respond to Iran's attacks", cat: "gulf" },
+      { text: "US and Iraq to sign agreement — US will invest in Iraq in return for Iraq curbing Iranian influence. PM Zaydi will sign during his upcoming Washington visit starting Jun 15 (per the June agreement, US also demanding removal of militia-aligned figures from senior government positions)", cat: "us" },
+      { text: "Iranian-backed Iraqi militias reportedly attempting to circumvent the Iraqi federal government's disarmament initiatives — unidentified militias handing over 'scrap' missiles or inoperable drones while holding onto functional heavy weapons", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 13 – 15",
+    dateLabel: "13–15 July 2026",
+    dayNum: 64,
+    summary: "Iran attacks three vessels in the strait Jul 13 — two doing 'shuttle runs' (repeated short trips outside strait to move oil while avoiding Iranian waters); seven maritime/shipping industry sources tell Reuters shipping companies are avoiding the southern route despite US military escorts; US strikes Artesh Ground Forces 388th Mechanized Assault Brigade barracks in Iranshahr, Sistan-Baluchistan (~200km inland — notable given most July strikes concentrated on Iran's southern coast); Artesh claims Jul 15 drone strikes targeting US forces at Muwaffaq Salti Airbase in Azraq, Jordan; six drones target Erbil International Airport and US Consulate in Erbil",
+    events: [
+      { text: "Jul 13: Iran attacked three vessels in the Strait of Hormuz. Two were doing 'shuttle runs' — repeated short trips to ports outside the strait to transport oil while avoiding Iranian territorial waters", cat: "maritime" },
+      { text: "Seven maritime security and shipping industry sources told Reuters shipping companies are avoiding the southern route despite US military escorts — shipping companies' willingness to use alternative routes depends on their risk calculations", cat: "maritime" },
+      { text: "Jul 15: US struck the Artesh Ground Forces 388th Mechanized Assault Brigade barracks in Iranshahr, Sistan-Baluchistan Province — ~200km inland, notable given most July strikes have been concentrated on Iran's southern coast", cat: "us" },
+      { text: "Jul 15: Artesh claimed drone strikes targeting US forces at Muwaffaq Salti Airbase in Azraq, Jordan", cat: "iran" },
+      { text: "Jul 15: Iraqi media reported an unknown actor launched six drones targeting Erbil International Airport and the US Consulate in Erbil, Iraqi Kurdistan — unclear if Iran or Iranian-backed Iraqi militias", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 19 – 20",
+    dateLabel: "19–20 July 2026",
+    dayNum: 65,
+    summary: "IRGC releases statement Jul 19 thanking the Jordanian people for providing information that aided Iran's attacks on Jordan — possibly to counter reporting that Russia and China have helped Iran target US assets, or part of broader effort to mobilise Arab populations against US forces; Houthis announce naval blockade against Saudi Arabia Jul 20 — order Saudi-bound vessels to turn back from Saudi Arabia over radio; Iran expanding conflict geographically to Red Sea to disrupt international markets and impose costs on US; US expands strikes to possible missile launch sites in northwestern and central Iran",
+    events: [
+      { text: "Jul 19: IRGC released statement thanking the Jordanian people for providing information that aided recent Iranian attacks on Jordan — possibly to counter reporting that Russia and China have helped Iran target US assets, or part of broader effort to mobilise Arab populations against US forces", cat: "iran" },
+      { text: "Jul 20: Houthis announced naval blockade against Saudi Arabia — ordered Saudi-bound vessels to turn back from Saudi Arabia over radio. Almost certain to increase Red Sea shipping costs by discouraging transits", cat: "iran" },
+      { text: "Iran trying to expand geographical scope of conflict to Red Sea to disrupt international markets and impose costs on US. Houthis may also seek to deter Saudi strikes on Yemen", cat: "iran" },
+      { text: "US expanded strikes to possible missile launch sites in northwestern and central Iran — geographic broadening of the strike campaign beyond the southern coast", cat: "us" },
+      { text: "Some senior Iranian officials appear concerned that renewed conflict will deepen Iran's economic problems and threaten internal security — but these concerns do not appear to have meaningfully impacted the IRGC calculus", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 21 – 23",
+    dateLabel: "21–23 July 2026",
+    dayNum: 66,
+    summary: "Joint Maritime Information Center reports Jul 21 that sources close to the Houthis say Houthis finished deploying missiles and drones near Bab al Mandeb to attack civilian shipping; at least 7 vessels change course to avoid the strait; Houthis attack 2 Saudi oil tankers Jul 22 (UKMTO confirms one attack Jul 23); IRGC claims Jul 22 that oil tanker using southern route hit a naval mine — likely part of deterrence effort; Trump tells Axios Jul 23 US may launch 'massive attack' on Iran; four US-intelligence sources tell Reuters Russia may be providing Iran with targeting intelligence on US sites; Iraqi militias likely conduct drone attack on Kuwait's Abdali border crossing Jul 23 — first Axis attack on regional border crossing since Jul 11; explosions on Kuwait's Bubiyan Island reported same day",
+    events: [
+      { text: "Jul 21: Joint Maritime Information Center reported sources close to the Houthis said the group has finished deploying missiles and drones near the Bab al Mandeb Strait to attack civilian shipping. At least 7 vessels have changed course to avoid transiting", cat: "maritime" },
+      { text: "Jul 22: Houthis attacked at least two Saudi oil tankers in the Red Sea. UKMTO confirmed Jul 23 that the Houthis attacked an unspecified Saudi-flagged tanker with an 'unknown projectile'", cat: "maritime" },
+      { text: "Jul 22: IRGC claimed an oil tanker attempting to use the southern route in the Strait of Hormuz struck a naval mine that disabled the vessel — ISW-CTP has not observed reports of any commercial vessels hitting mines in the southern route. Likely deterrence effort to consolidate Iranian control", cat: "iran" },
+      { text: "Jul 22: Four people familiar with US intelligence told Reuters Russia may be providing Iran with targeting intelligence on US sites and equipment in the region — likely improving accuracy and effectiveness of Iranian drone and missile attacks", cat: "europe" },
+      { text: "Jul 23: Trump told Axios he may decide to expand US strikes on Iran and the US is prepared to launch a 'massive attack' if he orders one", cat: "us" },
+      { text: "Jul 23: Unspecified Iranian-backed Iraqi militias likely conducted a drone attack on Kuwait's Abdali border crossing with Iraq — first Axis attack on a regional border crossing since Jul 11. Iranian media separately reported explosions on Kuwait's Bubiyan Island", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 27",
+    dateLabel: "27 July 2026",
+    dayNum: 67,
+    summary: "Saudi Arabia and Jordan report hostile drone attacks; Iranian-backed Iraqi militias probably conducted the attack on Jordan and at least some of the attacks on Saudi Arabia; Houthi military spokesperson Yahya Sarea announces Houthis launched drones targeting Saudi infrastructure vital to transporting oil from eastern Saudi oilfields to Red Sea export hubs — attack targets the East-West pipeline and Yanbu, on which Saudi Arabia has increasingly relied to circumvent Iran's Hormuz control",
+    events: [
+      { text: "Saudi Arabia and Jordan reported hostile drone attacks. Iranian-backed Iraqi militias probably conducted the attack on Jordan and at least some of the attacks on Saudi Arabia", cat: "iran" },
+      { text: "Houthi military spokesperson Yahya Sarea announced Houthis launched drones targeting Saudi infrastructure vital to transporting oil from eastern Saudi oilfields to Red Sea export hubs — the East-West pipeline and Yanbu", cat: "iran" },
+      { text: "Saudi Arabia has increasingly relied on the East-West pipeline and Yanbu on the Red Sea coast to export oil in order to circumvent Iran's control over the Strait of Hormuz — attack directly undermines Saudi alternative-route strategy", cat: "gulf" },
+      { text: "Houthi attacks on Saudi Arabia support Houthi objective of coercing Saudi Arabia to lift its blockade on Houthi ports and airports and cease strikes on Houthi infrastructure", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 28 – 29",
+    dateLabel: "28–29 July 2026",
+    dayNum: 68,
+    summary: "Iranian attacks on US forces Jul 28; US wave of strikes on Iran Jul 29 — majority target Iranian military sites in southern Iran including Persian Gulf coastline; US-Saudi strikes on Iraqi militia positions in response to Iraqi militia attacks on Saudi energy infrastructure and US interests; Iran possibly conducted or directed drone attack on a US gas tanker at Damietta Port, northeastern Egypt Jul 29 — first major escalation in northern Red Sea/Suez corridor; Saudi Arabia assembling multinational 'maritime defence coalition' for the Bab al Mandeb — Houthis and Iran likely see it as direct threat",
+    events: [
+      { text: "Jul 28: Iranian attacks on US forces in the region. Jul 29: US conducted a wave of strikes in Iran in response — majority targeted Iranian military sites in southern Iran including the Persian Gulf coastline", cat: "us" },
+      { text: "Jul 28: US and Saudi forces struck several Iraqi militia positions in response to Iraqi militia attacks on Saudi energy infrastructure and US interests in Iraq and the region", cat: "us" },
+      { text: "Jul 29: Iran possibly conducted or directed a drone attack on a US gas tanker at Damietta Port, northeastern Egypt — first significant escalation in the northern Red Sea/Suez corridor. Iran almost certainly recognises this route is a viable alternative to Hormuz", cat: "maritime" },
+      { text: "Saudi Arabia assembling a multinational 'maritime defence coalition' to protect Red Sea shipping from Houthi and Iranian threats to Bab al Mandeb — the Houthis and Iran will likely view its formation as a direct threat", cat: "gulf" },
+      { text: "Iraqi militias discussing how to respond to US-Saudi strikes; could target US and Saudi interests including targets in Iraqi Kurdistan or Baghdad. Houthis reportedly attacked Saudi Arabia on Jul 27 from Iraqi territory in coordination with Iraqi militias under IRGC supervision", cat: "iran" },
+    ]
+  },
+  {
+    date: "Jul 30 – 31",
+    dateLabel: "30–31 July 2026",
+    dayNum: 69,
+    summary: "Unspecified senior Iranian security official tells IRGC-affiliated Tasnim Jul 30 that Iran has prepared attack plan including strikes on regional energy infrastructure in response to reports Trump ordered new strikes on Iran; IRGC-affiliated Fars publishes list of regional energy facilities Iranian missiles can reach — Israel, Saudi Arabia, Qatar, Kuwait, Bahrain, UAE; Iranian analyst warns attack on Iranian infrastructure would be 'terrifying scenario for everyone'; Iran signalling to prevent US/US-Israeli combined force operations against Iran's energy sector",
+    events: [
+      { text: "Jul 30: Unspecified senior Iranian security official told IRGC-affiliated Tasnim News Agency that Iran has prepared an attack plan that includes strikes on regional energy infrastructure in response to reports Trump has ordered new strikes on Iran", cat: "iran" },
+      { text: "IRGC-affiliated Fars News Agency published a list of regional energy facilities that it said Iranian missiles can reach — oil fields and other energy infrastructure in Israel, Saudi Arabia, Qatar, Kuwait, Bahrain, and the UAE", cat: "iran" },
+      { text: "Iranian analyst close to the regime stated an attack on Iranian infrastructure would be a 'terrifying scenario for everyone' and urged regional/international actors to prevent the 'crisis' — Iran likely seeks to deter US or US-Israeli combined force operations by signalling retaliation would hit regional critical infrastructure", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 1",
+    dateLabel: "1 August 2026",
+    dayNum: 70,
+    summary: "Trump announces on Aug 1 he cancelled planned strikes on Iran after Iran and regional states informed him they had agreed on parameters of a deal — reportedly includes 'immediate, complete, and total opening' of the Strait of Hormuz and 'an end to Iran's nuclear threat'; Kuwaiti air defences intercept an unspecified number of Iranian drones targeting 'vital facilities' — government building in northern Kuwait and vehicle on Bubiyan Island; two senior IRGC officers tell New York Times that Quds Force officers held virtual conference calls with Hezbollah, Houthi, and Iraqi militia commanders during the April ceasefire to coordinate expansion of the conflict with the US — objective was to make war as costly as possible for Trump",
+    events: [
+      { text: "Trump announced he cancelled planned strikes on Iran after Iran — presumably referring to Iranian negotiators — and regional states informed him they had agreed on parameters of a deal reportedly including the 'immediate, complete, and total opening' of the Strait of Hormuz and 'an end to Iran's nuclear threat'", cat: "us" },
+      { text: "Kuwaiti air defences intercepted an unspecified number of Iranian drones targeting 'vital facilities' — a government building in northern Kuwait and a vehicle belonging to a civilian company on Bubiyan Island (which hosts US anti-aircraft equipment). Iran did not claim; Iraqi militias could have conducted the attack", cat: "iran" },
+      { text: "Two senior IRGC officers told The New York Times that Quds Force officers held virtual conference calls with Hezbollah, Houthi, and Iraqi militia commanders during the April ceasefire to coordinate efforts to expand the conflict with the US. Quds Force commanders and advisers also worked with these groups on the ground. Objective: make the war as costly as possible for Trump", cat: "iran" },
+      { text: "IRGC set up covert cells in Iraq to carry out attacks on Gulf countries hosting US forces during the ceasefire, per eight Iraqi sources speaking to Reuters. Consistent with ISW-CTP's ongoing assessment that Iran seeks to weaken US resolve by increasing military and political costs", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 2 – 3",
+    dateLabel: "2–3 August 2026",
+    dayNum: 71,
+    summary: "Israeli media Aug 2 reports FM Araghchi agreed to US- and Qatari-formulated proposal in which vessels enter Persian Gulf through Iranian waters and exit through Omani waters; Artesh Spokesperson Akraminia explicitly says Iran 'fully exploited' the MoU and ceasefire to import new equipment, repair damaged systems, and produce new systems; Supreme Leader Military Adviser Rezaei states Iran will not allow use of a second corridor in the strait 'under any circumstances'; senior cleric Kharrazi (family ties to Mojtaba) claims Mojtaba formally warned Pezeshkian he would accept his resignation — attempt to reduce Pezeshkian's leverage; Zarif warns closure or 'short-term exploitation' of the strait could generate international consensus against Iran including from PRC; Iraqi militias may have destroyed US-provided Iraqi tank shells at Camp Taji, north of Baghdad, Aug 2; UKMTO reports explosion near civilian vessel off Oman",
+    events: [
+      { text: "Aug 2 (Israeli media): FM Abbas Araghchi agreed to a US- and Qatari-formulated proposal in which vessels enter the Persian Gulf through Iranian waters and exit through Omani waters", cat: "iran" },
+      { text: "Aug 2: Artesh Spokesperson Brigadier General Mohammad Akraminia explicitly said Iran 'fully exploited' the MoU and ceasefire to import new equipment, repair and reconstruct damaged systems, and produce new systems", cat: "iran" },
+      { text: "Aug 3: Supreme Leader Military Adviser Major General Mohsen Rezaei — part of the IRGC faction dominating decision-making — stated Iran will not allow the use of a second corridor in the strait 'under any circumstances'", cat: "iran" },
+      { text: "Aug 3: Senior cleric Mohammad Bagher Kharrazi (family ties to Mojtaba) claimed Mojtaba formally warned Pezeshkian that he would accept Pezeshkian's resignation if Pezeshkian tried to resign again — attempt to reduce Pezeshkian's ability to influence policy", cat: "iran" },
+      { text: "Aug 3: Former FM Zarif warned that a prolonged closure or 'short-term exploitation' of the Strait of Hormuz could generate an international consensus against Iran, including from the People's Republic of China", cat: "iran" },
+      { text: "Aug 2: Iranian-backed Iraqi militias may have conducted a drone strike destroying shells for US-provided Iraqi tanks and armoured vehicles at Camp Taji, north of Baghdad — indicates some militias opposed to disarmament attempting to strip Iraqi military of assets it could use against them (per Aug 10 sources)", cat: "iran" },
+      { text: "Aug 2: UKMTO reported an explosion occurred near a civilian vessel off the coast of Oman — IRGC continuing to use force to assert Hormuz control", cat: "maritime" },
+    ]
+  },
+  {
+    date: "Aug 4 – 5",
+    dateLabel: "4–5 August 2026",
+    dayNum: 72,
+    summary: "US officials and Iranian negotiators present competing interpretations of emerging Hormuz arrangement — Iran's inconsistent messaging reflects competing regime factions; Houthi military spokesperson Sarea claims Houthi drone struck 'sensitive target' at Najran Regional Airport, southern Saudi Arabia — informed regional source tells AFP main radar installation hit, affecting operations; Houthis likely sink Indian-flagged cargo vessel MSV FAIZE NOORE OLIYA near Bab al Mandeb — Indian Minister Sarbananda Sonowal confirms; Aug 5: Iranian regime media claims emerging Iran-Oman deal preserves Iranian strait control; UKMTO reports vessel's crew heard two explosions in Omani waters; Iran-Axis attempting to deter Syrian government from disrupting Hezbollah smuggling routes",
+    events: [
+      { text: "US officials and Iranian negotiators continued presenting competing interpretations of the emerging Hormuz arrangement — Iran's inconsistent messaging reflects competing regime factions' approaches to control over the strait and negotiations with the US", cat: "us" },
+      { text: "Aug 4: Houthi military spokesperson Yahya Sarea claimed a Houthi drone struck a 'sensitive target' at Najran Regional Airport, southern Saudi Arabia. Informed regional source told AFP the Houthis struck the airport's main radar installation, affecting operations", cat: "iran" },
+      { text: "Aug 4: Houthis likely sank the Indian-flagged cargo vessel MSV FAIZE NOORE OLIYA with a one-way naval attack drone near the Bab al Mandeb Strait. Indian Minister of Ports, Shipping, and Waterways Sarbananda Sonowal announced an unspecified projectile struck and sank the vessel 'near Yemeni waters'", cat: "maritime" },
+      { text: "Aug 5: Iranian regime media claimed the emerging Iran-Oman deal would enable Iran to maintain control of the Strait of Hormuz. Any agreement granting Iran control over the strait would be detrimental to US and global commercial interests", cat: "iran" },
+      { text: "Aug 5: UKMTO reported a vessel's crew heard two explosions while passing through Omani territorial waters — Iran continuing to use force to consolidate strait control", cat: "maritime" },
+      { text: "Iran and Axis of Resistance likely attempting to deter the Syrian government from disrupting Hezbollah smuggling routes. Iran likely believes continued Syrian counter-smuggling efforts represent Syrian cooperation with Israel and the US against Hezbollah, when in reality Syria is exercising its sovereign right to secure its borders", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 6 – 9",
+    dateLabel: "6–9 August 2026",
+    dayNum: 73,
+    summary: "Aug 6: Houthis conduct missile and drone attacks on ROYG military camps in Marib and Hadramawt governorates; Aug 7: Islamic Resistance in Iraq (Iranian-backed Iraqi militia coalition) announces postponement of response to US-Saudi strikes due to Badr Organization head Ameri mediation — militias reportedly planned multiple 'imminent' attacks on Saudi Arabia coordinated with IRGC and Houthis; Aug 8: Iraqi officials meet Saudi intelligence delegation, pledge to prevent Iraqi territory being used for Saudi attacks; Aug 9: Shia Coordination Framework source tells Iraqi media militias will hand weapons to PMF before Sept 30 disarmament deadline (which coincides with planned withdrawal of US-led coalition forces from Iraq) — transferring militia weapons to Iran-infiltrated PMF would harm US interests",
+    events: [
+      { text: "Aug 6: Houthis conducted missile and drone attacks on ROYG military camps in Marib and Hadramawt governorates, possibly in response to ROYG ground movements near Houthi frontlines", cat: "iran" },
+      { text: "Aug 7: Islamic Resistance in Iraq (Iranian-backed Iraqi militia coalition) announced postponement of response to US-Saudi strikes due to mediation by Badr Organization head Hadi al Ameri", cat: "iran" },
+      { text: "Aug 7: Iraqi militias reportedly planning multiple 'imminent' attacks on Saudi Arabia coordinated with IRGC and Houthis — could target civilian and economic sites including energy infrastructure (per senior Saudi official cited in Western/regional media)", cat: "iran" },
+      { text: "Aug 8: Iraqi officials met with a Saudi intelligence delegation and pledged to prevent the use of Iraqi territory for attacks against Saudi Arabia — asked for information to help prevent future attacks", cat: "gulf" },
+      { text: "Aug 8: US-funded Arabic-language media reported additional details of the IRGC's role directing Iraqi militia attacks on Iraqi Kurdistan and neighbouring countries. The IRGC reportedly operates small cells of 5–10 Iraqi fighters from main militias who maintain a 'lower profile' and 'bypass' Iraqi militia leadership", cat: "iran" },
+      { text: "Aug 9: Shia Coordination Framework source told Iraqi media that Iraqi militias will hand over their weapons to the PMF before the Iraqi federal government's Sept 30 disarmament deadline. That deadline corresponds with the planned withdrawal of US-led coalition forces from Iraq. PMF is Iran-infiltrated; transferring weapons to the PMF would harm US interests", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 10 – 11",
+    dateLabel: "10–11 August 2026",
+    dayNum: 74,
+    summary: "Iranian armed forces undergoing major reorganisation reflecting lessons from June 2025 and Spring 2026 wars — Mojtaba instructs AFGS Chief Aliabadi to 'complete the process' of merging AFGS and Khatam ol Anbia Central Headquarters (KOACH) to streamline Artesh-IRGC coordination and reduce redundancies; Mojtaba appoints Hossein Taeb as Basij Commander, tasks him with making 'every Iranian a Basiji' — likely aimed at strengthening regime capacity to monitor and repress population; IRGC Quds Force Cmdr Brigadier General Esmail Ghaani warns Iraqi militia leaders against armed confrontation with Iraqi government during Aug 10 Baghdad visit — Iran likely also trying to draw Iraq away from developing alternative oil export corridors to Hormuz; Aug 11: Houthis deploy fiber-optic FPV drones to attack ROYG forces in Yemen for first time (footage from Marib captured Aug 11 published Aug 12)",
+    events: [
+      { text: "Aug 10: Mojtaba instructed AFGS Chief Major General Ali Abdollahi Aliabadi to 'complete the process' of merging the AFGS and Khatam ol Anbia Central Headquarters (KOACH) — likely aimed at streamlining Artesh-IRGC coordination, reducing institutional redundancies, and enabling faster wartime decisions", cat: "iran" },
+      { text: "Aug 10: Mojtaba appointed Hossein Taeb as Basij Commander and tasked him with making 'every Iranian a Basiji' — AFGS-affiliated media interpreted this as indicating the regime plans to strengthen its ability to monitor and repress the Iranian population", cat: "iran" },
+      { text: "Aug 10: Mojtaba appointed several Iranian officials to senior military positions — largely formalises the structure that has existed for several months and consolidates Mojtaba and his inner circle's authority", cat: "iran" },
+      { text: "Aug 10: IRGC Quds Force Commander Brigadier General Esmail Ghaani warned Iraqi militia leaders against armed confrontation with the Iraqi government during his Baghdad visit and urged them to reach a settlement to avoid handing weapons to the state. Iran likely trying to draw the Iraqi government away from developing alternative oil export corridors to the Strait of Hormuz", cat: "iran" },
+      { text: "Aug 11: Houthis deployed fiber-optic first-person view (FPV) drones to attack the Republic of Yemen Government (ROYG) forces in Yemen for the first time. Two Yemen analysts published footage Aug 12 showing a Houthi fiber-optic FPV drone that ROYG forces captured in Marib Governorate on Aug 11", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 12 – 13",
+    dateLabel: "12–13 August 2026",
+    dayNum: 75,
+    summary: "Aug 12: Iraqi sources tell Saudi media that Iraqi federal government has a plan to deploy Iraqi Army, Counter Terrorism Service, and other 'elite' units around Iraqi militia operation centres after Sept 30 disarmament deadline; Aug 13: Iraqi security source tells Iraqi media that Iraqi federal government and IRGC engaging in intensive talks about disarmament process; New York Times/US military officials reveal mechanism behind Iran's F-15E downing in April — Iran deployed drone swarm into area US fighter jets had entered before Iran downed the F-15E with MANPADS; drones transmitted jet's GPS location, speed, and direction to Iranian commanders (tactic adapted from Russia-Ukraine war, per US officials); Houthi military source claims Houthi drones targeted and struck Saudi Aramco refinery at Red Sea port of Jizan",
+    events: [
+      { text: "Aug 12: Iraqi sources told Saudi media that the Iraqi federal government has a plan to deploy the Iraqi Army, Counter Terrorism Service, and other 'elite' units around Iraqi militia operation centres to restrict militia freedom of movement and supplies after the Sept 30 disarmament deadline", cat: "gulf" },
+      { text: "Aug 13: An Iraqi security source told Iraqi media that the Iraqi federal government and the IRGC are engaging in intensive talks about the disarmament process. Iran and some Shia Coordination Framework members concerned about Zaydi's preparations to use force against militias", cat: "iran" },
+      { text: "Aug 13 (NYT/US military officials): Senior US military official described the conditions under which Iran downed a US F-15E in April 2026. Iran deployed a swarm of drones into an area US fighter jets had entered before Iran downed the F-15E with a MANPADS. Drones transmitted the jet's GPS location, speed, and direction to Iranian commanders — tactic reportedly adopted from the Russia-Ukraine war, with Russia directly assisting Iranian attacks on US forces by providing advanced drone tactics", cat: "iran" },
+      { text: "Aug 13: A Houthi military source told Houthi media that Houthi drones targeted and struck the Saudi Aramco refinery at the Red Sea port of Jizan — Houthis continue attacking Saudi oil infrastructure to raise Saudi political and economic costs and compel Riyadh to end Yemen operations", cat: "iran" },
+    ]
+  },
+  {
+    date: "Aug 14 – 15",
+    dateLabel: "14–15 August 2026",
+    dayNum: 76,
+    summary: "Aug 14: Iraqi PM Ali al Zaydi reportedly orders study of security and logistical conditions in Kataib Hezbollah's stronghold of Jurf al Sakhr in Babil Province — part of broader crackdown on Iranian-backed Iraqi militias; likely Iranian-backed Iraqi militias fire drones targeting unspecified targets in Erbil, Iraqi Kurdistan — air defence intercepts 6 drones launched from Ninewa Province; Houthi military source claims Houthi drone strike on Saudi Aramco facilities in Najran; Aug 15: UKMTO reports unspecified actor struck Liberian-flagged Minoan Dignity with unspecified projectile as vessel transited the strait through Omani waters — attack killed one crew member",
+    events: [
+      { text: "Aug 14: Iraqi PM Zaydi reportedly ordered a study of security and logistical conditions in Kataib Hezbollah's stronghold of Jurf al Sakhr in Babil Province — part of a broader crackdown on Iranian-backed Iraqi militias. Sources' discussions of a possible operation may be intended to encourage militias to acquiesce and disarm by Sept 30", cat: "gulf" },
+      { text: "Aug 14: Likely Iranian-backed Iraqi militias fired drones targeting unspecified targets in Erbil, Iraqi Kurdistan. An Iraqi security source told Saudi media that air defence systems in Erbil intercepted six drones launched from Ninewa Province", cat: "iran" },
+      { text: "Aug 14: Houthi military source told Houthi media the Houthis launched a drone targeting Saudi oil infrastructure in Najran, near the Yemen-Saudi Arabia border, in retaliation for Saudi aircraft overflights in Houthi-controlled Saada Province", cat: "iran" },
+      { text: "Aug 15: UKMTO reported an unspecified actor struck the Liberian-flagged Minoan Dignity with an unspecified projectile as the vessel transited the strait through Omani waters. The attack killed one crew member. Iran has repeatedly struck vessels using Omani waters to coerce them into transiting through Iranian territorial waters", cat: "maritime" },
+    ]
+  },
+  {
+    date: "Aug 17 – 18",
+    dateLabel: "17–18 August 2026",
+    dayNum: 77,
+    summary: "UAE ANNOUNCES HALT OF ALL TRADE AND FINANCIAL TRANSACTIONS WITH IRAN (Aug 18) — after accusing Iran of launching missiles from Iranian territory toward UAE; Emirati Defence Ministry states Iran fired two ballistic missiles at UAE Aug 18 (one fell outside territorial waters, one within); Iranian regime media denies; UKMTO reports another vessel struck in Omani waters Aug 18; Houthis claim 4th attack on Saudi Jizan refinery since Jul 24; Houthi Council of Ministers reiterates demands to Saudi Arabia (cease ops, lift blockade, pay Houthi salaries, pay war reparations); NBC News (Aug 18) reveals Russia has transferred drone components, ammunition, and TNT to Iran via Caspian Sea as of July 2026 — over 2 dozen Russian ships have delivered to Amirabad Port in Mazandaran",
+    events: [
+      { text: "Aug 18: UAE announced it would halt ALL trade and financial transactions with Iran — after accusing Iran of launching missiles from Iranian territory toward the UAE. UAE's decision further weakens Iran's already deteriorating economy — roughly one-third of Iran's imports have come from the UAE", cat: "gulf" },
+      { text: "Aug 18: Emirati Defence Ministry stated Iran launched two ballistic missiles at the UAE. Its air defences detected one that fell outside Emirati territorial waters and another that landed within them. Iranian regime media denied responsibility. Iran likely attempted to deter the UAE from assisting US Hormuz efforts", cat: "iran" },
+      { text: "Aug 18: UKMTO reported an unspecified actor fired an unspecified projectile that struck a vessel transiting the strait through Omani territorial waters — Iran continues to coerce vessels away from the Omani route", cat: "maritime" },
+      { text: "Aug 18: Houthis claimed drones targeted the Saudi Aramco oil refinery in Jizan — the fourth Houthi attack on the Jizan refinery since Jul 24, when the Houthis began targeting Saudi oil infrastructure. Aug 17: Houthi Council of Ministers reiterated demands: Saudi Arabia cease all Yemen military operations, lift blockade on Houthi ports/airports, pay Houthi officials' salaries, pay war reparations", cat: "iran" },
+      { text: "Aug 18 (NBC News): Russia has transferred drone components, ammunition, and TNT explosives to Iran via the Caspian Sea as of July 2026, per a European government document NBC obtained and a Western official who verified it. Over two dozen Russian ships have carried deliveries to Amirabad Port in Iran's Mazandaran Province. Iran uses TNT in ballistic missile warheads and drones", cat: "europe" },
+    ]
+  },
+  {
+    date: "Aug 19 – 20",
+    dateLabel: "19–20 August 2026",
+    dayNum: 78,
+    summary: "Aug 19: Several regional officials tell Al Monitor Saudi Arabia wants Iraqi federal government to take 'punitive action' against Iranian-backed Iraqi militias that have launched attacks on Saudi territory — including arrest and prosecution of militia leaders responsible for ordering attacks; Aug 20: Trump and Treasury Secretary Bessent warn US will intensify maximum pressure campaign against Iran in coming days — Bessent announces further US economic measures against Iran and entities with commercial ties to Iran on Aug 24; UAE preparing to implement phased trade and financial restrictions in parallel with upcoming US measures; Iranian officials acknowledging mounting economic pressures — pursuing alternative trade/banking/financial arrangements including alternative oil export routes",
+    events: [
+      { text: "Aug 19: Several regional officials told Al Monitor that Saudi Arabia wants the Iraqi federal government to take 'punitive action' against Iranian-backed Iraqi militias that have launched attacks on Saudi territory — including arrest and prosecution of militia leaders responsible for ordering attacks", cat: "gulf" },
+      { text: "Aug 20: Trump and Treasury Secretary Scott Bessent warned the US will intensify its maximum pressure campaign against Iran in the coming days. Bessent announced further economic measures against Iran and entities with commercial ties to Iran on Aug 24", cat: "us" },
+      { text: "Aug 20: UAE preparing to implement phased trade and financial restrictions in parallel with the upcoming US measures — reportedly plans to phase its reduction of trade and financial engagement with Iran, adopting initial measures to restrict cargo and trade flows", cat: "gulf" },
+      { text: "Aug 20: Iranian officials acknowledging mounting economic pressures and pursuing alternative trade, banking, and financial arrangements to reduce impact. Iran seeking to invest in alternative routes and destinations for its oil exports to alleviate economic pressure", cat: "iran" },
+    ]
+  },
 ];
 
 // ===== IRAN ATTACKS BY TARGET COUNTRY =====
@@ -873,7 +1203,7 @@ const countryAttacksData = [
     country: "🇧🇭 Bahrain",
     flag: "🇧🇭",
     color: "#e63946",
-    stats: { missiles: "130+", drones: "220+", intercepted: "310+", casualties: "33+ injured, 1 killed" },
+    stats: { missiles: "130+", drones: "220+", intercepted: "310+", casualties: "33+ injured, 1 killed", latest: "Jul 9 Iranian strikes" },
     details: [
       "Fifth Fleet HQ struck on Day 1 (Feb 28) — 300 British personnel nearby",
       "Era Views Tower drone strike; 3 buildings in Manama/Muharraq hit",
@@ -924,7 +1254,32 @@ const countryAttacksData = [
       "Mar 30: 11 missiles and 27 UAVs intercepted in 24hrs. Cumulative: 425 ballistic, 15 cruise, 1,941 UAVs since war start",
       "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged, possible oil spill",
       "Mar 31: Satellite imagery showed fires at two Habshan-Fujairah pipeline pumping stations — interpreted as Iran targeting bypass routes to preserve Hormuz leverage",
-      "Apr 8: Presidential adviser Anwar Gargash declared UAE 'emerged victorious from a war we sincerely sought to avoid' — said UAE poised to navigate post-war landscape with greater resources and influence"
+      "Apr 8: Presidential adviser Anwar Gargash declared UAE 'emerged victorious from a war we sincerely sought to avoid' — said UAE poised to navigate post-war landscape with greater resources and influence",
+      "Jul 7: UAE proposed to the International Maritime Organization (IMO) a plan to manage the Strait of Hormuz — supported by 8 unspecified allies; Iran rejected, claiming plan 'lacked legal basis'",
+      "Aug 18: Emirati Defence Ministry stated Iran launched 2 ballistic missiles at UAE. Air defences detected one that fell outside territorial waters and one that landed within. Iranian regime media denied responsibility",
+      "Aug 18: UAE ANNOUNCED HALT OF ALL TRADE AND FINANCIAL TRANSACTIONS WITH IRAN — roughly one-third of Iran's imports have come from the UAE; the largest proportion of Iranian imports in the last 5 years came from the UAE",
+      "Aug 20: UAE preparing to implement phased trade and financial restrictions in parallel with new US economic measures — initial measures to restrict cargo and trade flows"
+    ]
+  },
+  {
+    country: "🇮🇶 Iraq",
+    flag: "🇮🇶",
+    color: "#8b1a4a",
+    stats: { deadline: "Sept 30 disarmament deadline", targets: "US Consulate Erbil, Camp Taji, Erbil airport" },
+    details: [
+      "Iranian-backed Iraqi militias increasingly weaponised: Kataib Hezbollah, Badr Organization, Asa'ib Ahl al-Haq, and the Islamic Resistance in Iraq coalition all operating under IRGC Quds Force direction",
+      "Jun 17: US-Iraq agreement conditions US economic support on disarming Iranian-backed militias and dismantling their financial networks. US demands removal of militia-aligned PMF leaders before PMF integration into official security institutions",
+      "Jul 9: Iranian-backed militias attempting to circumvent disarmament by handing over 'scrap' missiles or inoperable drones to the government while keeping functional heavy weapons",
+      "Jul 15: Six drones targeted Erbil International Airport and the US Consulate in Erbil — unclear whether Iran or Iranian-backed militias conducted the attack",
+      "Jul 28: US and Saudi forces struck several Iraqi militia positions in Iraq in response to militia attacks on Saudi energy infrastructure and US interests",
+      "Aug 2: Iranian-backed Iraqi militias may have conducted a drone strike destroying shells for US-provided Iraqi tanks and armoured vehicles at Camp Taji, north of Baghdad",
+      "Aug 7: Islamic Resistance in Iraq announced postponement of response to US-Saudi strikes due to Badr Organization head Ameri's mediation. Militias reportedly planning multiple 'imminent' attacks on Saudi Arabia coordinated with IRGC and Houthis",
+      "Aug 8: Iraqi officials met Saudi intelligence delegation, pledged to prevent Iraqi territory being used for attacks on Saudi Arabia",
+      "Aug 9: Shia Coordination Framework source told Iraqi media that militias will hand weapons to PMF before Sept 30 disarmament deadline — deadline coincides with planned withdrawal of US-led coalition forces from Iraq",
+      "Aug 10: IRGC Quds Force Commander Ghaani visited Baghdad to warn Iraqi militia leaders against armed confrontation with the federal government",
+      "Aug 12: Iraqi federal government plan to deploy Iraqi Army, Counter Terrorism Service, and 'elite' units around militia operation centres after Sept 30",
+      "Aug 14: Zaydi ordered study of Kataib Hezbollah's stronghold of Jurf al Sakhr in Babil Province — preparation for possible operation to retake it. Same day: 6 drones intercepted over Erbil, launched from Ninewa Province",
+      "Aug 19: Al Monitor — Saudi Arabia wants Iraqi federal government to take 'punitive action' against militia leaders responsible for ordering attacks on Saudi territory (arrest and prosecute)"
     ]
   },
   {
@@ -943,7 +1298,8 @@ const countryAttacksData = [
       "Civil Aviation Authority reopened air navigation under emergency conditions (Mar 7)",
       "Intercepted missiles and drones on multiple nights",
       "Ordered Iranian security and military attaches expelled after 'extensive damage' to Ras Laffan gas facility (Mar 19)",
-      "Lebanon condemned Hezbollah 'terrorist plot' against UAE and offered full cooperation (Mar 20)"
+      "Lebanon condemned Hezbollah 'terrorist plot' against UAE and offered full cooperation (Mar 20)",
+      "Jul 9: Iran launched strikes on Qatar in response to US strikes on Iran"
     ]
   },
   {
@@ -968,7 +1324,11 @@ const countryAttacksData = [
       "Mar 23: 7 overhead power transmission lines out of service across several areas due to falling shrapnel from interceptions",
       "Mar 24: Iranian drones struck fuel tank at Kuwait International Airport — fire, damage, no casualties",
       "Mar 30: Missile attack on military base injured 10 Kuwaiti soldiers. Indian worker killed in strike on desalination/power plant",
-      "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill"
+      "Mar 30: Kuwaiti oil tanker hit by Iranian attack at Dubai port — ablaze, hull damaged. Kuwait Petroleum Corp warned of possible oil spill",
+      "May 31: IRGC retaliated against US Qeshm/Goruk strikes by launching 2 missiles at US forces in Kuwait",
+      "Jul 9: Iran launched strikes on Kuwait in response to US strikes intended to degrade Iranian Hormuz control",
+      "Jul 23: Unspecified Iranian-backed Iraqi militias likely drone-attacked Kuwait's Abdali border crossing with Iraq — first Axis attack on a regional border crossing since Jul 11. Iranian media also reported explosions on Bubiyan Island",
+      "Aug 1: Kuwaiti air defences intercepted an unspecified number of Iranian drones targeting 'vital facilities' — a government building in northern Kuwait and a vehicle on Bubiyan Island (which hosts US anti-aircraft equipment). Attack likely conducted by IRGC or Iraqi militias"
     ]
   },
   {
@@ -991,7 +1351,18 @@ const countryAttacksData = [
       "Mar 20: intercepted 38 drones",
       "Mar 22: intercepted 21 drones and 3 ballistic missiles (including one heading to Riyadh). IRGC claimed targeting Prince Sultan Air Base",
       "Mar 27: Iranian missile strike on Prince Sultan Air Base injured 10 US servicemembers (2 seriously) and damaged several US refuelling aircraft",
-      "Mar 28: At least 10 US service members injured in another Iranian attack on air base in Saudi Arabia"
+      "Mar 28: At least 10 US service members injured in another Iranian attack on air base in Saudi Arabia",
+      "Jul 20: Houthis announced naval blockade against Saudi Arabia — ordered Saudi-bound vessels to turn back over radio; at least 7 vessels have since diverted to avoid Bab al Mandeb",
+      "Jul 22: Houthis attacked at least 2 Saudi oil tankers in the Red Sea (UKMTO confirmed one Jul 23 with 'unknown projectile')",
+      "Jul 24: Houthis began targeting Saudi oil infrastructure (first Houthi refinery attack on Jizan)",
+      "Jul 27: Houthi drones targeted Saudi East-West pipeline and Yanbu — Saudi Arabia's alternative oil-export route bypassing Hormuz",
+      "Jul 28: US and Saudi forces struck several Iraqi militia positions in Iraq in response to militia attacks on Saudi energy infrastructure",
+      "Aug 4: Houthi drone struck Najran Regional Airport main radar installation — affected airport operations (AFP)",
+      "Aug 13: Houthi drones targeted and struck the Saudi Aramco refinery at Jizan (Red Sea port)",
+      "Aug 14: Houthi drone targeted Saudi Aramco facilities in Najran",
+      "Aug 17: Houthi Council of Ministers reiterated demands to Saudi Arabia — cease all Yemen operations, lift blockade on Houthi ports/airports, pay Houthi salaries, pay war reparations",
+      "Aug 18: Houthis' 4th attack on Jizan refinery since Jul 24",
+      "Aug 19: Saudi Arabia formally asked Iraqi government to take 'punitive action' — arrest and prosecute militia leaders responsible for ordering attacks on Saudi territory"
     ]
   },
   {
@@ -1039,7 +1410,10 @@ const countryAttacksData = [
       "Azraq: drone crashed wounding a girl, damaging homes (Mar 4)",
       "THAAD radar system damaged and replaced (Mar 6)",
       "Bundeswehr field camp in eastern Jordan struck (Mar 1)",
-      "Mar 25: Air force shot down 5 missiles and 1 drone from Iran in 24 hours. 17 reports of shrapnel/projectiles across Jordan"
+      "Mar 25: Air force shot down 5 missiles and 1 drone from Iran in 24 hours. 17 reports of shrapnel/projectiles across Jordan",
+      "Jul 15: Iranian Artesh claimed drone strikes targeting US forces at Muwaffaq Salti Airbase in Azraq",
+      "Jul 19: IRGC released statement thanking the Jordanian people for providing information that aided recent Iranian attacks on Jordan — likely part of Iranian effort to mobilise Arab populations against US forces, or to counter reporting of Russian/PRC targeting help",
+      "Jul 27: Jordan reported hostile drone attacks — Iranian-backed Iraqi militias probably responsible"
     ]
   },
   {
@@ -1529,9 +1903,11 @@ const metadataStats = {
   totalLaunchers: "410–440",
   percentDestroyed: "60%+",
   oilTankersAttacked: "10+",
-  weeksExpected: "Weekly updates",
-  iranDailyMissiles: "~2 (ceasefire)",
-  iranDailyDrones: "~3 (ceasefire)",
+  weeksExpected: "WAR RESUMED (Jul 8)",
+  mouSigned: "Jun 17 (collapsed Jul 8)",
+  militiaDeadline: "Sept 30 (Iraq)",
+  iranDailyMissiles: "Fluctuating — daily strikes on US bases",
+  iranDailyDrones: "Multi-front (Iraq · Yemen · Lebanon)",
   clusterMunitionRate: "~70%",
   bahInterceptions: "134+ missiles + 224+ drones",
   uaeInterceptions: "425+ missiles + 1,941+ drones",
@@ -1581,6 +1957,17 @@ const maritimeAttacks = [
   { date: "Apr 16", vessel: "6 vessels intercepted", location: "Strait of Hormuz / Iranian ports", details: "CENTCOM declared blockade 'fully implemented.' 6 merchant vessels intercepted and turned back. 31st MEU used for boarding/seizure. IRGC warned off a US destroyer — no shots fired. Iran threatened to close Gulf, Oman Sea, and Red Sea" },
   { date: "Apr 17", vessel: "19 vessels turned back (cumulative)", location: "Strait of Hormuz", details: "CENTCOM: 19 vessels complied with US direction to turn around; zero have breached blockade. IRGC set 3 conditions for transit: no 'belligerent' vessels, Iran-approved routes only, coordinate with Iranian forces. Non-Iranian-linked vessels freely transiting. FM Araghchi claimed strait 'completely open' — IRGC contradicted him" },
   { date: "May 5–11", vessel: "US Navy attempts blockade break", location: "Strait of Hormuz", details: "US Navy attempted to break the Iranian blockade and pass through the strait. Move triggered US resuming use of force against Iranian forces — potentially reactivating War Powers clauses. Brings war back into legal grey area after Trump's May 1 'terminated' declaration" },
+  { date: "Jun 1", vessel: "Cargo vessel (unspecified flag)", location: "40nm SE of Umm Qasr Port, Iraq", details: "Iranian forces likely attacked. UKMTO reported an unspecified projectile struck the cargo vessel transiting the northern Persian Gulf" },
+  { date: "Jul 6", vessel: "Two tankers (unspecified)", location: "Strait of Hormuz", details: "Iran launched two missile attacks. Both vessels had failed to use Iranian-approved transit mechanisms — coercion to force use of the illegal traffic separation scheme" },
+  { date: "Jul 7", vessel: "Unspecified tanker", location: "Strait of Hormuz", details: "Iran launched a drone at the tanker as Iran escalated attacks on vessels attempting to bypass IRGC-controlled routes" },
+  { date: "Jul 13", vessel: "Three vessels — two on 'shuttle runs'", location: "Strait of Hormuz", details: "Iran attacked three vessels; two were doing repeated short trips to ports outside the strait to move oil while avoiding Iranian territorial waters. Reuters (Jul 15): shipping companies avoiding the southern route despite US military escorts" },
+  { date: "Jul 22", vessel: "Saudi-flagged tanker (unspecified) + IRGC 'mine' claim", location: "Red Sea / Strait of Hormuz southern corridor", details: "Houthis attacked at least one Saudi tanker in the Red Sea (UKMTO confirmed Jul 23, 'unknown projectile'). Same day IRGC claimed a tanker using the southern corridor struck a naval mine — deterrence claim to consolidate Iranian control; ISW-CTP has not observed any commercial-vessel mine reports on the southern route" },
+  { date: "Jul 29", vessel: "US gas tanker", location: "Damietta Port, Egypt (northeastern Red Sea / Suez corridor)", details: "Iran possibly conducted or directed the drone attack. First significant escalation on the northern Red Sea/Suez corridor — the viable alternative route to Hormuz that Iran is trying to disrupt" },
+  { date: "Aug 2", vessel: "Civilian vessel (unspecified)", location: "Off the coast of Oman", details: "UKMTO reported an explosion near the vessel — IRGC continuing to use force to assert Hormuz control, days after Rezaei ruled out a second corridor 'under any circumstances'" },
+  { date: "Aug 4", vessel: "MSV FAIZE NOORE OLIYA (Indian-flagged cargo)", location: "Near Bab al Mandeb Strait, Yemeni waters", details: "Houthis likely sank the vessel with a one-way naval attack drone. Indian Minister of Ports, Shipping, and Waterways Sarbananda Sonowal announced an unspecified projectile struck and sank the vessel — extends conflict onto Indian shipping and southern Red Sea corridor" },
+  { date: "Aug 5", vessel: "Vessel (unspecified)", location: "Omani territorial waters, Strait of Hormuz", details: "UKMTO reported the vessel's crew heard two explosions while passing through Omani waters" },
+  { date: "Aug 15", vessel: "Minoan Dignity (Liberian-flagged)", location: "Omani waters, Strait of Hormuz", details: "Struck by an unspecified projectile. ONE CREW MEMBER KILLED. Iran has repeatedly struck vessels using Omani waters to coerce them into transiting through Iranian territorial waters" },
+  { date: "Aug 18", vessel: "Vessel (unspecified)", location: "Omani territorial waters, Strait of Hormuz", details: "UKMTO reported an unspecified actor fired an unspecified projectile that struck the vessel transiting through Omani waters — third such incident in Omani waters in a fortnight" },
 ];
 // Note: UKMTO has recorded 21+ confirmed maritime incidents since Feb 28. US naval blockade fully implemented Apr 16. Iran charging $1M+ per ship tolls. Strait remains under dual blockade (Iranian selective + US naval). Brent crude at $99/barrel. $58B energy infrastructure damaged (Rystad). 80+ energy facilities attacked (IEA). Europe 6 weeks from jet fuel shortages.
 
@@ -1633,5 +2020,21 @@ const analysisData = [
   {
     title: "Beijing's Three-Sided Game",
     body: `When the ceasefire was announced on April 7, Trump claimed China had pushed Iran to negotiate. <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for the Apr 8 ceasefire response and Mao Ning's statements." data-link="#weapons-db">Beijing's spokesperson Mao Ning refused to confirm this</span> — instead rattling off a list of diplomatic credentials: <span class="take-ref" data-note="See the Weapons Database under China → Diplomatic Mediation for FM Wang Yi's phone diplomacy." data-link="#weapons-db">Wang Yi's 26 phone calls</span>, the envoy's shuttle diplomacy, and a joint five-point plan with Pakistan. China wants credit for peacemaking without fingerprints on the deal. At the same time, Mao explicitly blamed the US and Israel for the Hormuz crisis, calling their military actions "illegal," and opposed the UN Security Council draft resolution as giving "a legal cloak to unauthorised military action." And when asked about <span class="take-ref" data-note="Iran's parliament has been drafting a Strait of Hormuz management law with transit fees. See the Maritime section." data-link="#maritime">Iran's proposed toll fees on Hormuz shipping</span>, Beijing gave a diplomatic non-answer. Then came the blockade, and the pattern sharpened further. Even as Beijing condemned the US naval blockade as <span class="take-ref" data-note="See China → Diplomatic Mediation → Hormuz Blockade Response (Apr 13-15) in the Weapons Database." data-link="#weapons-db">"dangerous and irresponsible,"</span> a <span class="take-ref" data-note="See the Maritime section for the Rich Starry transit on April 15." data-link="#maritime">Chinese-owned tanker, the Rich Starry, sailed straight through Hormuz</span> under the "neutral transit" clause — falsely flagged as Malawian, already US-sanctioned, carrying 250,000 barrels of methanol back to China. The <span class="take-ref" data-note="The White House acknowledged China's brokering role on April 11. See timeline." data-link="#battlefield">White House acknowledged China's indirect brokering role on April 11</span>. The pattern is clear: <span class="take-ref" data-note="See the Weapons Database under China → Support to Iran for sodium perchlorate, BeiDou, drone components, and anti-ship missile deals." data-link="#weapons-db">supply Iran with rocket fuel and satellite navigation</span>, mediate publicly, blame America privately, exploit the blockade commercially, and keep all three relationships — with Washington, Tehran, and Islamabad — open for business.`
+  },
+  {
+    title: "The MoU That Codified Nothing",
+    body: `The US and Iran signed a memorandum of understanding on <span class="take-ref" data-note="See the June 17 timeline entry for the MoU signing." data-link="#battlefield">June 17, 2026</span>, after weeks of quadrilateral talks in Bürgenstock and Doha. It fell apart in three weeks. On July 8, the US launched fresh strikes on Iran. On <span class="take-ref" data-note="See the July 8-9 timeline entry: WAR RESUMES." data-link="#battlefield">Jul 9, Iran struck Kuwait, Bahrain, and Qatar</span>. The problem was in the paper itself. The MoU's language on the Strait of Hormuz was ambiguous enough that Iran could — and did — continue to enforce its <span class="take-ref" data-note="Iran's traffic separation scheme requires vessels to transit through Iranian waters and coordinate with the IRGC Navy — treated as sovereignty by Tehran, as illegal control by Washington and the GCC." data-link="#maritime">illegal traffic separation scheme</span> and collect "fees" from transiting vessels under a claim of sovereignty, while the US read the same text as opening the strait. Iran's Artesh spokesperson later admitted openly what Washington should have foreseen: Iran had "<span class="take-ref" data-note="See the Aug 2-3 timeline entry — Artesh Spokesperson Akraminia's statement." data-link="#battlefield">fully exploited</span>" the 60-day negotiation window to import equipment, repair damaged systems, and produce new ones. The MoU was not a settlement. It was a rearmament window, drafted with just enough ambiguity for both sides to claim victory and neither to give ground.`
+  },
+  {
+    title: "Iran's Ukraine Playbook",
+    body: `In April, Iran shot down a US F-15E over its territory — the first US fighter jet ever downed in Iran. For months the mechanism was unclear. On <span class="take-ref" data-note="See the Aug 12-13 timeline entry: NYT/US military officials reveal the mechanism." data-link="#battlefield">August 13</span>, a senior US military official told the New York Times how it happened. Iran had deployed a swarm of drones into the same airspace, and those drones transmitted the F-15E's GPS location, speed, and heading back to Iranian commanders in real time. Only then did a MANPADS operator take the shot. The tactic was not homegrown. Iran <span class="take-ref" data-note="Russia has directly provided targeting intelligence and advanced drone tactics — see the Weapons Database under Russia and the Jul 22 Reuters report." data-link="#weapons-db">borrowed it from the Russia-Ukraine war</span>, and Russia helped teach it. Four US-intelligence sources have separately told Reuters that Russia is now providing Iran with <span class="take-ref" data-note="See the July 21-23 timeline entry: Russia targeting-intelligence report." data-link="#battlefield">targeting intelligence on US sites</span> in the region. And NBC News has reported that Russia is shipping <span class="take-ref" data-note="See the Weapons Database under Russia → Support to Iran for the Caspian-shipment update." data-link="#weapons-db">drone components, ammunition, and TNT to Iran via Caspian Sea vessels docking at Amirabad Port</span>. The picture is a two-way military-industrial pipeline running through the Caspian, and a battlefield in which Iran is now iterating tactics faster than the US is countering them.`
+  },
+  {
+    title: "The Multi-Front Squeeze",
+    body: `Iran is not fighting one war. It is running four in parallel. In <span class="take-ref" data-note="See the Ecosystem section: Iranian-backed Iraqi Militias." data-link="#ecosystem">Iraq</span>, IRGC Quds Force covert cells of five to ten fighters — bypassing main militia leadership — are launching drone attacks on the US Consulate in Erbil, Camp Taji, and Kuwait's Abdali border crossing. In <span class="take-ref" data-note="See the Ecosystem section: Houthis." data-link="#ecosystem">Yemen</span>, the Houthis have blockaded Saudi Arabia's Red Sea coast, sunk an Indian cargo vessel near Bab al Mandeb, and hit the Jizan refinery four times since July 24. In Lebanon, Hezbollah is again firing rockets. And in the <span class="take-ref" data-note="See the Maritime section for the Strait of Hormuz attacks including the Minoan Dignity killing." data-link="#maritime">Strait of Hormuz</span>, the IRGC Navy is still coercing vessels — the Liberian-flagged Minoan Dignity was struck in Omani waters on August 15, killing a crew member. The New York Times reported on August 1 that during the April ceasefire, IRGC Quds Force officers held virtual conference calls with Hezbollah, Houthi, and Iraqi militia commanders. The objective, per two senior IRGC officers, was to <span class="take-ref" data-note="See the Aug 1 timeline entry — 'make the war as costly as possible for Trump'." data-link="#battlefield">"make the war as costly as possible for Trump"</span>. The four fronts share one purpose: force Washington to walk away from a war whose costs it cannot control, while Iran holds every card that matters.`
+  },
+  {
+    title: "Emirates Break Ranks",
+    body: `On <span class="take-ref" data-note="See the Aug 17-18 timeline entry: UAE severs all trade and financial transactions with Iran." data-link="#battlefield">August 18</span>, the UAE became the first Gulf state to sever all trade and financial transactions with Iran. Roughly a third of Iran's imports had been coming through the Emirates. The trigger was Iran launching two ballistic missiles at the UAE the same day — one falling outside territorial waters, one within — after Abu Dhabi backed a US-supported proposal at the International Maritime Organization to put the Strait of Hormuz under multilateral management. Iran denied responsibility. Nobody in the Gulf believed it. The break matters for two reasons. First, it structurally weakens Iran's already-degraded economy at exactly the moment when Trump and Treasury Secretary Bessent are <span class="take-ref" data-note="See the Aug 19-20 timeline entry — new US economic measures announced for Aug 24." data-link="#battlefield">preparing new economic measures for August 24</span>. Second, it signals a longer-term realignment: the UAE, historically Iran's most important economic partner in the Gulf, is now aligning its trade policy with US pressure. Iranian officials have not internalised the implications of durable hostility with the UAE, but the <span class="take-ref" data-note="See the Ecosystem section: IRGC Commander Vahidi's faction — ISW-CTP assesses this faction is driving decision-making." data-link="#ecosystem">Vahidi faction driving regime decision-making</span> may be willing to accept the cost if it preserves Iranian control over the strait. The Gulf is now split in two blocs — those on Iran's side of the ledger, and those on the American one — and after August 18, the UAE is unambiguously the second.`
   }
 ];
